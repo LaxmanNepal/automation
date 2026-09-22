@@ -1,0 +1,24 @@
+name: Laxman OS - Opportunity Engine
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 7 * * *" # 10:00 Kuwait (UTC+3)
+
+permissions:
+  contents: write
+
+jobs:
+  opportunities:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build opportunity shortlist
+        run: python scripts/build_opportunity_shortlist.py
+      - name: Commit shortlist
+        run: |
+          git config user.name "laxman-os[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/opportunities/latest.json reports/opportunities
+          git diff --cached --quiet || git commit -m "chore: update opportunity shortlist"
+          git push
