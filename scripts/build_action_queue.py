@@ -6,11 +6,24 @@ import json
 
 ROOT = Path(__file__).resolve().parents[1]
 health_path = ROOT / "data" / "github" / "health.json"
+problems_path = ROOT / "data" / "problems" / "latest.json"
 out_dir = ROOT / "reports" / "actions"
 out_dir.mkdir(parents=True, exist_ok=True)
 
 health = json.loads(health_path.read_text(encoding="utf-8")) if health_path.exists() else {"repositories": []}
+problems = json.loads(problems_path.read_text(encoding="utf-8")) if problems_path.exists() else {"problems": []}
 actions = []
+
+for problem in problems.get("problems", []):
+    if problem.get("kind") == "scan_warning" or problem.get("priority", 0) < 45:
+        continue
+    actions.append({
+        "priority": problem["priority"],
+        "category": "problem",
+        "repository": problem.get("repository"),
+        "action": problem["title"],
+        "reason": problem.get("detail", "Detected by Problem Detector."),
+    })
 
 for item in health.get("repositories", []):
     repo = item["repository"]
