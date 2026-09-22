@@ -3,7 +3,8 @@ name: Laxman OS - Action Queue
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 6 * * *" # 09:30 Kuwait (UTC+3)
+    - cron: "30 6 * * *" # 09:30 Kuwait
+    - cron: "0 10 * * *" # 13:00 Kuwait, after GitHub health + problem detection (UTC+3)
 
 permissions:
   contents: write
