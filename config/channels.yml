@@ -1,0 +1,15 @@
+version: 1
+
+channels:
+  - id: nepali
+    handle: "@laxmannepalofficial"
+    audience: "Nepali"
+    themes: ["AI", "technology", "apps", "Excel", "MS Office", "NEPSE", "tutorials"]
+  - id: english
+    handle: "@laxmannepalenglish"
+    audience: "USA / English-speaking"
+    themes: ["consumer technology", "AI tools", "apps", "how-to", "creator tools"]
+  - id: hetauda
+    name: "I Am From Hetauda"
+    audience: "Hetauda / local"
+    themes: ["local information", "community", "events", "short-form video"]
