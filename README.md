@@ -1,58 +1,81 @@
 # Laxman OS — Automation
 
-A GitHub-based automation hub for Laxman Nepal.
+A GitHub-based personal automation and command system for Laxman Nepal.
 
 ## Mission
 
 Turn recurring work into a measurable loop:
 
-**Research → Prioritize → Execute → Test → Report → Improve**
+**Research → Evidence → Prioritize → Prepare → Human Review → Execute → Measure → Improve**
 
-This repository is the execution layer. ChatGPT can act as the strategy/research layer, while GitHub Actions handles scheduled validation, health checks, and report generation.
+ChatGPT can provide strategy/research while GitHub Actions provides deterministic scheduled collection, validation, health checks and reports.
 
-## V1 priorities
+## Phase map
 
-1. Money opportunities
-2. YouTube growth
-3. GitHub/project health
-4. Website + SEO
-5. Analytics
-6. Digital assets
-7. Finance / NEPSE information tracking
+| Phase | System | State |
+|---|---|---|
+| 1 | Command Center | Active |
+| 2 | GitHub Intelligence | Active |
+| 3 | Action Queue | Active |
+| 4 | Money Opportunity Engine | Active |
+| 5 | Revenue Asset Factory | Active |
+| 6 | YouTube Intelligence | Active |
+| 7 | Content → Website → Money | Foundation |
+| 8 | SEO Intelligence | Active |
+| 9 | Website Intelligence | Active |
+| 10 | Analytics | Foundation |
+| 11 | AI Command Layer | Foundation |
+| 12 | Automation Layer | Active |
+| 13 | Personal Business OS | Foundation |
+| 14 | Mobile / PWA | Active |
+| 15 | Notifications | Digest foundation |
 
-## Safety rules
+Detailed scope: docs/phases.md and docs/module-contract.md.
+
+## Dashboard
+
+index.html is the Laxman OS command center. It reads generated JSON/Markdown artifacts and provides overview, actions, module health, phase map and report links.
+
+For GitHub Pages deployment, merge the feature branch through the open pull request and configure Pages to use GitHub Actions if required by repository settings.
+
+## Daily operating loop — Kuwait time
+
+- 09:00 command briefing
+- 10:00 money research
+- 10:30 revenue asset engine
+- 10:45 build issue generator
+- 11:00 YouTube opportunities
+- 11:30 YouTube live research
+- 12:00 GitHub health
+- 12:30 problem detector
+- 13:00 action queue
+- 13:30 unified intelligence
+
+GitHub cron schedules are UTC-based.
+
+## Safety
 
 - No automatic investing or trading.
-- No automatic publishing of public content.
-- No automatic merge of code changes.
-- Scheduled automation may detect, validate, report, and prepare work.
+- No automatic public publishing.
+- No automatic merge.
+- No automatic external messages.
+- No automatic spending or commercial commitments.
+- Automation can detect, research, prepare and report.
 - Human review is required before consequential external actions.
+
+## Data rule
+
+Missing data is not treated as zero. Outputs distinguish waiting, healthy, warning, stale, unavailable and error states where applicable.
 
 ## Repository layout
 
-```
-config/       Priorities, channels, and project registry
-docs/         Architecture and automation rules
-scripts/      Small dependency-free automation scripts
-reports/      Generated daily/health reports
-data/         Structured automation data
-.github/      GitHub Actions workflows
-```
+- config/ — priorities, channels, projects, websites and business goals
+- data/ — machine-readable module outputs
+- docs/ — architecture, phase and module contracts
+- scripts/ — dependency-light deterministic automation
+- reports/ — human-readable outputs
+- .github/workflows/ — scheduled automation
+- index.html — dashboard
+- manifest.webmanifest / sw.js — PWA foundation
 
-## Daily operating loop
-
-- **09:00 Kuwait:** daily command briefing / opportunity review
-- **12:00 Kuwait:** GitHub health and fix queue
-- **Evening:** analytics + progress review
-
-GitHub Actions times are stored in UTC because GitHub cron schedules are UTC-based. Kuwait is UTC+3, so 09:00 Kuwait is 06:00 UTC and 12:00 Kuwait is 09:00 UTC.
-
-## Setup
-
-The V1 workflows use the built-in GitHub Actions token for this repository. For scanning additional repositories, add a repository secret named `GH_PAT` with the minimum read permissions required for those repositories.
-
-Never commit tokens, API keys, cookies, or other secrets.
-
-## Status
-
-V1 foundation is being built incrementally.
+Never commit tokens, API keys, cookies or other secrets.
