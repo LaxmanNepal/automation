@@ -1,0 +1,8 @@
+version: 1
+rules:
+  - content_type: youtube
+    target_asset: searchable website page or utility
+    human_review_required: true
+  - content_type: website
+    target_asset: related YouTube explanation when useful
+    human_review_required: true
