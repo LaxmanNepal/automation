@@ -1,0 +1,37 @@
+version: 1
+name: Laxman OS
+timezone: Asia/Kuwait
+human_approval_required: true
+automation_policy:
+  auto_merge: false
+  auto_publish: false
+  auto_spend: false
+  auto_trade: false
+  external_messages: false
+  destructive_changes: false
+modules:
+  - command_center
+  - github_intelligence
+  - action_queue
+  - money_opportunities
+  - revenue_assets
+  - youtube_intelligence
+  - content_to_asset
+  - seo_intelligence
+  - website_intelligence
+  - analytics
+  - ai_command
+  - automation
+  - personal_business
+  - mobile_pwa
+  - notifications
+schedules:
+  command_briefing: "09:00"
+  money_research: "10:00"
+  revenue_assets: "10:30"
+  build_issues: "10:45"
+  youtube_opportunities: "11:00"
+  youtube_live_research: "11:30"
+  github_health: "12:00"
+  problem_detector: "12:30"
+  action_queue: "13:00"
