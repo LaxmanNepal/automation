@@ -1,0 +1,29 @@
+name: Laxman OS - GitHub Health
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 9 * * *" # 12:00 Kuwait (UTC+3)
+
+permissions:
+  contents: write
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate configuration
+        run: python scripts/validate_config.py
+      - name: Scan configured repositories
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/github_health.py
+      - name: Commit health snapshot
+        run: |
+          git config user.name "laxman-os[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/github/health.json
+          git diff --cached --quiet || git commit -m "chore: update GitHub health"
+          git push
