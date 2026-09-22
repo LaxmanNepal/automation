@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Laxman OS — Command Center</title>
+<meta name="description" content="Laxman OS automation command center for money, YouTube, GitHub, SEO and digital assets.">
+<style>
+:root{font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#172033;background:#f6f8fc}
+*{box-sizing:border-box}body{margin:0}.wrap{max-width:1180px;margin:auto;padding:28px 18px 60px}
+header{display:flex;justify-content:space-between;gap:20px;align-items:center;margin-bottom:24px}.brand{font-size:26px;font-weight:800}.muted{color:#697386}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.card,.panel{background:white;border:1px solid #e5e9f2;border-radius:20px;padding:18px;box-shadow:0 8px 30px rgba(25,35,55,.05)}
+.kpi{font-size:30px;font-weight:800;margin-top:8px}.label{font-size:13px;color:#697386}
+.panel{margin-top:16px}.panel h2{margin:0 0 14px;font-size:18px}.actions{display:grid;gap:10px}.action{padding:14px;border:1px solid #e5e9f2;border-radius:14px}.action b{display:block;margin-bottom:5px}
+.bar{height:8px;background:#edf0f6;border-radius:10px;overflow:hidden}.fill{height:100%;width:0;background:#172033}
+.badge{display:inline-block;padding:5px 9px;border-radius:99px;background:#eef2f8;font-size:12px}.top{display:flex;justify-content:space-between;gap:12px}
+@media(max-width:800px){.grid{grid-template-columns:repeat(2,1fr)}header{align-items:flex-start;flex-direction:column}}
+@media(max-width:480px){.wrap{padding:18px 12px}.grid{grid-template-columns:1fr 1fr}.card,.panel{border-radius:16px;padding:14px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><div><div class="brand">⚡ Laxman OS</div><div class="muted">Command Center · research → action → execution</div></div><span class="badge" id="status">Loading data…</span></header>
+<section class="grid">
+<div class="card"><div class="label">Revenue assets</div><div class="kpi" id="assets">—</div></div>
+<div class="card"><div class="label">YouTube opportunities</div><div class="kpi" id="youtube">—</div></div>
+<div class="card"><div class="label">Problems detected</div><div class="kpi" id="problems">—</div></div>
+<div class="card"><div class="label">Tracked repositories</div><div class="kpi" id="repos">—</div></div>
+</section>
+<section class="panel"><div class="top"><h2>Today's Command Queue</h2><span class="badge">Human approval</span></div><div class="actions" id="queue"><div class="muted">Loading…</div></div></section>
+<section class="panel"><h2>Automation pipeline</h2><div class="actions">
+<div><div class="top"><span>Money research → revenue asset</span><span>10:00–10:30</span></div><div class="bar"><div class="fill" style="width:100%"></div></div></div>
+<div><div class="top"><span>YouTube opportunity → live research</span><span>11:00–11:30</span></div><div class="bar"><div class="fill" style="width:100%"></div></div></div>
+<div><div class="top"><span>GitHub health → problem detector</span><span>12:00–12:30</span></div><div class="bar"><div class="fill" style="width:100%"></div></div></div>
+<div><div class="top"><span>Action queue</span><span>13:00</span></div><div class="bar"><div class="fill" style="width:100%"></div></div></div>
+</div></section>
+<section class="panel"><h2>Latest data</h2><div class="muted" id="updated">—</div></section>
+</div>
+<script>
+const files={
+assets:"data/assets/latest.json",
+youtube:"data/youtube/latest.json",
+problems:"data/problems/latest.json",
+repos:"data/github/health.json",
+queue:"reports/actions/latest.md"
+};
+async function get(path){try{const r=await fetch(path+"?t="+Date.now());if(!r.ok)throw 0;return path.endsWith(".md")?await r.text():await r.json()}catch(e){return null}}
+function count(x,keys){if(!x)return 0;for(const k of keys)if(Array.isArray(x[k]))return x[k].length;return x.count??0}
+(async()=>{const [a,y,p,g,q]=await Promise.all(Object.values(files).map(get));
+document.querySelector("#assets").textContent=count(a,["assets"]);
+document.querySelector("#youtube").textContent=count(y,["opportunities","topics"]);
+document.querySelector("#problems").textContent=count(p,["findings","problems"]);
+document.querySelector("#repos").textContent=count(g,["repositories"]);
+document.querySelector("#status").textContent=(a||y||p||g||q)?"Live data connected":"Waiting for first workflow run";
+document.querySelector("#updated").textContent=[a,y,p,g].find(x=>x?.generated_at)?.generated_at||"Dashboard ready";
+const box=document.querySelector("#queue");box.innerHTML="";
+if(q){const lines=q.split("\n").filter(x=>x.startsWith("- ")).slice(0,8);for(const line of lines){const d=document.createElement("div");d.className="action";d.textContent=line.slice(2);box.appendChild(d)}}
+if(!box.children.length){["Review today's revenue opportunity","Select one YouTube action","Fix one GitHub/project problem"].forEach(t=>{const d=document.createElement("div");d.className="action";d.textContent=t;box.appendChild(d)})}
+})()
+</script>
+</body></html>
