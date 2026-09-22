@@ -1,0 +1,31 @@
+version: 1
+
+priorities:
+  - id: money
+    name: Money Opportunity Engine
+    weight: 10
+    objective: "Find practical opportunities that can become revenue, traffic, leads, or digital assets."
+  - id: youtube
+    name: YouTube Growth Engine
+    weight: 9
+    objective: "Find and execute high-intent content opportunities."
+  - id: github
+    name: GitHub Health Engine
+    weight: 8
+    objective: "Detect broken, stale, insecure, or unfinished projects."
+  - id: seo
+    name: Website SEO Engine
+    weight: 7
+    objective: "Increase search visibility and convert traffic into useful assets."
+  - id: assets
+    name: Digital Asset Engine
+    weight: 7
+    objective: "Ship reusable templates, tools, guides, or utilities."
+  - id: analytics
+    name: Analytics Engine
+    weight: 6
+    objective: "Measure traffic, content, conversion, and project health."
+  - id: finance
+    name: Finance Intelligence
+    weight: 5
+    objective: "Track cash flow and factual market/business information."
