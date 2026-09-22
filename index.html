@@ -1,61 +1,83 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Laxman OS — Command Center</title>
-<meta name="description" content="Laxman OS automation command center for money, YouTube, GitHub, SEO and digital assets.">
+<meta name="description" content="Laxman OS command center for money, YouTube, GitHub, SEO, websites, analytics and digital assets.">
+<meta name="theme-color" content="#111827"><link rel="manifest" href="manifest.webmanifest">
 <style>
-:root{font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#172033;background:#f6f8fc}
-*{box-sizing:border-box}body{margin:0}.wrap{max-width:1180px;margin:auto;padding:28px 18px 60px}
-header{display:flex;justify-content:space-between;gap:20px;align-items:center;margin-bottom:24px}.brand{font-size:26px;font-weight:800}.muted{color:#697386}
-.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.card,.panel{background:white;border:1px solid #e5e9f2;border-radius:20px;padding:18px;box-shadow:0 8px 30px rgba(25,35,55,.05)}
-.kpi{font-size:30px;font-weight:800;margin-top:8px}.label{font-size:13px;color:#697386}
-.panel{margin-top:16px}.panel h2{margin:0 0 14px;font-size:18px}.actions{display:grid;gap:10px}.action{padding:14px;border:1px solid #e5e9f2;border-radius:14px}.action b{display:block;margin-bottom:5px}
-.bar{height:8px;background:#edf0f6;border-radius:10px;overflow:hidden}.fill{height:100%;width:0;background:#172033}
-.badge{display:inline-block;padding:5px 9px;border-radius:99px;background:#eef2f8;font-size:12px}.top{display:flex;justify-content:space-between;gap:12px}
-@media(max-width:800px){.grid{grid-template-columns:repeat(2,1fr)}header{align-items:flex-start;flex-direction:column}}
-@media(max-width:480px){.wrap{padding:18px 12px}.grid{grid-template-columns:1fr 1fr}.card,.panel{border-radius:16px;padding:14px}}
-</style>
-</head>
-<body>
-<div class="wrap">
-<header><div><div class="brand">⚡ Laxman OS</div><div class="muted">Command Center · research → action → execution</div></div><span class="badge" id="status">Loading data…</span></header>
+:root{font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#111827;background:#f5f7fb;--card:#fff;--line:#e5e7eb;--muted:#667085;--accent:#111827}
+*{box-sizing:border-box}body{margin:0}.wrap{max-width:1250px;margin:auto;padding:22px 18px 70px}
+header{display:flex;justify-content:space-between;gap:18px;align-items:center;margin-bottom:18px}.brand{font-size:28px;font-weight:850}.muted{color:var(--muted)}button,.btn{border:1px solid var(--line);background:var(--card);padding:10px 13px;border-radius:12px;color:inherit;text-decoration:none;cursor:pointer}
+nav{display:flex;gap:8px;overflow:auto;padding-bottom:4px;margin-bottom:16px}nav button.active{background:var(--accent);color:#fff}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.card,.panel{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:17px;box-shadow:0 7px 28px rgba(17,24,39,.05)}.panel{margin-top:14px}
+.kpi{font-size:30px;font-weight:850;margin-top:5px}.label{font-size:12px;color:var(--muted)}h2{font-size:18px;margin:0 0 13px}.row{display:flex;justify-content:space-between;align-items:center;gap:10px}.stack{display:grid;gap:9px}.item{border:1px solid var(--line);border-radius:14px;padding:13px}.pill{display:inline-block;padding:4px 8px;border-radius:99px;background:#eef1f5;font-size:11px}.status-healthy{background:#e9f7ee}.status-warning,.status-stale{background:#fff4db}.status-error{background:#fdecec}.status-waiting{background:#eef1f5}
+.search{width:100%;padding:12px;border:1px solid var(--line);border-radius:12px;font:inherit;margin-bottom:10px}.hide{display:none}.phase{display:grid;grid-template-columns:55px 1fr auto;gap:12px;align-items:center}.phase-num{font-size:22px;font-weight:850}.progress{height:7px;background:#edf0f4;border-radius:8px;overflow:hidden}.progress>i{display:block;height:100%;background:#111827}.small{font-size:12px}.footer{margin-top:24px;font-size:12px;color:var(--muted);text-align:center}
+@media(max-width:850px){.grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:520px){.wrap{padding:14px 11px 50px}.grid{grid-template-columns:1fr 1fr}.brand{font-size:23px}header{align-items:flex-start}.card,.panel{padding:14px}.phase{grid-template-columns:38px 1fr}.phase .pill{grid-column:2}}
+</style></head>
+<body><div class="wrap">
+<header><div><div class="brand">⚡ Laxman OS</div><div class="muted">Research → evidence → action → human approval</div></div><div class="row"><span id="overall" class="pill">Loading…</span><button onclick="refresh()">↻ Refresh</button></div></header>
+<nav id="tabs"><button class="active" data-tab="overview">Overview</button><button data-tab="actions">Action Queue</button><button data-tab="modules">Modules</button><button data-tab="phases">Phases 1–15</button><button data-tab="reports">Reports</button></nav>
+
+<main id="overview" class="tab">
 <section class="grid">
 <div class="card"><div class="label">Revenue assets</div><div class="kpi" id="assets">—</div></div>
 <div class="card"><div class="label">YouTube opportunities</div><div class="kpi" id="youtube">—</div></div>
-<div class="card"><div class="label">Problems detected</div><div class="kpi" id="problems">—</div></div>
-<div class="card"><div class="label">Tracked repositories</div><div class="kpi" id="repos">—</div></div>
+<div class="card"><div class="label">Problems</div><div class="kpi" id="problems">—</div></div>
+<div class="card"><div class="label">Repositories</div><div class="kpi" id="repos">—</div></div>
 </section>
-<section class="panel"><div class="top"><h2>Today's Command Queue</h2><span class="badge">Human approval</span></div><div class="actions" id="queue"><div class="muted">Loading…</div></div></section>
-<section class="panel"><h2>Automation pipeline</h2><div class="actions">
-<div><div class="top"><span>Money research → revenue asset</span><span>10:00–10:30</span></div><div class="bar"><div class="fill" style="width:100%"></div></div></div>
-<div><div class="top"><span>YouTube opportunity → live research</span><span>11:00–11:30</span></div><div class="bar"><div class="fill" style="width:100%"></div></div></div>
-<div><div class="top"><span>GitHub health → problem detector</span><span>12:00–12:30</span></div><div class="bar"><div class="fill" style="width:100%"></div></div></div>
-<div><div class="top"><span>Action queue</span><span>13:00</span></div><div class="bar"><div class="fill" style="width:100%"></div></div></div>
+<section class="panel"><div class="row"><h2>Today's Command</h2><span class="pill">Human approval required</span></div><div id="top-actions" class="stack"></div></section>
+<section class="panel"><h2>Automation schedule · Kuwait</h2><div class="stack">
+<div class="row"><span>09:00 Command briefing</span><span class="small">daily</span></div>
+<div class="row"><span>10:00 Money research</span><span class="small">daily</span></div>
+<div class="row"><span>10:30 Revenue assets</span><span class="small">daily</span></div>
+<div class="row"><span>10:45 Build issue specs</span><span class="small">daily</span></div>
+<div class="row"><span>11:00 YouTube opportunities</span><span class="small">daily</span></div>
+<div class="row"><span>11:30 YouTube live research</span><span class="small">daily</span></div>
+<div class="row"><span>12:00 GitHub health</span><span class="small">daily</span></div>
+<div class="row"><span>12:30 Problem detector</span><span class="small">daily</span></div>
+<div class="row"><span>13:00 Action queue</span><span class="small">daily</span></div>
+<div class="row"><span>13:30 Unified intelligence</span><span class="small">daily</span></div>
 </div></section>
-<section class="panel"><h2>Latest data</h2><div class="muted" id="updated">—</div></section>
+<section class="panel"><h2>Data freshness</h2><div id="freshness" class="stack"></div></section>
+</main>
+
+<main id="actions" class="tab hide"><section class="panel"><h2>Action Queue</h2><input class="search" id="actionSearch" placeholder="Filter actions…" oninput="renderActions()"><div id="actions-list" class="stack"></div></section></main>
+
+<main id="modules" class="tab hide"><section class="panel"><h2>Module Health</h2><div id="module-list" class="stack"></div></section></main>
+
+<main id="phases" class="tab hide"><section class="panel"><h2>Laxman OS Phase Map</h2><div id="phase-list" class="stack"></div></section></main>
+
+<main id="reports" class="tab hide"><section class="panel"><h2>Quick Links</h2><div class="stack">
+<a class="btn" href="reports/actions/latest.md">Action queue report</a>
+<a class="btn" href="reports/opportunities/latest.md">Money opportunities</a>
+<a class="btn" href="reports/assets/latest.md">Revenue assets</a>
+<a class="btn" href="reports/youtube/live-latest.md">YouTube live research</a>
+<a class="btn" href="reports/seo/latest.md">SEO checks</a>
+<a class="btn" href="reports/website/latest.md">Website health</a>
+<a class="btn" href="reports/alerts/latest.md">Alert digest</a>
+<a class="btn" href="reports/os/latest.md">Unified OS snapshot</a>
+<a class="btn" href="https://github.com/LaxmanNepal/automation/actions">Open GitHub Actions</a>
+</div></section></main>
+
+<div class="footer">Laxman OS · automation may research and prepare work; publishing, spending, merging, trading and external messaging remain human-gated.</div>
 </div>
 <script>
-const files={
-assets:"data/assets/latest.json",
-youtube:"data/youtube/latest.json",
-problems:"data/problems/latest.json",
-repos:"data/github/health.json",
-queue:"reports/actions/latest.md"
-};
-async function get(path){try{const r=await fetch(path+"?t="+Date.now());if(!r.ok)throw 0;return path.endsWith(".md")?await r.text():await r.json()}catch(e){return null}}
-function count(x,keys){if(!x)return 0;for(const k of keys)if(Array.isArray(x[k]))return x[k].length;return x.count??0}
-(async()=>{const [a,y,p,g,q]=await Promise.all(Object.values(files).map(get));
-document.querySelector("#assets").textContent=count(a,["assets"]);
-document.querySelector("#youtube").textContent=count(y,["opportunities","topics"]);
-document.querySelector("#problems").textContent=count(p,["findings","problems"]);
-document.querySelector("#repos").textContent=count(g,["repositories"]);
-document.querySelector("#status").textContent=(a||y||p||g||q)?"Live data connected":"Waiting for first workflow run";
-document.querySelector("#updated").textContent=[a,y,p,g].find(x=>x?.generated_at)?.generated_at||"Dashboard ready";
-const box=document.querySelector("#queue");box.innerHTML="";
-if(q){const lines=q.split("\n").filter(x=>x.startsWith("- ")).slice(0,8);for(const line of lines){const d=document.createElement("div");d.className="action";d.textContent=line.slice(2);box.appendChild(d)}}
-if(!box.children.length){["Review today's revenue opportunity","Select one YouTube action","Fix one GitHub/project problem"].forEach(t=>{const d=document.createElement("div");d.className="action";d.textContent=t;box.appendChild(d)})}
-})()
-</script>
-</body></html>
+const state={assets:null,youtube:null,problems:null,repos:null,queue:null,os:null,seo:null,website:null,analytics:null,business:null,alerts:null};
+const phaseNames=[
+"Command Center","GitHub Intelligence","Action Queue","Money Opportunity Engine","Revenue Asset Factory","YouTube Intelligence","Content → Website → Money","SEO Intelligence","Website Intelligence","Analytics","AI Command Layer","Automation Layer","Personal Business OS","Mobile / PWA","Notifications"];
+const phaseStatus=["active","active","active","active","active","active","planned","active","active","active","planned","active","active","active","active"];
+function count(o,keys){if(!o)return 0;for(const k of keys)if(Array.isArray(o[k]))return o[k].length;return o.count??0}
+async function get(path){try{const r=await fetch(path+"?t="+Date.now());if(!r.ok)throw Error();return path.endsWith(".md")?await r.text():await r.json()}catch(e){return null}}
+function setStatus(el,status){el.className="pill status-"+status;el.textContent=status}
+function renderActions(){const q=state.os?.actions||[];const filter=(document.querySelector("#actionSearch")?.value||"").toLowerCase();const box=document.querySelector("#actions-list");box.innerHTML="";const list=q.filter(a=>JSON.stringify(a).toLowerCase().includes(filter));if(!list.length){box.innerHTML='<div class="item muted">No generated actions yet. Run the intelligence workflows first.</div>';return}list.forEach((a,i)=>{box.innerHTML+=`<div class="item"><div class="row"><b>${i+1}. ${a.action}</b><span class="pill">${a.priority}</span></div><div class="small muted">${a.category} · evidence: ${a.evidence}</div></div>`})}
+function renderModules(){const box=document.querySelector("#module-list");box.innerHTML="";const mods=state.os?.modules||{};Object.entries(mods).forEach(([name,m])=>{box.innerHTML+=`<div class="item row"><div><b>${name}</b><div class="small muted">evidence count: ${m.count}</div></div><span class="pill status-${m.status}">${m.status}</span></div>`})}
+function renderPhases(){const box=document.querySelector("#phase-list");box.innerHTML="";phaseNames.forEach((n,i)=>{const active=phaseStatus[i]==="active";box.innerHTML+=`<div class="item phase"><div class="phase-num">${i+1}</div><div><b>${n}</b><div class="progress"><i style="width:${active?75:15}%"></i></div></div><span class="pill">${active?"foundation":"planned"}</span></div>`})}
+function renderFreshness(){const box=document.querySelector("#freshness");box.innerHTML="";for(const [name,obj] of Object.entries(state)){if(!obj||typeof obj!=="object")continue;box.innerHTML+=`<div class="row"><span>${name}</span><span class="small">${obj.generated_at||"not generated"}</span></div>`}}
+function renderTop(){const box=document.querySelector("#top-actions");box.innerHTML="";const q=state.os?.actions||[];q.slice(0,4).forEach((a,i)=>box.innerHTML+=`<div class="item"><b>${i+1}. ${a.action}</b><div class="small muted">${a.category} · ${a.priority} · evidence ${a.evidence}</div></div>`);if(!q.length)box.innerHTML='<div class="item muted">Waiting for the first unified intelligence run.</div>'}
+async function refresh(){setStatus(document.querySelector("#overall"),"waiting");const paths={assets:"data/assets/latest.json",youtube:"data/youtube/latest.json",problems:"data/problems/latest.json",repos:"data/github/health.json",queue:"reports/actions/latest.md",os:"data/os/latest.json",seo:"data/seo/latest.json",website:"data/website/latest.json",analytics:"data/analytics/latest.json",business:"data/business/latest.json",alerts:"data/alerts/latest.json"};for(const [k,p] of Object.entries(paths))state[k]=await get(p);
+document.querySelector("#assets").textContent=count(state.assets,["assets","opportunities"]);document.querySelector("#youtube").textContent=count(state.youtube,["opportunities","topics"]);document.querySelector("#problems").textContent=count(state.problems,["findings","problems"]);document.querySelector("#repos").textContent=count(state.repos,["repositories"]);
+setStatus(document.querySelector("#overall"),state.os?"healthy":"waiting");renderActions();renderModules();renderPhases();renderTop();renderFreshness()}
+document.querySelectorAll("#tabs button").forEach(b=>b.onclick=()=>{document.querySelectorAll("#tabs button").forEach(x=>x.classList.remove("active"));b.classList.add("active");document.querySelectorAll(".tab").forEach(x=>x.classList.add("hide"));document.getElementById(b.dataset.tab).classList.remove("hide")});
+refresh();if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js");
+</script></body></html>
