@@ -18,6 +18,8 @@ WORKFLOWS=[
  ("Problem detector","problem-detector.yml"),
  ("Action queue","action-queue.yml"),
  ("Unified intelligence","os-intelligence.yml"),
+ ("Failure intelligence","failure-intelligence.yml"),
+ ("Remediation queue","remediation-queue.yml"),
 ]
 def api(url):
     headers={"Accept":"application/vnd.github+json","User-Agent":"laxman-os"}
