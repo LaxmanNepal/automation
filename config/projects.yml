@@ -1,0 +1,15 @@
+version: 1
+
+projects:
+  - id: automation
+    repository: "LaxmanNepal/automation"
+    priority: 10
+    type: "automation"
+    status: "active"
+  - id: portfolio
+    repository: "LaxmanNepal/laxmannepal"
+    priority: 8
+    type: "website"
+    status: "active"
+
+# Add other repositories here when they should be included in health scans.

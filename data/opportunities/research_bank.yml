@@ -1,0 +1,27 @@
+version: 1
+
+opportunities:
+  - id: money-001
+    problem: "Nepali users need simple AI and productivity tutorials in Nepali"
+    audience: "Nepali internet users"
+    asset: "Nepali AI/productivity guide or micro-tool"
+    monetization: "AdSense, affiliate, lead generation"
+    queries: ["Nepali AI tools", "AI tools Nepal", "Excel Nepal"]
+  - id: money-002
+    problem: "Creators need lightweight free tools for YouTube workflow"
+    audience: "YouTube creators"
+    asset: "Free creator utility or workflow template"
+    monetization: "AdSense, affiliate, digital products"
+    queries: ["YouTube creator tools", "YouTube automation tools", "free creator tools"]
+  - id: money-003
+    problem: "Small businesses need simple online productivity utilities"
+    audience: "Small businesses and freelancers"
+    asset: "Calculator, generator, template, or workflow utility"
+    monetization: "AdSense, leads, paid templates"
+    queries: ["small business productivity tools", "freelancer tools", "business templates"]
+  - id: money-004
+    problem: "People compare free alternatives before paying for software"
+    audience: "Software buyers"
+    asset: "Free alternatives comparison hub"
+    monetization: "Affiliate, AdSense, sponsorships"
+    queries: ["free alternatives to software", "best free software alternatives", "software comparison"]

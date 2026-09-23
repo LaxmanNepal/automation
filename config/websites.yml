@@ -1,0 +1,10 @@
+version: 1
+sites:
+  - id: main
+    name: "Laxman Nepal"
+    url: "https://laxmannepal.com.np"
+    enabled: true
+  - id: apps
+    name: "Laxman Nepal Apps"
+    url: "https://apps.laxmannepal.com.np"
+    enabled: true

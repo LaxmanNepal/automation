@@ -1,0 +1,16 @@
+version: 1
+goals:
+  - id: income
+    name: "Online income"
+    target: "Build sustainable digital income streams"
+    status: active
+  - id: creator
+    name: "Creator growth"
+    target: "Build useful, searchable content"
+    status: active
+projects:
+  - id: automation
+    name: "Laxman OS"
+    repository: "LaxmanNepal/automation"
+    status: active
+assets: []

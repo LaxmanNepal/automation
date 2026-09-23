@@ -1,0 +1,33 @@
+name: Laxman OS Intelligence
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 10 * * *"
+permissions:
+  contents: write
+jobs:
+  intelligence:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run local intelligence
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_OWNER: ${{ github.repository_owner }}
+        run: |
+          python3 scripts/repository_inventory.py
+          python3 scripts/check_seo.py
+          python3 scripts/check_website_health.py
+          python3 scripts/build_personal_business_snapshot.py
+          python3 scripts/normalize_analytics.py
+          python3 scripts/build_alert_digest.py
+          python3 scripts/build_os_snapshot.py
+          python3 scripts/build_ai_command.py
+      - name: Commit intelligence outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/seo data/website data/business data/analytics data/alerts data/os data/github/inventory.json reports/seo reports/website reports/alerts reports/os
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "chore: refresh Laxman OS intelligence"
+          git push

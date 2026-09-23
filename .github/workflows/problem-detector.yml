@@ -1,0 +1,40 @@
+name: Laxman OS - Problem Detector
+
+on:
+  workflow_dispatch:
+    inputs:
+      create_issues:
+        description: "Create deduplicated GitHub issues for priority 70+ findings"
+        required: true
+        default: false
+        type: boolean
+  schedule:
+    - cron: "30 9 * * *" # 12:30 Kuwait (UTC+3)
+
+permissions:
+  contents: write
+  issues: write
+  actions: read
+  security-events: read
+
+jobs:
+  detect:
+    runs-on: ubuntu-latest
+    env:
+      CREATE_GITHUB_ISSUES: ${{ github.event_name == 'workflow_dispatch' && inputs.create_issues || 'true' }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate configuration
+        run: python scripts/validate_config.py
+      - name: Detect problems
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/problem_detector.py
+      - name: Commit problem snapshot
+        run: |
+          git config user.name "laxman-os[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/problems/latest.json
+          git diff --cached --quiet || git commit -m "chore: update problem detector snapshot"
+          git push

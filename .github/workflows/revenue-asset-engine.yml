@@ -1,0 +1,28 @@
+name: Revenue Asset Engine
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 7 * * *" # 10:30 Kuwait (UTC+3)
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build implementation-ready specs
+        run: python3 scripts/build_revenue_asset.py
+      - name: Commit specs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/assets/latest.json reports/assets/
+          if git diff --cached --quiet; then
+            echo "No asset specification changes."
+            exit 0
+          fi
+          git commit -m "chore: refresh revenue asset specs"
+          git push

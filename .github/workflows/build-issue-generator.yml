@@ -1,0 +1,45 @@
+name: Build Issue Generator
+
+on:
+  workflow_dispatch:
+    inputs:
+      create_issues:
+        description: "Create GitHub issues from generated specs (requires human approval)"
+        required: true
+        default: false
+        type: boolean
+  schedule:
+    - cron: "45 7 * * *"
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate issue specs
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          EVENT_NAME: ${{ github.event_name }}
+          CREATE_ISSUES: ${{ inputs.create_issues }}
+        run: |
+          if [ "$EVENT_NAME" = "workflow_dispatch" ] && [ "$CREATE_ISSUES" = "true" ]; then
+            python3 scripts/build_asset_issues.py --create-issues
+          else
+            python3 scripts/build_asset_issues.py
+          fi
+      - name: Commit specs and report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/assets/issue_specs.json reports/assets/
+          if git diff --cached --quiet; then
+            echo "No issue-spec changes."
+            exit 0
+          fi
+          git commit -m "chore: refresh asset implementation issues"
+          git push
