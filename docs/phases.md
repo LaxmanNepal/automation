@@ -76,3 +76,8 @@ Measures recorded resolution lifecycle times and state counts from explicit ledg
 ## Phase 1.13 — Resolution Trend & Bottleneck Intelligence
 
 Adds descriptive resolution-state concentration, unresolved aging, workflow/stage concentration, and recurring history-event signals. These signals are observational only and do not establish causal bottlenecks or root causes.
+
+
+## Phase 1.14 — Resolution Trend & Escalation Intelligence
+
+Tracks recorded resolution history over time, day-over-day changes, and descriptive reopened/repeated-history signals. Missing days are not treated as zero and no automatic escalation is performed.
