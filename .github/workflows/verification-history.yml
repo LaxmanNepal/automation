@@ -1,0 +1,20 @@
+name: Verification History
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 11 * * *'
+permissions:
+  contents: write
+jobs:
+  history:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/build_verification_history.py
+      - run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/workflows/verification-history.json reports/workflows/verification-history-latest.md
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'chore: refresh verification history'
+          git push
