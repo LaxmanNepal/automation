@@ -24,6 +24,7 @@ WORKFLOWS=[
  ("Change verification","change-verification.yml"),
  ("Verification history","verification-history.yml"),
  ("Resolution ledger","resolution-ledger.yml"),
+ ("Resolution SLA","resolution-sla.yml"),
 ]
 def api(url):
     headers={"Accept":"application/vnd.github+json","User-Agent":"laxman-os"}
