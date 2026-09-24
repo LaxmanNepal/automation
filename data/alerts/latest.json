@@ -1,7 +1,8 @@
 {
   "version": 1,
-  "generated_at": null,
-  "status": "waiting",
+  "generated_at": "2026-09-24T15:25:00.576714+00:00",
+  "status": "healthy",
   "alerts": [],
-  "human_validation_required": true
+  "human_validation_required": true,
+  "delivery": "digest-only"
 }

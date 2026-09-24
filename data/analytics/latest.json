@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": null,
+  "generated_at": "2026-09-24T15:25:00.558846+00:00",
   "status": "waiting",
   "sources": [],
   "metrics": {},
-  "coverage": "No analytics connector data has been configured yet.",
+  "coverage": "No analytics export supplied.",
   "human_validation_required": true
 }

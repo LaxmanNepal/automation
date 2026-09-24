@@ -1,8 +1,23 @@
 {
   "version": 1,
-  "generated_at": null,
-  "status": "waiting",
-  "sites": [],
+  "generated_at": "2026-09-24T15:25:00.517636+00:00",
+  "status": "healthy",
+  "sites": [
+    {
+      "id": "main",
+      "name": "Laxman Nepal",
+      "url": "https://laxmannepal.com.np",
+      "status": "healthy",
+      "http_status": 200
+    },
+    {
+      "id": "apps",
+      "name": "Laxman Nepal Apps",
+      "url": "https://apps.laxmannepal.com.np",
+      "status": "healthy",
+      "http_status": 200
+    }
+  ],
   "findings": [],
   "human_validation_required": true
 }

@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "generated_at": "2026-09-24T15:25:00.595468+00:00",
+  "modules": {
+    "money": {
+      "status": "healthy",
+      "count": 4
+    },
+    "youtube": {
+      "status": "healthy",
+      "count": 6
+    },
+    "github": {
+      "status": "healthy",
+      "count": 2
+    },
+    "problems": {
+      "status": "healthy",
+      "count": 0
+    },
+    "seo": {
+      "status": "healthy",
+      "count": 0
+    },
+    "website": {
+      "status": "healthy",
+      "count": 0
+    },
+    "analytics": {
+      "status": "waiting",
+      "count": 0
+    },
+    "business": {
+      "status": "healthy",
+      "count": 3
+    }
+  },
+  "actions": [
+    {
+      "priority": "high",
+      "category": "money",
+      "action": "Review money findings and select a human-approved next step",
+      "evidence": 4
+    },
+    {
+      "priority": "high",
+      "category": "youtube",
+      "action": "Review youtube findings and select a human-approved next step",
+      "evidence": 6
+    },
+    {
+      "priority": "medium",
+      "category": "seo",
+      "action": "Review seo findings and select a human-approved next step",
+      "evidence": 0
+    },
+    {
+      "priority": "medium",
+      "category": "website",
+      "action": "Review website findings and select a human-approved next step",
+      "evidence": 0
+    }
+  ],
+  "human_validation_required": true
+}
