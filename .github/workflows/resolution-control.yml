@@ -1,0 +1,42 @@
+name: Resolution Control
+on:
+  workflow_dispatch:
+    inputs:
+      resolution_id:
+        description: "Resolution ID from the Resolution dashboard"
+        required: true
+        type: string
+      decision:
+        description: "Explicit human decision"
+        required: true
+        type: choice
+        options:
+          - confirm-resolved
+          - reopen
+          - mark-blocked
+          - mark-investigating
+      note:
+        description: "Short audit note explaining the decision"
+        required: false
+        type: string
+        default: ""
+permissions:
+  contents: write
+jobs:
+  control:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply human resolution decision
+        run: |
+          python3 scripts/apply_resolution_decision.py \
+            --resolution-id "${{ inputs.resolution_id }}" \
+            --decision "${{ inputs.decision }}" \
+            --note "${{ inputs.note }}"
+      - name: Commit decision and ledger
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/workflows/resolution.json data/workflows/resolution-decisions.json
+          git commit -m "chore: record human resolution decision"
+          git push
