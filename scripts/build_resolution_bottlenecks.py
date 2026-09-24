@@ -8,6 +8,7 @@ from pathlib import Path
 SRC=Path("data/workflows/resolution.json")
 OUT=Path("data/workflows/resolution-bottlenecks.json")
 REPORT=Path("reports/workflows/resolution-bottlenecks-latest.md")
+CAPACITY=Path("data/workflows/resolution-capacity.json")
 
 def load(path):
     try: return json.loads(path.read_text(encoding="utf-8"))
@@ -62,4 +63,8 @@ def main():
     else: lines.append("- No concentration signal met the descriptive threshold.")
     lines += ["","## Evidence boundary","Aging uses the first recorded history timestamp for unresolved records. Repeated events and concentrations do not prove causality or a root cause. Missing timestamps remain unavailable, not zero.",""]
     REPORT.parent.mkdir(parents=True,exist_ok=True); REPORT.write_text("\n".join(lines),encoding="utf-8")
+    unresolved_count=s["unresolved"]
+    band="low" if unresolved_count<=2 else ("medium" if unresolved_count<=5 else "high")
+    capacity={"version":1,"generated_at":now.isoformat(),"status":data["status"],"active_records":unresolved_count,"review_load_band":band,"state_counts":s,"aging_buckets":{}, "human_validation_required":True,"interpretation":"Descriptive current-record workload only; missing values are unavailable."}
+    CAPACITY.write_text(json.dumps(capacity,indent=2)+"\n",encoding="utf-8")
 if __name__=="__main__": main()
