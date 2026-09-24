@@ -49,3 +49,8 @@ Create an alert digest and optional notification hooks; sending remains explicit
 
 ## Safety model
 Research can be automated. Changes that publish, spend money, trade, send external messages, merge code, or make commercial commitments require human action.
+
+
+## Phase 1.10 — Resolution Ledger
+
+Preserves remediation-linked history and separates workflow evidence from human-confirmed resolution. States include open, blocked, validation-pending, reopened, and resolved; automation may record evidence but never assigns resolved without human confirmation.
