@@ -36,7 +36,7 @@ Detailed scope: docs/phases.md and docs/module-contract.md.
 
 index.html is the Laxman OS command center. It reads generated JSON/Markdown artifacts and provides overview, actions, module health, phase map and report links.
 
-For GitHub Pages deployment, merge the feature branch through the open pull request and configure Pages to use GitHub Actions if required by repository settings.
+For GitHub Pages deployment, the dashboard workflow deploys changes pushed to `main` when GitHub Pages is configured for GitHub Actions.
 
 ## Daily operating loop — Kuwait time
 
@@ -79,3 +79,6 @@ Missing data is not treated as zero. Outputs distinguish waiting, healthy, warni
 - manifest.webmanifest / sw.js — PWA foundation
 
 Never commit tokens, API keys, cookies or other secrets.
+
+
+Phase 1.13 Resolution Trend & Bottleneck Intelligence active
