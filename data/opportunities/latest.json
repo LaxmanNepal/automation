@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-09-24T12:39:44.175893+00:00",
+  "count": 3,
+  "opportunities": [
+    {
+      "id": "seed-001",
+      "category": "money",
+      "title": "Find one searchable problem that can become a small web tool",
+      "status": "queued",
+      "effort": "2",
+      "impact": "5",
+      "evidence": "Manual research required",
+      "next_action": "Research current search demand and existing solutions",
+      "score": 31.0,
+      "evidence_strength": 3
+    },
+    {
+      "id": "seed-002",
+      "category": "youtube",
+      "title": "Find one high-intent tutorial topic for the Nepali channel",
+      "status": "queued",
+      "effort": "2",
+      "impact": "5",
+      "evidence": "Manual research required",
+      "next_action": "Check current search interest, competition, and freshness",
+      "score": 31.0,
+      "evidence_strength": 3
+    },
+    {
+      "id": "seed-003",
+      "category": "github",
+      "title": "Expand repository health checks beyond metadata",
+      "status": "queued",
+      "effort": "3",
+      "impact": "4",
+      "evidence": "V1 health scan only checks repository metadata",
+      "next_action": "Add workflow, dependency, stale-issue, and broken-link checks",
+      "score": 19.3,
+      "evidence_strength": 0
+    }
+  ]
+}

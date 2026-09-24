@@ -1,0 +1,10 @@
+# Laxman OS — Opportunity Shortlist (2026-09-24)
+
+| Score | Category | Opportunity | Evidence | Next action |
+|---:|---|---|---|---|
+| 31.0 | money | Find one searchable problem that can become a small web tool | Manual research required | Research current search demand and existing solutions |
+| 31.0 | youtube | Find one high-intent tutorial topic for the Nepali channel | Manual research required | Check current search interest, competition, and freshness |
+| 19.3 | github | Expand repository health checks beyond metadata | V1 health scan only checks repository metadata | Add workflow, dependency, stale-issue, and broken-link checks |
+
+## Human validation gate
+Scores are queueing aids only. Before building or spending money, validate demand, competition, monetization, and feasibility.
