@@ -1,0 +1,16 @@
+# Laxman OS — YouTube Opportunities (2026-09-24)
+
+| Score | Channel | Topic | Intent | Format | Freshness |
+|---:|---|---|---|---|---|
+| 7 | english | Best free AI tools that actually save time | comparison | review/comparison | verify-current |
+| 5 | english | How to automate repetitive tasks with free tools | how-to | screen tutorial | evergreen |
+| 5 | english | Best free alternatives to popular creator tools | comparison | comparison | verify-current |
+| 8 | nepali | ChatGPT को नयाँ उपयोगी फीचर कसरी प्रयोग गर्ने | how-to | screen tutorial | verify-current |
+| 7 | nepali | मोबाइलबाट AI प्रयोग गरेर काम छिटो गर्ने 5 तरिका | problem-solving | short tutorial | evergreen |
+| 5 | nepali | Excel का 10 काम लाग्ने shortcuts | how-to | screen tutorial | evergreen |
+
+## Validation gate
+This engine organizes candidates; it does not claim live search volume, competition, trends, or revenue. Validate those before recording.
+
+## Production rule
+Prefer topics with clear viewer intent, a concrete problem, and a useful outcome. Keep the final publish decision human-reviewed.

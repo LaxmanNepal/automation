@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-09-24T13:06:12.764270+00:00",
+  "count": 6,
+  "topics": [
+    {
+      "id": "yt-004",
+      "channel": "english",
+      "topic": "Best free AI tools that actually save time",
+      "intent": "comparison",
+      "themes": "[\"AI tools\"]",
+      "format": "review/comparison",
+      "monetization": "software/tools audience",
+      "freshness": "verify-current",
+      "score": 7,
+      "research_status": "Needs current search/competition validation"
+    },
+    {
+      "id": "yt-005",
+      "channel": "english",
+      "topic": "How to automate repetitive tasks with free tools",
+      "intent": "how-to",
+      "themes": "[\"automation\", \"creator tools\"]",
+      "format": "screen tutorial",
+      "monetization": "software/tools audience",
+      "freshness": "evergreen",
+      "score": 5,
+      "research_status": "Needs current search/competition validation"
+    },
+    {
+      "id": "yt-006",
+      "channel": "english",
+      "topic": "Best free alternatives to popular creator tools",
+      "intent": "comparison",
+      "themes": "[\"creator tools\", \"apps\"]",
+      "format": "comparison",
+      "monetization": "software/tools audience",
+      "freshness": "verify-current",
+      "score": 5,
+      "research_status": "Needs current search/competition validation"
+    },
+    {
+      "id": "yt-001",
+      "channel": "nepali",
+      "topic": "ChatGPT को नयाँ उपयोगी फीचर कसरी प्रयोग गर्ने",
+      "intent": "how-to",
+      "themes": "[\"AI\", \"tutorial\"]",
+      "format": "screen tutorial",
+      "monetization": "software/tools audience",
+      "freshness": "verify-current",
+      "score": 8,
+      "research_status": "Needs current search/competition validation"
+    },
+    {
+      "id": "yt-002",
+      "channel": "nepali",
+      "topic": "मोबाइलबाट AI प्रयोग गरेर काम छिटो गर्ने 5 तरिका",
+      "intent": "problem-solving",
+      "themes": "[\"AI\", \"apps\"]",
+      "format": "short tutorial",
+      "monetization": "software/tools audience",
+      "freshness": "evergreen",
+      "score": 7,
+      "research_status": "Needs current search/competition validation"
+    },
+    {
+      "id": "yt-003",
+      "channel": "nepali",
+      "topic": "Excel का 10 काम लाग्ने shortcuts",
+      "intent": "how-to",
+      "themes": "[\"Excel\", \"MS Office\"]",
+      "format": "screen tutorial",
+      "monetization": "software/productivity audience",
+      "freshness": "evergreen",
+      "score": 5,
+      "research_status": "Needs current search/competition validation"
+    }
+  ]
+}
