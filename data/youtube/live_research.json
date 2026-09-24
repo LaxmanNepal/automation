@@ -1,0 +1,145 @@
+{
+  "generated_at": "2026-09-24T13:40:24.239619+00:00",
+  "source": "Google News RSS; optional YouTube Data API",
+  "count": 6,
+  "topics": [
+    {
+      "id": "yt-001",
+      "channel": "nepali",
+      "topic": "ChatGPT को नयाँ उपयोगी फीचर कसरी प्रयोग गर्ने",
+      "intent": "how-to",
+      "themes": "[\"AI\", \"tutorial\"]",
+      "format": "screen tutorial",
+      "monetization": "software/tools audience",
+      "freshness": "verify-current",
+      "freshness_signal": 0,
+      "google_news": {
+        "ok": true,
+        "result_count": 0,
+        "recent_titles": []
+      },
+      "youtube_search": {
+        "enabled": false
+      },
+      "validation": "Search demand, competition, audience fit, and monetization still require review."
+    },
+    {
+      "id": "yt-002",
+      "channel": "nepali",
+      "topic": "मोबाइलबाट AI प्रयोग गरेर काम छिटो गर्ने 5 तरिका",
+      "intent": "problem-solving",
+      "themes": "[\"AI\", \"apps\"]",
+      "format": "short tutorial",
+      "monetization": "software/tools audience",
+      "freshness": "evergreen",
+      "freshness_signal": 0,
+      "google_news": {
+        "ok": true,
+        "result_count": 0,
+        "recent_titles": []
+      },
+      "youtube_search": {
+        "enabled": false
+      },
+      "validation": "Search demand, competition, audience fit, and monetization still require review."
+    },
+    {
+      "id": "yt-003",
+      "channel": "nepali",
+      "topic": "Excel का 10 काम लाग्ने shortcuts",
+      "intent": "how-to",
+      "themes": "[\"Excel\", \"MS Office\"]",
+      "format": "screen tutorial",
+      "monetization": "software/productivity audience",
+      "freshness": "evergreen",
+      "freshness_signal": 0,
+      "google_news": {
+        "ok": true,
+        "result_count": 0,
+        "recent_titles": []
+      },
+      "youtube_search": {
+        "enabled": false
+      },
+      "validation": "Search demand, competition, audience fit, and monetization still require review."
+    },
+    {
+      "id": "yt-004",
+      "channel": "english",
+      "topic": "Best free AI tools that actually save time",
+      "intent": "comparison",
+      "themes": "[\"AI tools\"]",
+      "format": "review/comparison",
+      "monetization": "software/tools audience",
+      "freshness": "verify-current",
+      "freshness_signal": 10,
+      "google_news": {
+        "ok": true,
+        "result_count": 10,
+        "recent_titles": [
+          "10 Best AI Tools for Developers in 2026 - Memeburn",
+          "5 Free AI Tools That Might Actually Save You Time In 2026 - SlashGear",
+          "15 AI Tools That Are Actually Saving Businesses Time - entrepreneur.com",
+          "24 AI Tools for Work to Increase Productivity - Coursera",
+          "Top AI Tools for Social Media Management - Metricool"
+        ]
+      },
+      "youtube_search": {
+        "enabled": false
+      },
+      "validation": "Search demand, competition, audience fit, and monetization still require review."
+    },
+    {
+      "id": "yt-005",
+      "channel": "english",
+      "topic": "How to automate repetitive tasks with free tools",
+      "intent": "how-to",
+      "themes": "[\"automation\", \"creator tools\"]",
+      "format": "screen tutorial",
+      "monetization": "software/tools audience",
+      "freshness": "evergreen",
+      "freshness_signal": 10,
+      "google_news": {
+        "ok": true,
+        "result_count": 10,
+        "recent_titles": [
+          "Service Copilots - Businesses are automating repetitive tasks with AI to free staff for exceptions - Trend Hunter",
+          "7 Social Media Automation Tools That Will Make Your Job Easier - Hootsuite Blog",
+          "How to Use ChatGPT to Automate Tasks - Coursera",
+          "6 free tools you can use to automate your Windows PC - XDA",
+          "These 5 everyday tasks are perfect for automation (with free tools) - MakeUseOf"
+        ]
+      },
+      "youtube_search": {
+        "enabled": false
+      },
+      "validation": "Search demand, competition, audience fit, and monetization still require review."
+    },
+    {
+      "id": "yt-006",
+      "channel": "english",
+      "topic": "Best free alternatives to popular creator tools",
+      "intent": "comparison",
+      "themes": "[\"creator tools\", \"apps\"]",
+      "format": "comparison",
+      "monetization": "software/tools audience",
+      "freshness": "verify-current",
+      "freshness_signal": 10,
+      "google_news": {
+        "ok": true,
+        "result_count": 10,
+        "recent_titles": [
+          "The best website builders of 2026: 80+ platforms tested to find the easiest ways to build a site - TechRadar",
+          "15 Best Email Marketing Platforms 2026: Free & Paid - Brevo",
+          "I've tested a bunch of PDF editors. These are the best - PCWorld",
+          "I Tested 13 CapCut Alternative Apps — Here Are the Results - perfectcorp.com",
+          "Top 8 Website Builders of This Year: Expert Reviews and Comparisons - Themeisle"
+        ]
+      },
+      "youtube_search": {
+        "enabled": false
+      },
+      "validation": "Search demand, competition, audience fit, and monetization still require review."
+    }
+  ]
+}
