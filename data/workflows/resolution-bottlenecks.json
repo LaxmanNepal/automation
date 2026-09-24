@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "generated_at": null,
+  "status": "waiting",
+  "summary": {"total": 0, "unresolved": 0, "open": 0, "blocked": 0, "validation_pending": 0, "reopened": 0},
+  "aging": {"average_unresolved_hours": null, "oldest_unresolved_hours": null},
+  "workflow_concentration": [],
+  "stage_concentration": [],
+  "state_events": [],
+  "signals": [],
+  "coverage": "Waiting for the Resolution Ledger workflow to generate its first snapshot.",
+  "human_validation_required": true
+}
