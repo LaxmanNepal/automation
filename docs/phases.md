@@ -66,3 +66,8 @@ Adds an explicit human decision workflow for resolution records. Decisions are a
 - `mark-investigating` returns an item to open/investigating.
 - Dashboard exposes the resolution ID and a link to the manual GitHub Actions control.
 - Automation never infers or declares human resolution.
+
+
+## Phase 1.12 — Resolution SLA & Analytics
+
+Measures recorded resolution lifecycle times and state counts from explicit ledger evidence. Missing timestamps remain unavailable; no causal or business-impact claims are made.
