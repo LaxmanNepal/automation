@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-09-24T11:10:24.414153+00:00",
+  "repositories": [
+    {
+      "repository": "LaxmanNepal/automation",
+      "accessible": true,
+      "default_branch": "main",
+      "archived": false,
+      "open_issues": 2,
+      "updated_at": "2026-09-23T20:28:59Z",
+      "visibility": "public"
+    },
+    {
+      "repository": "LaxmanNepal/laxmannepal",
+      "accessible": true,
+      "default_branch": "main",
+      "archived": false,
+      "open_issues": 0,
+      "updated_at": "2026-09-24T04:52:48Z",
+      "visibility": "public"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+# Laxman OS — Daily Command (2026-09-24)
+
+## Today's focus
+1. Find one revenue opportunity.
+2. Pick one YouTube action with measurable upside.
+3. Fix one high-value GitHub or website problem.
+
+## GitHub health
+- **LaxmanNepal/automation** — branch `main`, open issues: 2, archived: False.
+- **LaxmanNepal/laxmannepal** — branch `main`, open issues: 0, archived: False.
+
+## Human review
+- Choose the single highest-value action before starting work.
+- Do not auto-merge, auto-publish, auto-spend, or auto-trade.
