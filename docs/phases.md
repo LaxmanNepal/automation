@@ -54,3 +54,15 @@ Research can be automated. Changes that publish, spend money, trade, send extern
 ## Phase 1.10 — Resolution Ledger
 
 Preserves remediation-linked history and separates workflow evidence from human-confirmed resolution. States include open, blocked, validation-pending, reopened, and resolved; automation may record evidence but never assigns resolved without human confirmation.
+
+
+## Phase 1.11 — Human Resolution Control Center
+
+Adds an explicit human decision workflow for resolution records. Decisions are append-only, auditable, and reflected in the Resolution dashboard.
+
+- `confirm-resolved` records explicit human confirmation.
+- `reopen` reopens a previously confirmed item.
+- `mark-blocked` records a blocked state.
+- `mark-investigating` returns an item to open/investigating.
+- Dashboard exposes the resolution ID and a link to the manual GitHub Actions control.
+- Automation never infers or declares human resolution.
