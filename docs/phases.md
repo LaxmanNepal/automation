@@ -81,3 +81,4 @@ Adds descriptive resolution-state concentration, unresolved aging, workflow/stag
 ## Phase 1.14 — Resolution Trend & Escalation Intelligence
 
 Tracks recorded resolution history over time, day-over-day changes, and descriptive reopened/repeated-history signals. Missing days are not treated as zero and no automatic escalation is performed.
+
