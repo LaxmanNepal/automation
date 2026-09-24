@@ -22,6 +22,7 @@ WORKFLOWS=[
  ("Remediation queue","remediation-queue.yml"),
  ("Remediation runbooks","remediation-runbooks.yml"),
  ("Change verification","change-verification.yml"),
+ ("Verification history","verification-history.yml"),
 ]
 def api(url):
     headers={"Accept":"application/vnd.github+json","User-Agent":"laxman-os"}
