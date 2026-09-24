@@ -1,0 +1,150 @@
+{
+  "generated_at": "2026-09-24T12:50:29.781468+00:00",
+  "count": 4,
+  "assets": [
+    {
+      "id": "asset-money-001",
+      "source_opportunity": "money-001",
+      "asset": "Nepali AI/productivity guide or micro-tool",
+      "problem": "Nepali users need simple AI and productivity tutorials in Nepali",
+      "audience": "Nepali internet users",
+      "monetization": "AdSense, affiliate, lead generation",
+      "research_signal": 30,
+      "build_effort": "small MVP",
+      "suggested_stack": "Existing LaxmanNepal web stack; no paid API required for MVP",
+      "mvp": [
+        "Landing page explaining the problem and outcome",
+        "One core useful feature or resource",
+        "Mobile-first responsive UI",
+        "SEO metadata and indexable explanatory content",
+        "Clear but non-intrusive monetization placement",
+        "Analytics event hooks for usage and conversion"
+      ],
+      "seo": [
+        "Create one primary search-intent page",
+        "Add supporting FAQ/how-to content",
+        "Link from relevant Laxman Nepal properties",
+        "Validate current keywords before publishing"
+      ],
+      "definition_of_done": [
+        "Core user task works end-to-end",
+        "Mobile and desktop checks pass",
+        "Basic accessibility checks pass",
+        "SEO title/description/canonical configured",
+        "Monetization path is documented",
+        "Human review completed"
+      ],
+      "slug": "nepali-ai-productivity-guide-or-micro-tool",
+      "status": "spec-ready",
+      "human_validation_required": true
+    },
+    {
+      "id": "asset-money-002",
+      "source_opportunity": "money-002",
+      "asset": "Free creator utility or workflow template",
+      "problem": "Creators need lightweight free tools for YouTube workflow",
+      "audience": "YouTube creators",
+      "monetization": "AdSense, affiliate, digital products",
+      "research_signal": 30,
+      "build_effort": "small MVP",
+      "suggested_stack": "Existing LaxmanNepal web stack; no paid API required for MVP",
+      "mvp": [
+        "Landing page explaining the problem and outcome",
+        "One core useful feature or resource",
+        "Mobile-first responsive UI",
+        "SEO metadata and indexable explanatory content",
+        "Clear but non-intrusive monetization placement",
+        "Analytics event hooks for usage and conversion"
+      ],
+      "seo": [
+        "Create one primary search-intent page",
+        "Add supporting FAQ/how-to content",
+        "Link from relevant Laxman Nepal properties",
+        "Validate current keywords before publishing"
+      ],
+      "definition_of_done": [
+        "Core user task works end-to-end",
+        "Mobile and desktop checks pass",
+        "Basic accessibility checks pass",
+        "SEO title/description/canonical configured",
+        "Monetization path is documented",
+        "Human review completed"
+      ],
+      "slug": "free-creator-utility-or-workflow-template",
+      "status": "spec-ready",
+      "human_validation_required": true
+    },
+    {
+      "id": "asset-money-003",
+      "source_opportunity": "money-003",
+      "asset": "Calculator, generator, template, or workflow utility",
+      "problem": "Small businesses need simple online productivity utilities",
+      "audience": "Small businesses and freelancers",
+      "monetization": "AdSense, leads, paid templates",
+      "research_signal": 30,
+      "build_effort": "small MVP",
+      "suggested_stack": "Existing LaxmanNepal web stack; no paid API required for MVP",
+      "mvp": [
+        "Landing page explaining the problem and outcome",
+        "One core useful feature or resource",
+        "Mobile-first responsive UI",
+        "SEO metadata and indexable explanatory content",
+        "Clear but non-intrusive monetization placement",
+        "Analytics event hooks for usage and conversion"
+      ],
+      "seo": [
+        "Create one primary search-intent page",
+        "Add supporting FAQ/how-to content",
+        "Link from relevant Laxman Nepal properties",
+        "Validate current keywords before publishing"
+      ],
+      "definition_of_done": [
+        "Core user task works end-to-end",
+        "Mobile and desktop checks pass",
+        "Basic accessibility checks pass",
+        "SEO title/description/canonical configured",
+        "Monetization path is documented",
+        "Human review completed"
+      ],
+      "slug": "calculator-generator-template-or-workflow-utility",
+      "status": "spec-ready",
+      "human_validation_required": true
+    },
+    {
+      "id": "asset-money-004",
+      "source_opportunity": "money-004",
+      "asset": "Free alternatives comparison hub",
+      "problem": "People compare free alternatives before paying for software",
+      "audience": "Software buyers",
+      "monetization": "Affiliate, AdSense, sponsorships",
+      "research_signal": 30,
+      "build_effort": "small MVP",
+      "suggested_stack": "Existing LaxmanNepal web stack; no paid API required for MVP",
+      "mvp": [
+        "Landing page explaining the problem and outcome",
+        "One core useful feature or resource",
+        "Mobile-first responsive UI",
+        "SEO metadata and indexable explanatory content",
+        "Clear but non-intrusive monetization placement",
+        "Analytics event hooks for usage and conversion"
+      ],
+      "seo": [
+        "Create one primary search-intent page",
+        "Add supporting FAQ/how-to content",
+        "Link from relevant Laxman Nepal properties",
+        "Validate current keywords before publishing"
+      ],
+      "definition_of_done": [
+        "Core user task works end-to-end",
+        "Mobile and desktop checks pass",
+        "Basic accessibility checks pass",
+        "SEO title/description/canonical configured",
+        "Monetization path is documented",
+        "Human review completed"
+      ],
+      "slug": "free-alternatives-comparison-hub",
+      "status": "spec-ready",
+      "human_validation_required": true
+    }
+  ]
+}
