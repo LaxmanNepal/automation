@@ -82,3 +82,8 @@ Adds descriptive resolution-state concentration, unresolved aging, workflow/stag
 
 Tracks recorded resolution history over time, day-over-day changes, and descriptive reopened/repeated-history signals. Missing days are not treated as zero and no automatic escalation is performed.
 
+
+
+## Phase 1.15 — Resolution Capacity & Review Load
+
+Adds descriptive current workload, human-confirmation-pending counts, review-load bands, and aging context from the Resolution Ledger. Missing timestamps remain unavailable, not zero. The phase is observational and does not automatically escalate or remediate work.
