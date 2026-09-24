@@ -71,3 +71,8 @@ Adds an explicit human decision workflow for resolution records. Decisions are a
 ## Phase 1.12 — Resolution SLA & Analytics
 
 Measures recorded resolution lifecycle times and state counts from explicit ledger evidence. Missing timestamps remain unavailable; no causal or business-impact claims are made.
+
+
+## Phase 1.13 — Resolution Trend & Bottleneck Intelligence
+
+Adds descriptive resolution-state concentration, unresolved aging, workflow/stage concentration, and recurring history-event signals. These signals are observational only and do not establish causal bottlenecks or root causes.
