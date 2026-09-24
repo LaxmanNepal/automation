@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "generated_at": null,
+  "status": "waiting",
+  "items": [],
+  "coverage": "Waiting for the Resolution Ledger workflow to generate its first snapshot.",
+  "human_validation_required": true
+}
