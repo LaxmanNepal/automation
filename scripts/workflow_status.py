@@ -21,6 +21,7 @@ WORKFLOWS=[
  ("Failure intelligence","failure-intelligence.yml"),
  ("Remediation queue","remediation-queue.yml"),
  ("Remediation runbooks","remediation-runbooks.yml"),
+ ("Resolution ledger","resolution-ledger.yml"),
 ]
 def api(url):
     headers={"Accept":"application/vnd.github+json","User-Agent":"laxman-os"}
