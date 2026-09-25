@@ -1,1 +1,18 @@
-{"version":1,"generated_at":null,"status":"waiting","summary":{"records":0,"days_observed":0,"escalation_signals":0},"daily":[],"latest_day":null,"previous_day":null,"day_over_day":{},"escalation_signals":[],"coverage":"Waiting for the Resolution Ledger workflow to generate historical events.","human_validation_required":true}
+{
+  "version": 1,
+  "generated_at": "2026-09-25T17:07:34.810010+00:00",
+  "status": "waiting",
+  "summary": {
+    "records": 0,
+    "days_observed": 0,
+    "escalation_signals": 0
+  },
+  "daily": [],
+  "latest_day": null,
+  "previous_day": null,
+  "day_over_day": {},
+  "escalation_signals": [],
+  "coverage": "Trend values use only recorded Resolution Ledger history events; absent days are not treated as zero.",
+  "human_validation_required": true,
+  "interpretation": "Trend and escalation signals are descriptive. They do not predict outcomes or establish causality, severity, root cause, or business impact."
+}
