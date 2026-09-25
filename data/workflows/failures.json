@@ -1,8 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-09-24T14:41:20.809891+00:00",
-  "status": "waiting",
+  "generated_at": "2026-09-25T15:02:54.553353+00:00",
+  "status": "healthy",
   "failures": [],
-  "coverage": "Workflow telemetry has not been generated yet.",
+  "failure_count": 0,
+  "coverage": "Latest failed/timed-out/cancelled/action-required workflow runs from the workflow monitor.",
   "human_validation_required": true
 }
