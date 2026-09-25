@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "generated_at": "2026-09-25T15:40:53.727079+00:00",
+  "status": "waiting",
+  "items": [],
+  "coverage": "Compares remediation-linked failure runs with later runs of the same workflow in available recent telemetry.",
+  "human_validation_required": true
+}
