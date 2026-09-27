@@ -11,3 +11,12 @@ A later success is execution evidence only. The ledger does not claim that a par
 
 ## Safety
 No automatic retry, code modification, merge, publish, spend, trade, or external message is performed. Human review is required.
+
+### Resolution ledger
+- Remediation: rem-resolution-ledger.yml::ledger::failure
+- Verification state: **waiting**
+- Previous failure run: None
+- Verification run: None
+- Conclusion: None
+- Basis: Workflow telemetry or latest run is unavailable.
+- Causality: unverified
