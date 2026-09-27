@@ -1,8 +1,19 @@
 {
   "version": 1,
-  "generated_at": "2026-09-26T14:57:28.346456+00:00",
+  "generated_at": "2026-09-27T15:38:14.350452+00:00",
   "status": "waiting",
-  "timelines": [],
+  "timelines": [
+    {
+      "id": "timeline-rem-resolution-ledger.yml::ledger::failure",
+      "remediation_id": "rem-resolution-ledger.yml::ledger::failure",
+      "workflow": "Resolution ledger",
+      "stage": "ledger",
+      "state": "waiting",
+      "events": [],
+      "causal_claim": "unverified",
+      "human_validation_required": true
+    }
+  ],
   "coverage": "Chronological failure and later-run evidence from retained telemetry.",
   "human_validation_required": true
 }
