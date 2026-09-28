@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T14:10:43.180496+00:00",
+  "generated_at": "2026-09-28T16:52:18.179432+00:00",
   "source": "Google News RSS; optional YouTube Data API",
   "count": 6,
   "topics": [
@@ -103,9 +103,9 @@
         "ok": true,
         "result_count": 10,
         "recent_titles": [
-          "12 AI Project Management Tools to Enhance Project Efficiency - Coursera",
+          "12 AI Project Management Tools to Enhance Project Efficiency - coursera.org",
           "7 Social Media Automation Tools That Will Make Your Job Easier - Hootsuite Blog",
-          "6 free tools you can use to automate your Windows PC - xda-developers.com",
+          "6 free tools you can use to automate your Windows PC - XDA",
           "These 5 everyday tasks are perfect for automation (with free tools) - MakeUseOf",
           "AI in Marketing: Tools and Use Cases | Microsoft Copilot - Microsoft"
         ]
@@ -129,11 +129,11 @@
         "ok": true,
         "result_count": 10,
         "recent_titles": [
-          "10 Best SendGrid Alternatives for Its Email Template Builder - Designmodo",
+          "10 Best SendGrid Alternatives for Its Email Template Builder - designmodo.com",
           "The best website builders of 2026: 80+ platforms tested to find the easiest ways to build a site - TechRadar",
-          "5 free and open-source (FOSS) apps that are better than paid alternatives - How-To Geek",
+          "15 Best Email Marketing Platforms 2026: Free & Paid - Brevo",
           "I've tested a bunch of PDF editors. These are the best - PCWorld",
-          "15 Best Email Marketing Platforms 2026: Free & Paid - Brevo"
+          "6 Hootsuite Alternatives in 2025 (FREE Platform Offers) - Metricool"
         ]
       },
       "youtube_search": {
