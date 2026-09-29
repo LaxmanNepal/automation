@@ -2,12 +2,25 @@
 
 Deterministic review checklists generated from remediation evidence.
 
-Generated: 2026-09-27T15:14:17.405025+00:00
+Generated: 2026-09-29T16:36:13.885002+00:00
 
-## 1. Resolution ledger
+## 1. Remediation runbooks
+- Stage: build
+- Priority: normal
+- Evidence: https://github.com/LaxmanNepal/automation/actions/runs/36463742280
+- Root cause: **unverified**
+- Checklist:
+  1. Open the linked workflow run.
+  2. Inspect the failed job and relevant step logs.
+  3. Confirm whether the failure is reproducible or transient.
+  4. Identify the smallest evidence-backed corrective change.
+  5. Review the proposed change before editing code.
+  6. Run the relevant validation workflow after the change.
+
+## 2. Resolution ledger
 - Stage: ledger
 - Priority: normal
-- Evidence: https://github.com/LaxmanNepal/automation/actions/runs/36156961150
+- Evidence: https://github.com/LaxmanNepal/automation/actions/runs/36330493901
 - Root cause: **unverified**
 - Checklist:
   1. Open the linked workflow run.
