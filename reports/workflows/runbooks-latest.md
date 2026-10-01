@@ -2,12 +2,12 @@
 
 Deterministic review checklists generated from remediation evidence.
 
-Generated: 2026-09-29T16:36:13.885002+00:00
+Generated: 2026-10-01T17:06:42.064435+00:00
 
 ## 1. Remediation runbooks
 - Stage: build
 - Priority: normal
-- Evidence: https://github.com/LaxmanNepal/automation/actions/runs/36463742280
+- Evidence: https://github.com/LaxmanNepal/automation/actions/runs/36744514927
 - Root cause: **unverified**
 - Checklist:
   1. Open the linked workflow run.
@@ -20,7 +20,7 @@ Generated: 2026-09-29T16:36:13.885002+00:00
 ## 2. Resolution ledger
 - Stage: ledger
 - Priority: normal
-- Evidence: https://github.com/LaxmanNepal/automation/actions/runs/36330493901
+- Evidence: https://github.com/LaxmanNepal/automation/actions/runs/36601240289
 - Root cause: **unverified**
 - Checklist:
   1. Open the linked workflow run.
