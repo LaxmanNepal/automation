@@ -1,8 +1,31 @@
 {
   "version": 1,
-  "generated_at": "2026-10-03T14:35:27.962121+00:00",
+  "generated_at": "2026-10-04T15:10:53.434801+00:00",
   "status": "warning",
   "failures": [
+    {
+      "fingerprint": "remediation-runbooks.yml::build::failure",
+      "workflow": "remediation-runbooks.yml",
+      "name": "Remediation runbooks",
+      "failed_stage": "build",
+      "conclusion": "failure",
+      "occurrences": 1,
+      "run_ids": [
+        37130961350
+      ],
+      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/37130961350",
+      "evidence": [
+        {
+          "run_id": 37130961350,
+          "updated_at": "2026-10-03T14:48:54Z",
+          "url": "https://github.com/LaxmanNepal/automation/actions/runs/37130961350",
+          "stage": "build",
+          "conclusion": "failure"
+        }
+      ],
+      "suggested_action": "Inspect the linked run and failed job logs, confirm the failing stage, then make a targeted fix.",
+      "root_cause_status": "unverified"
+    },
     {
       "fingerprint": "resolution-ledger.yml::ledger::failure",
       "workflow": "resolution-ledger.yml",
@@ -11,14 +34,14 @@
       "conclusion": "failure",
       "occurrences": 1,
       "run_ids": [
-        36899248015
+        37035826785
       ],
-      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/36899248015",
+      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/37035826785",
       "evidence": [
         {
-          "run_id": 36899248015,
-          "updated_at": "2026-10-01T17:25:26Z",
-          "url": "https://github.com/LaxmanNepal/automation/actions/runs/36899248015",
+          "run_id": 37035826785,
+          "updated_at": "2026-10-02T16:43:21Z",
+          "url": "https://github.com/LaxmanNepal/automation/actions/runs/37035826785",
           "stage": "ledger",
           "conclusion": "failure"
         }
@@ -27,7 +50,7 @@
       "root_cause_status": "unverified"
     }
   ],
-  "failure_count": 1,
+  "failure_count": 2,
   "coverage": "Latest failed/timed-out/cancelled/action-required workflow runs from the workflow monitor.",
   "human_validation_required": true
 }
