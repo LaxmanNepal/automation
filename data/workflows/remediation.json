@@ -1,8 +1,21 @@
 {
   "version": 1,
-  "generated_at": "2026-10-03T14:42:23.511400+00:00",
+  "generated_at": "2026-10-04T15:19:39.760207+00:00",
   "status": "warning",
   "items": [
+    {
+      "id": "rem-remediation-runbooks.yml::build::failure",
+      "workflow": "Remediation runbooks",
+      "stage": "build",
+      "conclusion": "failure",
+      "occurrences": 1,
+      "priority": "normal",
+      "status": "needs-review",
+      "evidence_url": "https://github.com/LaxmanNepal/automation/actions/runs/37130961350",
+      "next_action": "Review run/job logs, confirm root cause, then create a targeted fix.",
+      "root_cause_status": "unverified",
+      "human_validation_required": true
+    },
     {
       "id": "rem-resolution-ledger.yml::ledger::failure",
       "workflow": "Resolution ledger",
@@ -11,13 +24,13 @@
       "occurrences": 1,
       "priority": "normal",
       "status": "needs-review",
-      "evidence_url": "https://github.com/LaxmanNepal/automation/actions/runs/36899248015",
+      "evidence_url": "https://github.com/LaxmanNepal/automation/actions/runs/37035826785",
       "next_action": "Review run/job logs, confirm root cause, then create a targeted fix.",
       "root_cause_status": "unverified",
       "human_validation_required": true
     }
   ],
-  "item_count": 1,
+  "item_count": 2,
   "coverage": "Derived only from failure-intelligence evidence.",
   "human_validation_required": true
 }
