@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-04T15:19:39.760207+00:00",
+  "generated_at": "2026-10-05T19:21:47.567576+00:00",
   "status": "warning",
   "items": [
     {
@@ -11,7 +11,7 @@
       "occurrences": 1,
       "priority": "normal",
       "status": "needs-review",
-      "evidence_url": "https://github.com/LaxmanNepal/automation/actions/runs/37130961350",
+      "evidence_url": "https://github.com/LaxmanNepal/automation/actions/runs/37213098624",
       "next_action": "Review run/job logs, confirm root cause, then create a targeted fix.",
       "root_cause_status": "unverified",
       "human_validation_required": true
@@ -24,7 +24,7 @@
       "occurrences": 1,
       "priority": "normal",
       "status": "needs-review",
-      "evidence_url": "https://github.com/LaxmanNepal/automation/actions/runs/37035826785",
+      "evidence_url": "https://github.com/LaxmanNepal/automation/actions/runs/37132267255",
       "next_action": "Review run/job logs, confirm root cause, then create a targeted fix.",
       "root_cause_status": "unverified",
       "human_validation_required": true
