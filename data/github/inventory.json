@@ -1,118 +1,94 @@
 {
   "version": 1,
-  "generated_at": "2026-10-04T15:27:52.847816+00:00",
+  "generated_at": "2026-10-06T16:53:38.782663+00:00",
   "status": "healthy",
   "repositories": [
-    {
-      "name": "Gold-Price-In-Nepal",
-      "full_name": "LaxmanNepal/Gold-Price-In-Nepal",
-      "archived": false,
-      "open_issues": 0,
-      "updated_at": "2026-10-04T15:24:01Z",
-      "html_url": "https://github.com/LaxmanNepal/Gold-Price-In-Nepal"
-    },
     {
       "name": "automation",
       "full_name": "LaxmanNepal/automation",
       "archived": false,
-      "open_issues": 0,
-      "updated_at": "2026-10-04T15:19:43Z",
-      "html_url": "https://github.com/LaxmanNepal/automation"
-    },
-    {
-      "name": "iamfromhetauda",
-      "full_name": "LaxmanNepal/iamfromhetauda",
-      "archived": false,
-      "open_issues": 0,
-      "updated_at": "2026-10-04T14:59:54Z",
-      "html_url": "https://github.com/LaxmanNepal/iamfromhetauda"
-    },
-    {
-      "name": "aitube",
-      "full_name": "LaxmanNepal/aitube",
-      "archived": false,
-      "open_issues": 0,
-      "updated_at": "2026-10-04T14:59:32Z",
-      "html_url": "https://github.com/LaxmanNepal/aitube"
-    },
-    {
-      "name": "Nepali-Patro",
-      "full_name": "LaxmanNepal/Nepali-Patro",
-      "archived": false,
       "open_issues": 1,
-      "updated_at": "2026-10-04T14:46:14Z",
-      "html_url": "https://github.com/LaxmanNepal/Nepali-Patro"
-    },
-    {
-      "name": "Nepal-Flood-Monitor",
-      "full_name": "LaxmanNepal/Nepal-Flood-Monitor",
-      "archived": false,
-      "open_issues": 0,
-      "updated_at": "2026-10-04T12:48:53Z",
-      "html_url": "https://github.com/LaxmanNepal/Nepal-Flood-Monitor"
+      "updated_at": "2026-10-06T16:45:23Z",
+      "html_url": "https://github.com/LaxmanNepal/automation"
     },
     {
       "name": "NepaliNews",
       "full_name": "LaxmanNepal/NepaliNews",
       "archived": false,
       "open_issues": 1,
-      "updated_at": "2026-10-04T12:37:51Z",
+      "updated_at": "2026-10-06T16:16:40Z",
       "html_url": "https://github.com/LaxmanNepal/NepaliNews"
     },
     {
-      "name": "laxmannepal.github.io",
-      "full_name": "LaxmanNepal/laxmannepal.github.io",
-      "archived": false,
-      "open_issues": 3,
-      "updated_at": "2026-10-04T12:29:02Z",
-      "html_url": "https://github.com/LaxmanNepal/laxmannepal.github.io"
-    },
-    {
-      "name": "Live-TV",
-      "full_name": "LaxmanNepal/Live-TV",
+      "name": "iamfromhetauda",
+      "full_name": "LaxmanNepal/iamfromhetauda",
       "archived": false,
       "open_issues": 0,
-      "updated_at": "2026-10-04T12:25:24Z",
-      "html_url": "https://github.com/LaxmanNepal/Live-TV"
+      "updated_at": "2026-10-06T16:11:59Z",
+      "html_url": "https://github.com/LaxmanNepal/iamfromhetauda"
     },
     {
-      "name": "Open-Source",
-      "full_name": "LaxmanNepal/Open-Source",
+      "name": "Nepal-Flood-Monitor",
+      "full_name": "LaxmanNepal/Nepal-Flood-Monitor",
       "archived": false,
       "open_issues": 0,
-      "updated_at": "2026-10-04T12:25:18Z",
-      "html_url": "https://github.com/LaxmanNepal/Open-Source"
+      "updated_at": "2026-10-06T16:02:10Z",
+      "html_url": "https://github.com/LaxmanNepal/Nepal-Flood-Monitor"
     },
     {
-      "name": "nepal-jobs",
-      "full_name": "LaxmanNepal/nepal-jobs",
+      "name": "Nepali-Patro",
+      "full_name": "LaxmanNepal/Nepali-Patro",
+      "archived": false,
+      "open_issues": 1,
+      "updated_at": "2026-10-06T15:54:29Z",
+      "html_url": "https://github.com/LaxmanNepal/Nepali-Patro"
+    },
+    {
+      "name": "Gold-Price-In-Nepal",
+      "full_name": "LaxmanNepal/Gold-Price-In-Nepal",
       "archived": false,
       "open_issues": 0,
-      "updated_at": "2026-10-04T12:24:01Z",
-      "html_url": "https://github.com/LaxmanNepal/nepal-jobs"
+      "updated_at": "2026-10-06T15:14:14Z",
+      "html_url": "https://github.com/LaxmanNepal/Gold-Price-In-Nepal"
     },
     {
       "name": "South-Movies",
       "full_name": "LaxmanNepal/South-Movies",
       "archived": false,
       "open_issues": 0,
-      "updated_at": "2026-10-04T12:22:16Z",
+      "updated_at": "2026-10-06T13:24:33Z",
       "html_url": "https://github.com/LaxmanNepal/South-Movies"
     },
     {
-      "name": "Music",
-      "full_name": "LaxmanNepal/Music",
+      "name": "laxmannepal.github.io",
+      "full_name": "LaxmanNepal/laxmannepal.github.io",
+      "archived": false,
+      "open_issues": 3,
+      "updated_at": "2026-10-06T12:37:07Z",
+      "html_url": "https://github.com/LaxmanNepal/laxmannepal.github.io"
+    },
+    {
+      "name": "aitube",
+      "full_name": "LaxmanNepal/aitube",
       "archived": false,
       "open_issues": 0,
-      "updated_at": "2026-10-04T12:19:18Z",
-      "html_url": "https://github.com/LaxmanNepal/Music"
+      "updated_at": "2026-10-06T10:48:35Z",
+      "html_url": "https://github.com/LaxmanNepal/aitube"
+    },
+    {
+      "name": "Open-Source",
+      "full_name": "LaxmanNepal/Open-Source",
+      "archived": false,
+      "open_issues": 0,
+      "updated_at": "2026-10-06T09:23:06Z",
+      "html_url": "https://github.com/LaxmanNepal/Open-Source"
     },
     {
       "name": "youtube-channels",
       "full_name": "LaxmanNepal/youtube-channels",
       "archived": false,
       "open_issues": 0,
-      "updated_at": "2026-10-04T06:16:29Z",
+      "updated_at": "2026-10-06T06:48:39Z",
       "html_url": "https://github.com/LaxmanNepal/youtube-channels"
     },
     {
@@ -120,16 +96,48 @@
       "full_name": "LaxmanNepal/laxmannepal",
       "archived": false,
       "open_issues": 0,
-      "updated_at": "2026-10-04T05:56:29Z",
+      "updated_at": "2026-10-06T06:26:06Z",
       "html_url": "https://github.com/LaxmanNepal/laxmannepal"
+    },
+    {
+      "name": "Live-TV",
+      "full_name": "LaxmanNepal/Live-TV",
+      "archived": false,
+      "open_issues": 0,
+      "updated_at": "2026-10-06T06:24:35Z",
+      "html_url": "https://github.com/LaxmanNepal/Live-TV"
     },
     {
       "name": "Photos",
       "full_name": "LaxmanNepal/Photos",
       "archived": false,
       "open_issues": 0,
-      "updated_at": "2026-10-04T05:54:16Z",
+      "updated_at": "2026-10-06T06:22:46Z",
       "html_url": "https://github.com/LaxmanNepal/Photos"
+    },
+    {
+      "name": "nepal-jobs",
+      "full_name": "LaxmanNepal/nepal-jobs",
+      "archived": false,
+      "open_issues": 0,
+      "updated_at": "2026-10-06T06:22:18Z",
+      "html_url": "https://github.com/LaxmanNepal/nepal-jobs"
+    },
+    {
+      "name": "Music",
+      "full_name": "LaxmanNepal/Music",
+      "archived": false,
+      "open_issues": 0,
+      "updated_at": "2026-10-06T06:17:57Z",
+      "html_url": "https://github.com/LaxmanNepal/Music"
+    },
+    {
+      "name": "Nisulka-Tools",
+      "full_name": "LaxmanNepal/Nisulka-Tools",
+      "archived": false,
+      "open_issues": 0,
+      "updated_at": "2026-10-05T09:32:18Z",
+      "html_url": "https://github.com/LaxmanNepal/Nisulka-Tools"
     },
     {
       "name": "AI-Avatar-Studio",
@@ -138,14 +146,6 @@
       "open_issues": 0,
       "updated_at": "2026-09-28T23:06:18Z",
       "html_url": "https://github.com/LaxmanNepal/AI-Avatar-Studio"
-    },
-    {
-      "name": "Nisulka-Tools",
-      "full_name": "LaxmanNepal/Nisulka-Tools",
-      "archived": false,
-      "open_issues": 0,
-      "updated_at": "2026-09-28T08:54:39Z",
-      "html_url": "https://github.com/LaxmanNepal/Nisulka-Tools"
     },
     {
       "name": "nepali-ai-voice-studio",

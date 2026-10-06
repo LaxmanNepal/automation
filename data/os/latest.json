@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-04T15:27:53.692200+00:00",
+  "generated_at": "2026-10-06T16:53:39.194101+00:00",
   "modules": {
     "money": {
       "status": "healthy",
@@ -15,8 +15,8 @@
       "count": 2
     },
     "problems": {
-      "status": "healthy",
-      "count": 0
+      "status": "warning",
+      "count": 1
     },
     "seo": {
       "status": "healthy",
@@ -36,6 +36,12 @@
     }
   },
   "actions": [
+    {
+      "priority": "high",
+      "category": "problems",
+      "action": "Review problems findings and select a human-approved next step",
+      "evidence": 1
+    },
     {
       "priority": "high",
       "category": "money",
