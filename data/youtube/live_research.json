@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T17:16:48.182305+00:00",
+  "generated_at": "2026-10-06T15:21:24.444789+00:00",
   "source": "Google News RSS; optional YouTube Data API",
   "count": 6,
   "topics": [
@@ -77,9 +77,9 @@
         "ok": true,
         "result_count": 10,
         "recent_titles": [
-          "5 Free AI Tools That Might Actually Save You Time In 2026 - slashgear.com",
+          "5 Free AI Tools That Might Actually Save You Time In 2026 - SlashGear",
           "15 AI Tools That Are Actually Saving Businesses Time - entrepreneur.com",
-          "10 Best AI Tools for Developers in 2026 - memeburn.com",
+          "10 Best AI Tools for Developers in 2026 - Memeburn",
           "The best AI tools for social media content creation in 2026 - Hootsuite Blog",
           "Top AI Tools for Social Media Management - Metricool"
         ]
@@ -104,10 +104,10 @@
         "result_count": 10,
         "recent_titles": [
           "Boost Your PDF Workflow – Why SwifDoo PDF Is Worth the Investment - shattered.io",
-          "12 AI Project Management Tools to Enhance Project Efficiency - coursera.org",
+          "12 AI Project Management Tools to Enhance Project Efficiency - Coursera",
           "7 Social Media Automation Tools That Will Make Your Job Easier - Hootsuite Blog",
-          "These 5 everyday tasks are perfect for automation (with free tools) - MakeUseOf",
-          "6 free tools you can use to automate your Windows PC - XDA"
+          "6 free tools you can use to automate your Windows PC - xda-developers.com",
+          "These 5 everyday tasks are perfect for automation (with free tools) - MakeUseOf"
         ]
       },
       "youtube_search": {
@@ -129,11 +129,11 @@
         "ok": true,
         "result_count": 10,
         "recent_titles": [
-          "I've tested a bunch of PDF editors. These are the best - pcworld.com",
-          "The best website builders of 2026: 80+ platforms tested to find the easiest ways to build a site - TechRadar",
+          "I've tested a bunch of PDF editors. These are the best - PCWorld",
+          "The best website builders of 2026: 80+ platforms tested to find the easiest ways to build a site - techradar.com",
           "15 Best Email Marketing Platforms 2026: Free & Paid - Brevo",
-          "7 best Modash alternatives for influencer and creator management - Sprout Social",
-          "5 ChatGPT Alternatives to Know in 2026 (+ More to Consider) - coursera.org"
+          "6 Hootsuite Alternatives in 2025 (FREE Platform Offers) - Metricool",
+          "7 best Modash alternatives for influencer and creator management - Sprout Social"
         ]
       },
       "youtube_search": {
