@@ -2,22 +2,22 @@
 
 Human-review queue derived from failure evidence.
 
-Generated: 2026-10-05T19:21:47.567576+00:00
+Generated: 2026-10-06T16:45:18.791526+00:00
 Status: **warning**
 
-## 1. Remediation runbooks
-- Priority: **normal**
-- Stage: build
-- Status: needs-review
-- Evidence: https://github.com/LaxmanNepal/automation/actions/runs/37213098624
-- Root cause: **unverified**
-- Next action: Review run/job logs, confirm root cause, then create a targeted fix.
-
-## 2. Resolution ledger
+## 1. Resolution ledger
 - Priority: **normal**
 - Stage: ledger
 - Status: needs-review
-- Evidence: https://github.com/LaxmanNepal/automation/actions/runs/37132267255
+- Evidence: https://github.com/LaxmanNepal/automation/actions/runs/37214621194
+- Root cause: **unverified**
+- Next action: Review run/job logs, confirm root cause, then create a targeted fix.
+
+## 2. Unified intelligence
+- Priority: **normal**
+- Stage: intelligence
+- Status: needs-review
+- Evidence: https://github.com/LaxmanNepal/automation/actions/runs/37362824132
 - Root cause: **unverified**
 - Next action: Review run/job logs, confirm root cause, then create a targeted fix.
 

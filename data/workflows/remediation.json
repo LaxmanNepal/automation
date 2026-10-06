@@ -1,21 +1,8 @@
 {
   "version": 1,
-  "generated_at": "2026-10-05T19:21:47.567576+00:00",
+  "generated_at": "2026-10-06T16:45:18.791526+00:00",
   "status": "warning",
   "items": [
-    {
-      "id": "rem-remediation-runbooks.yml::build::failure",
-      "workflow": "Remediation runbooks",
-      "stage": "build",
-      "conclusion": "failure",
-      "occurrences": 1,
-      "priority": "normal",
-      "status": "needs-review",
-      "evidence_url": "https://github.com/LaxmanNepal/automation/actions/runs/37213098624",
-      "next_action": "Review run/job logs, confirm root cause, then create a targeted fix.",
-      "root_cause_status": "unverified",
-      "human_validation_required": true
-    },
     {
       "id": "rem-resolution-ledger.yml::ledger::failure",
       "workflow": "Resolution ledger",
@@ -24,7 +11,20 @@
       "occurrences": 1,
       "priority": "normal",
       "status": "needs-review",
-      "evidence_url": "https://github.com/LaxmanNepal/automation/actions/runs/37132267255",
+      "evidence_url": "https://github.com/LaxmanNepal/automation/actions/runs/37214621194",
+      "next_action": "Review run/job logs, confirm root cause, then create a targeted fix.",
+      "root_cause_status": "unverified",
+      "human_validation_required": true
+    },
+    {
+      "id": "rem-os-intelligence.yml::intelligence::failure",
+      "workflow": "Unified intelligence",
+      "stage": "intelligence",
+      "conclusion": "failure",
+      "occurrences": 1,
+      "priority": "normal",
+      "status": "needs-review",
+      "evidence_url": "https://github.com/LaxmanNepal/automation/actions/runs/37362824132",
       "next_action": "Review run/job logs, confirm root cause, then create a targeted fix.",
       "root_cause_status": "unverified",
       "human_validation_required": true
