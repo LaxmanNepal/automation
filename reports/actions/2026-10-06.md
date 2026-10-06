@@ -2,9 +2,11 @@
 
 | Priority | Category | Action | Reason |
 |---:|---|---|---|
+| 100 | problem | Workflow failing: pages build and deployment | Conclusion=failure; commit=f3698db9; updated=2026-10-05T20:55:18Z |
 | 10 | money | Research one monetizable problem for a small tool, template, or guide | Revenue is the top configured priority. |
 | 9 | youtube | Validate and produce: Best free AI tools that actually save time | english channel; intent=comparison; score=7. |
 | 9 | youtube | Validate and produce: How to automate repetitive tasks with free tools | english channel; intent=how-to; score=5. |
+| 6 | github | Review open issues in LaxmanNepal/automation | 1 open issue(s). |
 
 ## Rule
 Pick one action for execution. Research and prioritization do not automatically authorize publishing, spending, trading, merging, or destructive changes.
