@@ -1,8 +1,54 @@
 {
   "version": 1,
-  "generated_at": "2026-10-06T16:33:23.842745+00:00",
+  "generated_at": "2026-10-07T17:19:25.571477+00:00",
   "status": "warning",
   "failures": [
+    {
+      "fingerprint": "change-verification.yml::verify::failure",
+      "workflow": "change-verification.yml",
+      "name": "Change verification",
+      "failed_stage": "verify",
+      "conclusion": "failure",
+      "occurrences": 1,
+      "run_ids": [
+        37363384987
+      ],
+      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/37363384987",
+      "evidence": [
+        {
+          "run_id": 37363384987,
+          "updated_at": "2026-10-05T19:41:25Z",
+          "url": "https://github.com/LaxmanNepal/automation/actions/runs/37363384987",
+          "stage": "verify",
+          "conclusion": "failure"
+        }
+      ],
+      "suggested_action": "Inspect the linked run and failed job logs, confirm the failing stage, then make a targeted fix.",
+      "root_cause_status": "unverified"
+    },
+    {
+      "fingerprint": "remediation-runbooks.yml::build::failure",
+      "workflow": "remediation-runbooks.yml",
+      "name": "Remediation runbooks",
+      "failed_stage": "build",
+      "conclusion": "failure",
+      "occurrences": 1,
+      "run_ids": [
+        37499269929
+      ],
+      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/37499269929",
+      "evidence": [
+        {
+          "run_id": 37499269929,
+          "updated_at": "2026-10-06T16:53:47Z",
+          "url": "https://github.com/LaxmanNepal/automation/actions/runs/37499269929",
+          "stage": "build",
+          "conclusion": "failure"
+        }
+      ],
+      "suggested_action": "Inspect the linked run and failed job logs, confirm the failing stage, then make a targeted fix.",
+      "root_cause_status": "unverified"
+    },
     {
       "fingerprint": "resolution-ledger.yml::ledger::failure",
       "workflow": "resolution-ledger.yml",
@@ -11,14 +57,14 @@
       "conclusion": "failure",
       "occurrences": 1,
       "run_ids": [
-        37214621194
+        37364820263
       ],
-      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/37214621194",
+      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/37364820263",
       "evidence": [
         {
-          "run_id": 37214621194,
-          "updated_at": "2026-10-04T15:52:15Z",
-          "url": "https://github.com/LaxmanNepal/automation/actions/runs/37214621194",
+          "run_id": 37364820263,
+          "updated_at": "2026-10-05T19:44:40Z",
+          "url": "https://github.com/LaxmanNepal/automation/actions/runs/37364820263",
           "stage": "ledger",
           "conclusion": "failure"
         }
@@ -27,22 +73,45 @@
       "root_cause_status": "unverified"
     },
     {
-      "fingerprint": "os-intelligence.yml::intelligence::failure",
-      "workflow": "os-intelligence.yml",
-      "name": "Unified intelligence",
-      "failed_stage": "intelligence",
+      "fingerprint": "resolution-trends.yml::trend::failure",
+      "workflow": "resolution-trends.yml",
+      "name": "Resolution trends",
+      "failed_stage": "trend",
       "conclusion": "failure",
       "occurrences": 1,
       "run_ids": [
-        37362824132
+        37370433612
       ],
-      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/37362824132",
+      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/37370433612",
       "evidence": [
         {
-          "run_id": 37362824132,
-          "updated_at": "2026-10-05T19:22:40Z",
-          "url": "https://github.com/LaxmanNepal/automation/actions/runs/37362824132",
-          "stage": "intelligence",
+          "run_id": 37370433612,
+          "updated_at": "2026-10-05T20:48:05Z",
+          "url": "https://github.com/LaxmanNepal/automation/actions/runs/37370433612",
+          "stage": "trend",
+          "conclusion": "failure"
+        }
+      ],
+      "suggested_action": "Inspect the linked run and failed job logs, confirm the failing stage, then make a targeted fix.",
+      "root_cause_status": "unverified"
+    },
+    {
+      "fingerprint": "verification-history.yml::history::failure",
+      "workflow": "verification-history.yml",
+      "name": "Verification history",
+      "failed_stage": "history",
+      "conclusion": "failure",
+      "occurrences": 1,
+      "run_ids": [
+        37364422668
+      ],
+      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/37364422668",
+      "evidence": [
+        {
+          "run_id": 37364422668,
+          "updated_at": "2026-10-05T19:50:46Z",
+          "url": "https://github.com/LaxmanNepal/automation/actions/runs/37364422668",
+          "stage": "history",
           "conclusion": "failure"
         }
       ],
@@ -50,7 +119,7 @@
       "root_cause_status": "unverified"
     }
   ],
-  "failure_count": 2,
+  "failure_count": 5,
   "coverage": "Latest failed/timed-out/cancelled/action-required workflow runs from the workflow monitor.",
   "human_validation_required": true
 }
