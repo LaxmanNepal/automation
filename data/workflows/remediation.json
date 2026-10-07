@@ -1,8 +1,34 @@
 {
   "version": 1,
-  "generated_at": "2026-10-06T16:45:18.791526+00:00",
+  "generated_at": "2026-10-07T17:24:28.575876+00:00",
   "status": "warning",
   "items": [
+    {
+      "id": "rem-change-verification.yml::verify::failure",
+      "workflow": "Change verification",
+      "stage": "verify",
+      "conclusion": "failure",
+      "occurrences": 1,
+      "priority": "normal",
+      "status": "needs-review",
+      "evidence_url": "https://github.com/LaxmanNepal/automation/actions/runs/37363384987",
+      "next_action": "Review run/job logs, confirm root cause, then create a targeted fix.",
+      "root_cause_status": "unverified",
+      "human_validation_required": true
+    },
+    {
+      "id": "rem-remediation-runbooks.yml::build::failure",
+      "workflow": "Remediation runbooks",
+      "stage": "build",
+      "conclusion": "failure",
+      "occurrences": 1,
+      "priority": "normal",
+      "status": "needs-review",
+      "evidence_url": "https://github.com/LaxmanNepal/automation/actions/runs/37499269929",
+      "next_action": "Review run/job logs, confirm root cause, then create a targeted fix.",
+      "root_cause_status": "unverified",
+      "human_validation_required": true
+    },
     {
       "id": "rem-resolution-ledger.yml::ledger::failure",
       "workflow": "Resolution ledger",
@@ -11,26 +37,39 @@
       "occurrences": 1,
       "priority": "normal",
       "status": "needs-review",
-      "evidence_url": "https://github.com/LaxmanNepal/automation/actions/runs/37214621194",
+      "evidence_url": "https://github.com/LaxmanNepal/automation/actions/runs/37364820263",
       "next_action": "Review run/job logs, confirm root cause, then create a targeted fix.",
       "root_cause_status": "unverified",
       "human_validation_required": true
     },
     {
-      "id": "rem-os-intelligence.yml::intelligence::failure",
-      "workflow": "Unified intelligence",
-      "stage": "intelligence",
+      "id": "rem-resolution-trends.yml::trend::failure",
+      "workflow": "Resolution trends",
+      "stage": "trend",
       "conclusion": "failure",
       "occurrences": 1,
       "priority": "normal",
       "status": "needs-review",
-      "evidence_url": "https://github.com/LaxmanNepal/automation/actions/runs/37362824132",
+      "evidence_url": "https://github.com/LaxmanNepal/automation/actions/runs/37370433612",
+      "next_action": "Review run/job logs, confirm root cause, then create a targeted fix.",
+      "root_cause_status": "unverified",
+      "human_validation_required": true
+    },
+    {
+      "id": "rem-verification-history.yml::history::failure",
+      "workflow": "Verification history",
+      "stage": "history",
+      "conclusion": "failure",
+      "occurrences": 1,
+      "priority": "normal",
+      "status": "needs-review",
+      "evidence_url": "https://github.com/LaxmanNepal/automation/actions/runs/37364422668",
       "next_action": "Review run/job logs, confirm root cause, then create a targeted fix.",
       "root_cause_status": "unverified",
       "human_validation_required": true
     }
   ],
-  "item_count": 2,
+  "item_count": 5,
   "coverage": "Derived only from failure-intelligence evidence.",
   "human_validation_required": true
 }
