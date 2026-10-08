@@ -1,9 +1,18 @@
 {
-  "generated_at": "2026-10-07T16:45:49.778720+00:00",
+  "generated_at": "2026-10-08T16:46:15.748096+00:00",
   "repositories": [
     "LaxmanNepal/automation",
     "LaxmanNepal/laxmannepal"
   ],
-  "problem_count": 0,
-  "problems": []
+  "problem_count": 1,
+  "problems": [
+    {
+      "repository": "LaxmanNepal/automation",
+      "kind": "workflow_failure",
+      "title": "Workflow failing: pages build and deployment",
+      "detail": "Conclusion=failure; commit=1c7dec94; updated=2026-10-08T15:46:55Z",
+      "priority": 100,
+      "fingerprint": "workflow:37803460692:failure"
+    }
+  ]
 }
