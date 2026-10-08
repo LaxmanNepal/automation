@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T15:40:43.914975+00:00",
+  "generated_at": "2026-10-08T15:46:07.875215+00:00",
   "source": "Google News RSS; optional YouTube Data API",
   "count": 6,
   "topics": [
@@ -77,9 +77,9 @@
         "ok": true,
         "result_count": 10,
         "recent_titles": [
-          "5 Free AI Tools That Might Actually Save You Time In 2026 - SlashGear",
-          "15 AI Tools That Are Actually Saving Businesses Time - Entrepreneur",
           "10 Best AI Tools for Developers in 2026 - Memeburn",
+          "15 AI Tools That Are Actually Saving Businesses Time - Entrepreneur",
+          "5 Free AI Tools That Might Actually Save You Time In 2026 - SlashGear",
           "The best AI tools for social media content creation in 2026 - Hootsuite Blog",
           "Top AI Tools for Social Media Management - Metricool"
         ]
@@ -106,8 +106,8 @@
           "Boost Your PDF Workflow – Why SwifDoo PDF Is Worth the Investment - shattered.io",
           "12 AI Project Management Tools to Enhance Project Efficiency - Coursera",
           "7 Social Media Automation Tools That Will Make Your Job Easier - Hootsuite Blog",
-          "How To Make Money With AI: 19 Ideas (2026) - Shopify",
-          "How to Merge and Split PDFs Instantly for Free in Windows 11 : No New Apps - Geeky Gadgets"
+          "6 free tools you can use to automate your Windows PC - XDA",
+          "These 5 everyday tasks are perfect for automation (with free tools) - MakeUseOf"
         ]
       },
       "youtube_search": {
@@ -132,8 +132,8 @@
           "Best free video editing software of 2026: Fully tested and free to use on PC and Mac - TechRadar",
           "I've tested a bunch of PDF editors. These are the best - PCWorld",
           "15 Best Email Marketing Platforms 2026: Free & Paid - Brevo",
-          "7 best Modash alternatives for influencer and creator management - Sprout Social",
-          "5 ChatGPT Alternatives to Know in 2026 (+ More to Consider) - Coursera"
+          "5 Best Substack Alternatives: Which Platform Should You Choose? - Designmodo",
+          "7 best Modash alternatives for influencer and creator management - Sprout Social"
         ]
       },
       "youtube_search": {
