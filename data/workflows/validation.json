@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "generated_at": "2026-10-13T17:47:46.458230+00:00",
+  "generated_at": "2026-10-14T15:29:18.942078+00:00",
   "status": "healthy",
   "records": [
     {
       "workflow": "Money research",
       "workflow_file": "money-live-research.yml",
-      "latest_run_id": 38275733229,
+      "latest_run_id": 38415032591,
       "latest_conclusion": "success",
       "latest_status": "completed",
-      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/38275733229",
+      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/38415032591",
       "validation_state": "validated",
       "validation_basis": "latest recorded workflow conclusion",
       "human_validation_required": true
@@ -17,10 +17,10 @@
     {
       "workflow": "Revenue assets",
       "workflow_file": "revenue-asset-engine.yml",
-      "latest_run_id": 38280681387,
+      "latest_run_id": 38420091081,
       "latest_conclusion": "success",
       "latest_status": "completed",
-      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/38280681387",
+      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/38420091081",
       "validation_state": "validated",
       "validation_basis": "latest recorded workflow conclusion",
       "human_validation_required": true
@@ -28,10 +28,10 @@
     {
       "workflow": "Build issue specs",
       "workflow_file": "build-issue-generator.yml",
-      "latest_run_id": 38281429487,
+      "latest_run_id": 38420797886,
       "latest_conclusion": "success",
       "latest_status": "completed",
-      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/38281429487",
+      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/38420797886",
       "validation_state": "validated",
       "validation_basis": "latest recorded workflow conclusion",
       "human_validation_required": true
@@ -39,10 +39,10 @@
     {
       "workflow": "YouTube opportunities",
       "workflow_file": "youtube-opportunity.yml",
-      "latest_run_id": 38283006584,
+      "latest_run_id": 38422641533,
       "latest_conclusion": "success",
       "latest_status": "completed",
-      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/38283006584",
+      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/38422641533",
       "validation_state": "validated",
       "validation_basis": "latest recorded workflow conclusion",
       "human_validation_required": true
@@ -50,10 +50,10 @@
     {
       "workflow": "YouTube live research",
       "workflow_file": "youtube-live-research.yml",
-      "latest_run_id": 38288610191,
+      "latest_run_id": 38428611098,
       "latest_conclusion": "success",
       "latest_status": "completed",
-      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/38288610191",
+      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/38428611098",
       "validation_state": "validated",
       "validation_basis": "latest recorded workflow conclusion",
       "human_validation_required": true
@@ -61,10 +61,10 @@
     {
       "workflow": "GitHub health",
       "workflow_file": "github-health.yml",
-      "latest_run_id": 38290264979,
+      "latest_run_id": 38431646917,
       "latest_conclusion": "success",
       "latest_status": "completed",
-      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/38290264979",
+      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/38431646917",
       "validation_state": "validated",
       "validation_basis": "latest recorded workflow conclusion",
       "human_validation_required": true
@@ -72,10 +72,10 @@
     {
       "workflow": "Problem detector",
       "workflow_file": "problem-detector.yml",
-      "latest_run_id": 38296104608,
+      "latest_run_id": 38435533821,
       "latest_conclusion": "success",
       "latest_status": "completed",
-      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/38296104608",
+      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/38435533821",
       "validation_state": "validated",
       "validation_basis": "latest recorded workflow conclusion",
       "human_validation_required": true
@@ -83,10 +83,10 @@
     {
       "workflow": "Action queue",
       "workflow_file": "action-queue.yml",
-      "latest_run_id": 38298422041,
+      "latest_run_id": 38437453694,
       "latest_conclusion": "success",
       "latest_status": "completed",
-      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/38298422041",
+      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/38437453694",
       "validation_state": "validated",
       "validation_basis": "latest recorded workflow conclusion",
       "human_validation_required": true
@@ -94,10 +94,10 @@
     {
       "workflow": "Unified intelligence",
       "workflow_file": "os-intelligence.yml",
-      "latest_run_id": 38301044245,
+      "latest_run_id": 38441028847,
       "latest_conclusion": "success",
       "latest_status": "completed",
-      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/38301044245",
+      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/38441028847",
       "validation_state": "validated",
       "validation_basis": "latest recorded workflow conclusion",
       "human_validation_required": true
@@ -105,10 +105,10 @@
     {
       "workflow": "Failure intelligence",
       "workflow_file": "failure-intelligence.yml",
-      "latest_run_id": 38299172194,
+      "latest_run_id": 38438448957,
       "latest_conclusion": "success",
       "latest_status": "completed",
-      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/38299172194",
+      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/38438448957",
       "validation_state": "validated",
       "validation_basis": "latest recorded workflow conclusion",
       "human_validation_required": true
@@ -116,10 +116,10 @@
     {
       "workflow": "Remediation queue",
       "workflow_file": "remediation-queue.yml",
-      "latest_run_id": 38299905663,
+      "latest_run_id": 38439678543,
       "latest_conclusion": "success",
       "latest_status": "completed",
-      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/38299905663",
+      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/38439678543",
       "validation_state": "validated",
       "validation_basis": "latest recorded workflow conclusion",
       "human_validation_required": true
@@ -127,10 +127,10 @@
     {
       "workflow": "Remediation runbooks",
       "workflow_file": "remediation-runbooks.yml",
-      "latest_run_id": 38301089040,
+      "latest_run_id": 38441099795,
       "latest_conclusion": "success",
       "latest_status": "completed",
-      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/38301089040",
+      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/38441099795",
       "validation_state": "validated",
       "validation_basis": "latest recorded workflow conclusion",
       "human_validation_required": true
@@ -138,10 +138,10 @@
     {
       "workflow": "Change verification",
       "workflow_file": "change-verification.yml",
-      "latest_run_id": 38155539551,
+      "latest_run_id": 38301686829,
       "latest_conclusion": "success",
       "latest_status": "completed",
-      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/38155539551",
+      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/38301686829",
       "validation_state": "validated",
       "validation_basis": "latest recorded workflow conclusion",
       "human_validation_required": true
@@ -149,10 +149,10 @@
     {
       "workflow": "Verification history",
       "workflow_file": "verification-history.yml",
-      "latest_run_id": 38156261027,
+      "latest_run_id": 38303023560,
       "latest_conclusion": "success",
       "latest_status": "completed",
-      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/38156261027",
+      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/38303023560",
       "validation_state": "validated",
       "validation_basis": "latest recorded workflow conclusion",
       "human_validation_required": true
@@ -160,10 +160,10 @@
     {
       "workflow": "Resolution ledger",
       "workflow_file": "resolution-ledger.yml",
-      "latest_run_id": 38156457268,
+      "latest_run_id": 38303585483,
       "latest_conclusion": "failure",
       "latest_status": "completed",
-      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/38156457268",
+      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/38303585483",
       "validation_state": "needs-validation",
       "validation_basis": "latest recorded workflow conclusion",
       "human_validation_required": true
@@ -171,10 +171,10 @@
     {
       "workflow": "Resolution SLA",
       "workflow_file": "resolution-sla.yml",
-      "latest_run_id": 38156861872,
+      "latest_run_id": 38304144185,
       "latest_conclusion": "success",
       "latest_status": "completed",
-      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/38156861872",
+      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/38304144185",
       "validation_state": "validated",
       "validation_basis": "latest recorded workflow conclusion",
       "human_validation_required": true
@@ -182,10 +182,10 @@
     {
       "workflow": "Resolution bottlenecks",
       "workflow_file": "resolution-bottlenecks.yml",
-      "latest_run_id": 38160120715,
+      "latest_run_id": 38308537071,
       "latest_conclusion": "success",
       "latest_status": "completed",
-      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/38160120715",
+      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/38308537071",
       "validation_state": "validated",
       "validation_basis": "latest recorded workflow conclusion",
       "human_validation_required": true
@@ -193,10 +193,10 @@
     {
       "workflow": "Resolution trends",
       "workflow_file": "resolution-trends.yml",
-      "latest_run_id": 38160623378,
+      "latest_run_id": 38309427828,
       "latest_conclusion": "success",
       "latest_status": "completed",
-      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/38160623378",
+      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/38309427828",
       "validation_state": "validated",
       "validation_basis": "latest recorded workflow conclusion",
       "human_validation_required": true
