@@ -1,4 +1,4 @@
-# Laxman OS — YouTube Opportunities (2026-10-15)
+# Laxman OS — YouTube Opportunities (2026-10-16)
 
 | Score | Channel | Topic | Intent | Format | Freshness |
 |---:|---|---|---|---|---|
