@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T13:24:09.186055+00:00",
+  "generated_at": "2026-10-17T12:18:25.321672+00:00",
   "source": "Google News RSS; optional YouTube Data API",
   "count": 6,
   "topics": [
@@ -104,10 +104,10 @@
         "result_count": 10,
         "recent_titles": [
           "Streamline campaigns with AI marketing tools - Microsoft",
-          "Boost Your PDF Workflow – Why SwifDoo PDF Is Worth the Investment - shattered.io",
           "How to Use ChatGPT to Automate Tasks - Coursera",
           "7 Social Media Automation Tools That Will Make Your Job Easier - Hootsuite Blog",
-          "6 free tools you can use to automate your Windows PC - XDA"
+          "6 free tools you can use to automate your Windows PC - XDA",
+          "These 5 everyday tasks are perfect for automation (with free tools) - MakeUseOf"
         ]
       },
       "youtube_search": {
