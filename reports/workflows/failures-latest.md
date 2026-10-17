@@ -1,6 +1,6 @@
 # Failure Intelligence
 
-Generated: 2026-10-16T14:38:03.400635+00:00
+Generated: 2026-10-17T13:30:10.673526+00:00
 
 Status: **warning**
 
@@ -10,7 +10,7 @@ Repeated failures are grouped by workflow, failed stage, and conclusion. Root ca
 - Conclusion: `failure`
 - Failed stage: `ledger`
 - Occurrences in latest telemetry: **1**
-- Evidence: https://github.com/LaxmanNepal/automation/actions/runs/38593112396
+- Evidence: https://github.com/LaxmanNepal/automation/actions/runs/38762180248
 - Root cause: **unverified**
 - Next action: Inspect the linked run and failed job logs, confirm the failing stage, then make a targeted fix.
 
