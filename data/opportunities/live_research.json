@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T11:14:49.645819+00:00",
+  "generated_at": "2026-10-18T11:48:00.341279+00:00",
   "count": 4,
   "opportunities": [
     {
@@ -9,25 +9,43 @@
       "asset": "Nepali AI/productivity guide or micro-tool",
       "monetization": "AdSense, affiliate, lead generation",
       "queries": "[\"Nepali AI tools\", \"AI tools Nepal\", \"Excel Nepal\"]",
-      "freshness_signal": 0,
+      "freshness_signal": 30,
       "signals": [
         {
           "query": "Nepali AI tools",
-          "ok": false,
-          "result_count": 0,
-          "error": "HTTP Error 503: Service Unavailable"
+          "ok": true,
+          "result_count": 10,
+          "titles": [
+            "Can AI fake a Nepali voice convincingly? Here’s what the experts say - The Kathmandu Post",
+            "From Nepal to India, how AI is improving disaster management - The Indian Express",
+            "As AI-generated covers spread, Nepali musicians fight to reclaim their voices - Asia News Network",
+            "Nepal disaster: Fake and AI images flood social media as deaths mount - Truth or Fake - France 24",
+            "Nepali founders raise $3M seed for AI explainer-video startup Lamina Labs - Dealroom"
+          ]
         },
         {
           "query": "AI tools Nepal",
-          "ok": false,
-          "result_count": 0,
-          "error": "HTTP Error 503: Service Unavailable"
+          "ok": true,
+          "result_count": 10,
+          "titles": [
+            "Nepali researcher Lamichhane explores misinformation and AI in the digital age - Nepalnews.com",
+            "AI images falsely shared as devastation in Nepal after deadly flood - AFP Fact Check",
+            "Can AI fake a Nepali voice convincingly? Here’s what the experts say - The Kathmandu Post",
+            "AI in Global Health: How GEM25 Catalyzed Scalable Solutions in Ethiopia and Nepal - Harvard Kennedy School",
+            "From Nepal to India, how AI is improving disaster management - The Indian Express"
+          ]
         },
         {
           "query": "Excel Nepal",
-          "ok": false,
-          "result_count": 0,
-          "error": "HTTP Error 503: Service Unavailable"
+          "ok": true,
+          "result_count": 10,
+          "titles": [
+            "How to Make Purchase Bill in Excel | Purchase Bill Calculation in Nepali | Excel Tutorial #excel - YouTube",
+            "Chirag Goyal appointed director of Excel Development Bank - The Himalayan Times",
+            "It’s a Messi situation in Nepal - Nepali Times",
+            "NepalHRM launches HR and payroll software built for Nepali businesses - OnlineKhabar English News",
+            "CARE Nepal - Impact Survey Analysis: Expanding Access to Education and Life Opportunities (Excel) - ReliefWeb"
+          ]
         }
       ],
       "validation": "Validate actual search demand, competition, audience fit, acquisition path, and monetization before building."
@@ -39,25 +57,43 @@
       "asset": "Free creator utility or workflow template",
       "monetization": "AdSense, affiliate, digital products",
       "queries": "[\"YouTube creator tools\", \"YouTube automation tools\", \"free creator tools\"]",
-      "freshness_signal": 0,
+      "freshness_signal": 30,
       "signals": [
         {
           "query": "YouTube creator tools",
-          "ok": false,
-          "result_count": 0,
-          "error": "HTTP Error 503: Service Unavailable"
+          "ok": true,
+          "result_count": 10,
+          "titles": [
+            "New tools to power your creation journey from start to finish - YouTube Official Blog",
+            "YouTube unveils AI creator tools, shopping features at annual event - Reuters",
+            "YouTube is building AI creator tools that do almost everything for them - The Verge",
+            "Alberta Tech's most important creator tool might be curiosity - Mashable",
+            "YouTube releases new AI features for creators within its Studio app - TechCrunch"
+          ]
         },
         {
           "query": "YouTube automation tools",
-          "ok": false,
-          "result_count": 0,
-          "error": "HTTP Error 503: Service Unavailable"
+          "ok": true,
+          "result_count": 10,
+          "titles": [
+            "The AI Plug One of the Biggest AI YouTube Channels, Begins Covering AI Projects - Yahoo Finance",
+            "10 YouTube Channels Keeping You Ahead in AI - KDnuggets",
+            "Faceless YouTube Channel Guide - Metricool",
+            "Thumbs AI Review 2026: The Secret AI Tool for Higher CTR and Viral Thumbnails! - YouTube",
+            "Headliner launches automated YouTube video clipping tool - PodcastingToday"
+          ]
         },
         {
           "query": "free creator tools",
-          "ok": false,
-          "result_count": 0,
-          "error": "HTTP Error 503: Service Unavailable"
+          "ok": true,
+          "result_count": 10,
+          "titles": [
+            "Best AI Image Generators of 2026: We Tested All the Biggest Creative AI Tools - CNET",
+            "ArtCraft’s Seven Free Adobe Alternatives Hit Test Limits - Quasa.io",
+            "Best Free Creator Video Trackers With No Credit Card in 2026 - Startup Fortune",
+            "Creator of free Adobe clones unveils open-source Microsoft Office Excel, PowerPoint, and Word replications — Autodesk tools and other subscription-based services may come next - Tom's Hardware",
+            "Top Tools For Content Creators: The Ultimate List - Salesforce"
+          ]
         }
       ],
       "validation": "Validate actual search demand, competition, audience fit, acquisition path, and monetization before building."
@@ -69,25 +105,43 @@
       "asset": "Calculator, generator, template, or workflow utility",
       "monetization": "AdSense, leads, paid templates",
       "queries": "[\"small business productivity tools\", \"freelancer tools\", \"business templates\"]",
-      "freshness_signal": 0,
+      "freshness_signal": 30,
       "signals": [
         {
           "query": "small business productivity tools",
-          "ok": false,
-          "result_count": 0,
-          "error": "HTTP Error 503: Service Unavailable"
+          "ok": true,
+          "result_count": 10,
+          "titles": [
+            "Future of AI for Small Businesses - Microsoft",
+            "Top 32 Small Business Tools To Try Today - Salesforce",
+            "Meta Expands Muse To Small Businesses — AI Agent Can Connect With Payments, Commerce And Productivity Tools - Yahoo Finance",
+            "Meta Expands Muse AI Agent To Small Businesses With Shopify, Stripe, Slack And More - Stocktwits",
+            "Here's how Google AI is powering small business growth - blog.google"
+          ]
         },
         {
           "query": "freelancer tools",
-          "ok": false,
-          "result_count": 0,
-          "error": "HTTP Error 503: Service Unavailable"
+          "ok": true,
+          "result_count": 10,
+          "titles": [
+            "Best AI Tools to Make Money in 2026: ChatGPT, Claude, AI Agents and Automation - finchannel",
+            "Best Free AI Humanizer Tools for Freelance Writers - Techloy",
+            "11 best AI tools for freelancers to work smarter in 2026 - Hostinger",
+            "New York Times Issues Stern Warning to Its Freelance Writers About AI Use - Futurism",
+            "NYT warns freelancers over AI use following string of accidents - Arab News"
+          ]
         },
         {
           "query": "business templates",
-          "ok": false,
-          "result_count": 0,
-          "error": "HTTP Error 503: Service Unavailable"
+          "ok": true,
+          "result_count": 10,
+          "titles": [
+            "Complete AI Agents Publishes 9,866 AI Agent Templates for Everyday Business Tasks - Kitsap Sun",
+            "Printify Publishes Beginner’s Guide to Selling Canva Templates on Etsy - Detroit Free Press",
+            "6 reminder email templates for small business waiting up to a month to get paid - Rio Grande Guardian",
+            "15 Best Email Marketing Platforms 2026: Free & Paid - Brevo",
+            "AI and Expert Spreadsheet Templates Give Startups Investor-Grade Financial Plans - Akron Beacon Journal"
+          ]
         }
       ],
       "validation": "Validate actual search demand, competition, audience fit, acquisition path, and monetization before building."
@@ -99,25 +153,43 @@
       "asset": "Free alternatives comparison hub",
       "monetization": "Affiliate, AdSense, sponsorships",
       "queries": "[\"free alternatives to software\", \"best free software alternatives\", \"software comparison\"]",
-      "freshness_signal": 0,
+      "freshness_signal": 30,
       "signals": [
         {
           "query": "free alternatives to software",
-          "ok": false,
-          "result_count": 0,
-          "error": "HTTP Error 503: Service Unavailable"
+          "ok": true,
+          "result_count": 10,
+          "titles": [
+            "These Free Alternatives To Microsoft Office Show How AI Is Backfiring On Tech Companies - BGR",
+            "Developer Uses Claude AI to Build 7 Free Adobe Alternatives - TechRepublic",
+            "Someone Rebuilt Free, Open-Source Versions of Photoshop, Premiere, and Lightroom Using AI - PetaPixel",
+            "Best Free and Open-Source Alternatives to Popular Paid Software - PC Tech Magazine",
+            "Creator of free Adobe clones unveils open-source Microsoft Office Excel, PowerPoint, and Word replications — Autodesk tools and other subscription-based services may come next - Tom's Hardware"
+          ]
         },
         {
           "query": "best free software alternatives",
-          "ok": false,
-          "result_count": 0,
-          "error": "HTTP Error 503: Service Unavailable"
+          "ok": true,
+          "result_count": 10,
+          "titles": [
+            "Best Free and Open-Source Alternatives to Popular Paid Software - PC Tech Magazine",
+            "Here is the best photo editing software to use in 2026 - Amateur Photographer",
+            "The Best Free Software: 66 Outstanding Picks Curated by Our Editors - PCMag",
+            "Best Free Office Software 2026: Office Alternatives - tech-insider.org",
+            "I've tested a bunch of PDF editors. These are the best - PCWorld"
+          ]
         },
         {
           "query": "software comparison",
-          "ok": false,
-          "result_count": 0,
-          "error": "HTTP Error 503: Service Unavailable"
+          "ok": true,
+          "result_count": 10,
+          "titles": [
+            "Automation Software Stocks Q2 Earnings Review: SoundHound AI (NASDAQ:SOUN) Shines - Yahoo Finance",
+            "CrowdStrike vs. ServiceNow: Comparing Revenue Trends Between These Growing Software Giants - The Motley Fool",
+            "Inside the Research Behind the 2026 HR Software Pricing Guide - St. Louis Post-Dispatch",
+            "Xero Vs. QuickBooks (2026 Comparison) - Forbes",
+            "The Best Video Editing Software We've Tested for 2026 - PCMag"
+          ]
         }
       ],
       "validation": "Validate actual search demand, competition, audience fit, acquisition path, and monetization before building."
