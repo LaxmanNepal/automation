@@ -2,14 +2,14 @@
 
 Human-review queue derived from failure evidence.
 
-Generated: 2026-10-17T13:41:35.298652+00:00
+Generated: 2026-10-18T13:58:15.269350+00:00
 Status: **warning**
 
 ## 1. Resolution ledger
 - Priority: **normal**
 - Stage: ledger
 - Status: needs-review
-- Evidence: https://github.com/LaxmanNepal/automation/actions/runs/38762180248
+- Evidence: https://github.com/LaxmanNepal/automation/actions/runs/38923711919
 - Root cause: **unverified**
 - Next action: Review run/job logs, confirm root cause, then create a targeted fix.
 
