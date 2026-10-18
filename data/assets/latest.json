@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T11:42:57.983504+00:00",
+  "generated_at": "2026-10-18T12:09:00.360168+00:00",
   "count": 4,
   "assets": [
     {
@@ -9,7 +9,7 @@
       "problem": "Nepali users need simple AI and productivity tutorials in Nepali",
       "audience": "Nepali internet users",
       "monetization": "AdSense, affiliate, lead generation",
-      "research_signal": 0,
+      "research_signal": 30,
       "build_effort": "small MVP",
       "suggested_stack": "Existing LaxmanNepal web stack; no paid API required for MVP",
       "mvp": [
@@ -45,7 +45,7 @@
       "problem": "Creators need lightweight free tools for YouTube workflow",
       "audience": "YouTube creators",
       "monetization": "AdSense, affiliate, digital products",
-      "research_signal": 0,
+      "research_signal": 30,
       "build_effort": "small MVP",
       "suggested_stack": "Existing LaxmanNepal web stack; no paid API required for MVP",
       "mvp": [
@@ -81,7 +81,7 @@
       "problem": "Small businesses need simple online productivity utilities",
       "audience": "Small businesses and freelancers",
       "monetization": "AdSense, leads, paid templates",
-      "research_signal": 0,
+      "research_signal": 30,
       "build_effort": "small MVP",
       "suggested_stack": "Existing LaxmanNepal web stack; no paid API required for MVP",
       "mvp": [
@@ -117,7 +117,7 @@
       "problem": "People compare free alternatives before paying for software",
       "audience": "Software buyers",
       "monetization": "Affiliate, AdSense, sponsorships",
-      "research_signal": 0,
+      "research_signal": 30,
       "build_effort": "small MVP",
       "suggested_stack": "Existing LaxmanNepal web stack; no paid API required for MVP",
       "mvp": [
