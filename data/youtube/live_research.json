@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T12:41:52.940925+00:00",
+  "generated_at": "2026-10-19T15:46:50.241612+00:00",
   "source": "Google News RSS; optional YouTube Data API",
   "count": 6,
   "topics": [
@@ -105,9 +105,9 @@
         "recent_titles": [
           "Streamline campaigns with AI marketing tools - Microsoft",
           "12 AI Project Management Tools to Enhance Project Efficiency - Coursera",
+          "10 Best Free Project Management Tools for Enterprises in 2026 - ET CIO",
           "7 Social Media Automation Tools That Will Make Your Job Easier - Hootsuite Blog",
-          "Best contract management software in 2026: 15 picks - PandaDoc",
-          "How to Use ChatGPT to Automate Tasks - Coursera"
+          "Best contract management software in 2026: 15 picks - PandaDoc"
         ]
       },
       "youtube_search": {
@@ -129,11 +129,11 @@
         "ok": true,
         "result_count": 10,
         "recent_titles": [
-          "The best website builders of 2026: 80+ platforms tested to find the easiest ways to build a site - TechRadar",
-          "Best Free and Open-Source Alternatives to Popular Paid Software - PC Tech Magazine",
           "15 Best Email Marketing Platforms 2026: Free & Paid - Brevo",
+          "Best free video editing software of 2026: Fully tested and free to use on PC and Mac - TechRadar",
           "I've tested a bunch of PDF editors. These are the best - PCWorld",
-          "Best free video editing software of 2026: Fully tested and free to use on PC and Mac - TechRadar"
+          "10 Best SendGrid Alternatives for Its Email Template Builder - Designmodo",
+          "7 best Modash alternatives for influencer and creator management - Sprout Social"
         ]
       },
       "youtube_search": {
