@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-18T13:58:15.269350+00:00",
+  "generated_at": "2026-10-19T16:57:58.914515+00:00",
   "status": "warning",
   "items": [
     {
@@ -11,7 +11,7 @@
       "occurrences": 1,
       "priority": "normal",
       "status": "needs-review",
-      "evidence_url": "https://github.com/LaxmanNepal/automation/actions/runs/38923711919",
+      "evidence_url": "https://github.com/LaxmanNepal/automation/actions/runs/39040116140",
       "next_action": "Review run/job logs, confirm root cause, then create a targeted fix.",
       "root_cause_status": "unverified",
       "human_validation_required": true
