@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T13:40:58.818185+00:00",
+  "generated_at": "2026-10-24T12:50:08.758046+00:00",
   "source": "Google News RSS; optional YouTube Data API",
   "count": 6,
   "topics": [
@@ -77,11 +77,11 @@
         "ok": true,
         "result_count": 10,
         "recent_titles": [
-          "5 Free AI Tools That Might Actually Save You Time In 2026 - SlashGear",
+          "AI for Teachers: The Best Tools and Free Access in 2026 - Fello AI",
           "15 AI Tools That Are Actually Saving Businesses Time - Entrepreneur",
           "We Tested the 10 Best AI Productivity Tools in 2026 - Memeburn",
-          "AI for Teachers: The Best Tools and Free Access in 2026 - Fello AI",
-          "The best AI tools for social media content creation in 2026 - Hootsuite Blog"
+          "The best AI tools for social media content creation in 2026 - Hootsuite Blog",
+          "5 Free AI Tools That Might Actually Save You Time In 2026 - SlashGear"
         ]
       },
       "youtube_search": {
@@ -103,11 +103,11 @@
         "ok": true,
         "result_count": 10,
         "recent_titles": [
-          "Streamline campaigns with AI marketing tools - Microsoft",
           "7 Social Media Automation Tools That Will Make Your Job Easier - Hootsuite Blog",
           "These 5 everyday tasks are perfect for automation (with free tools) - MakeUseOf",
           "6 free tools you can use to automate your Windows PC - XDA",
-          "10 Best Free Project Management Tools for Enterprises in 2026 - ET CIO"
+          "We Tested the 10 Best AI Productivity Tools in 2026 - Memeburn",
+          "How to Use ChatGPT to Automate Tasks - Coursera"
         ]
       },
       "youtube_search": {
@@ -131,8 +131,8 @@
         "recent_titles": [
           "Best free video editing software of 2026: Fully tested and free to use on PC and Mac - TechRadar",
           "I've tested a bunch of PDF editors. These are the best - PCWorld",
-          "10 Best SendGrid Alternatives for Its Email Template Builder - Designmodo",
           "15 Best Email Marketing Platforms 2026: Free & Paid - Brevo",
+          "10 Best SendGrid Alternatives for Its Email Template Builder - Designmodo",
           "The best website builders of 2026: 80+ platforms tested to find the easiest ways to build a site - TechRadar"
         ]
       },
