@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-10-24T14:07:29.737763+00:00",
+  "generated_at": "2026-10-25T14:34:58.200763+00:00",
   "status": "healthy",
   "workflows": [
     {
@@ -8,22 +8,31 @@
       "workflow": "money-live-research.yml",
       "status": "healthy",
       "latest_run": {
-        "id": 40090878057,
+        "id": 40191840334,
         "status": "completed",
         "conclusion": "success",
-        "created_at": "2026-10-24T11:40:56Z",
-        "updated_at": "2026-10-24T11:41:11Z",
-        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40090878057",
-        "duration_seconds": 15,
+        "created_at": "2026-10-25T12:08:51Z",
+        "updated_at": "2026-10-25T12:09:04Z",
+        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40191840334",
+        "duration_seconds": 13,
         "failed_stage": null
       },
       "last_successful_run": {
-        "id": 40090878057,
-        "updated_at": "2026-10-24T11:41:11Z",
-        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40090878057",
-        "duration_seconds": 15
+        "id": 40191840334,
+        "updated_at": "2026-10-25T12:09:04Z",
+        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40191840334",
+        "duration_seconds": 13
       },
       "recent_runs": [
+        {
+          "id": 40191840334,
+          "status": "completed",
+          "conclusion": "success",
+          "created_at": "2026-10-25T12:08:51Z",
+          "updated_at": "2026-10-25T12:09:04Z",
+          "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40191840334",
+          "duration_seconds": 13
+        },
         {
           "id": 40090878057,
           "status": "completed",
@@ -59,15 +68,6 @@
           "updated_at": "2026-10-21T12:29:40Z",
           "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39599998841",
           "duration_seconds": 15
-        },
-        {
-          "id": 39421462876,
-          "status": "completed",
-          "conclusion": "success",
-          "created_at": "2026-10-20T12:20:07Z",
-          "updated_at": "2026-10-20T12:20:22Z",
-          "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39421462876",
-          "duration_seconds": 15
         }
       ]
     },
@@ -76,22 +76,31 @@
       "workflow": "revenue-asset-engine.yml",
       "status": "healthy",
       "latest_run": {
-        "id": 40092776998,
+        "id": 40194259607,
         "status": "completed",
         "conclusion": "success",
-        "created_at": "2026-10-24T12:09:35Z",
-        "updated_at": "2026-10-24T12:09:43Z",
-        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40092776998",
-        "duration_seconds": 8,
+        "created_at": "2026-10-25T12:41:52Z",
+        "updated_at": "2026-10-25T12:42:02Z",
+        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40194259607",
+        "duration_seconds": 10,
         "failed_stage": null
       },
       "last_successful_run": {
-        "id": 40092776998,
-        "updated_at": "2026-10-24T12:09:43Z",
-        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40092776998",
-        "duration_seconds": 8
+        "id": 40194259607,
+        "updated_at": "2026-10-25T12:42:02Z",
+        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40194259607",
+        "duration_seconds": 10
       },
       "recent_runs": [
+        {
+          "id": 40194259607,
+          "status": "completed",
+          "conclusion": "success",
+          "created_at": "2026-10-25T12:41:52Z",
+          "updated_at": "2026-10-25T12:42:02Z",
+          "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40194259607",
+          "duration_seconds": 10
+        },
         {
           "id": 40092776998,
           "status": "completed",
@@ -127,15 +136,6 @@
           "updated_at": "2026-10-21T13:05:10Z",
           "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39604882196",
           "duration_seconds": 10
-        },
-        {
-          "id": 39425726666,
-          "status": "completed",
-          "conclusion": "success",
-          "created_at": "2026-10-20T12:52:46Z",
-          "updated_at": "2026-10-20T12:52:54Z",
-          "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39425726666",
-          "duration_seconds": 8
         }
       ]
     },
@@ -144,22 +144,31 @@
       "workflow": "build-issue-generator.yml",
       "status": "healthy",
       "latest_run": {
-        "id": 40093097792,
+        "id": 40194625610,
         "status": "completed",
         "conclusion": "success",
-        "created_at": "2026-10-24T12:14:16Z",
-        "updated_at": "2026-10-24T12:14:23Z",
-        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40093097792",
+        "created_at": "2026-10-25T12:46:42Z",
+        "updated_at": "2026-10-25T12:46:49Z",
+        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40194625610",
         "duration_seconds": 7,
         "failed_stage": null
       },
       "last_successful_run": {
-        "id": 40093097792,
-        "updated_at": "2026-10-24T12:14:23Z",
-        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40093097792",
+        "id": 40194625610,
+        "updated_at": "2026-10-25T12:46:49Z",
+        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40194625610",
         "duration_seconds": 7
       },
       "recent_runs": [
+        {
+          "id": 40194625610,
+          "status": "completed",
+          "conclusion": "success",
+          "created_at": "2026-10-25T12:46:42Z",
+          "updated_at": "2026-10-25T12:46:49Z",
+          "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40194625610",
+          "duration_seconds": 7
+        },
         {
           "id": 40093097792,
           "status": "completed",
@@ -195,15 +204,6 @@
           "updated_at": "2026-10-21T13:15:13Z",
           "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39606346235",
           "duration_seconds": 8
-        },
-        {
-          "id": 39426933267,
-          "status": "completed",
-          "conclusion": "success",
-          "created_at": "2026-10-20T13:01:39Z",
-          "updated_at": "2026-10-20T13:01:47Z",
-          "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39426933267",
-          "duration_seconds": 8
         }
       ]
     },
@@ -212,22 +212,31 @@
       "workflow": "youtube-opportunity.yml",
       "status": "healthy",
       "latest_run": {
-        "id": 40093785459,
+        "id": 40195183925,
         "status": "completed",
         "conclusion": "success",
-        "created_at": "2026-10-24T12:24:21Z",
-        "updated_at": "2026-10-24T12:24:31Z",
-        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40093785459",
+        "created_at": "2026-10-25T12:54:16Z",
+        "updated_at": "2026-10-25T12:54:26Z",
+        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40195183925",
         "duration_seconds": 10,
         "failed_stage": null
       },
       "last_successful_run": {
-        "id": 40093785459,
-        "updated_at": "2026-10-24T12:24:31Z",
-        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40093785459",
+        "id": 40195183925,
+        "updated_at": "2026-10-25T12:54:26Z",
+        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40195183925",
         "duration_seconds": 10
       },
       "recent_runs": [
+        {
+          "id": 40195183925,
+          "status": "completed",
+          "conclusion": "success",
+          "created_at": "2026-10-25T12:54:16Z",
+          "updated_at": "2026-10-25T12:54:26Z",
+          "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40195183925",
+          "duration_seconds": 10
+        },
         {
           "id": 40093785459,
           "status": "completed",
@@ -263,15 +272,6 @@
           "updated_at": "2026-10-21T13:22:22Z",
           "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39607385808",
           "duration_seconds": 15
-        },
-        {
-          "id": 39428562485,
-          "status": "completed",
-          "conclusion": "success",
-          "created_at": "2026-10-20T13:13:24Z",
-          "updated_at": "2026-10-20T13:13:31Z",
-          "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39428562485",
-          "duration_seconds": 7
         }
       ]
     },
@@ -280,22 +280,31 @@
       "workflow": "youtube-live-research.yml",
       "status": "healthy",
       "latest_run": {
-        "id": 40095565891,
+        "id": 40196884771,
         "status": "completed",
         "conclusion": "success",
-        "created_at": "2026-10-24T12:50:02Z",
-        "updated_at": "2026-10-24T12:50:11Z",
-        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40095565891",
+        "created_at": "2026-10-25T13:16:51Z",
+        "updated_at": "2026-10-25T13:17:00Z",
+        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40196884771",
         "duration_seconds": 9,
         "failed_stage": null
       },
       "last_successful_run": {
-        "id": 40095565891,
-        "updated_at": "2026-10-24T12:50:11Z",
-        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40095565891",
+        "id": 40196884771,
+        "updated_at": "2026-10-25T13:17:00Z",
+        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40196884771",
         "duration_seconds": 9
       },
       "recent_runs": [
+        {
+          "id": 40196884771,
+          "status": "completed",
+          "conclusion": "success",
+          "created_at": "2026-10-25T13:16:51Z",
+          "updated_at": "2026-10-25T13:17:00Z",
+          "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40196884771",
+          "duration_seconds": 9
+        },
         {
           "id": 40095565891,
           "status": "completed",
@@ -331,15 +340,6 @@
           "updated_at": "2026-10-21T14:00:20Z",
           "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39612935406",
           "duration_seconds": 12
-        },
-        {
-          "id": 39433025672,
-          "status": "completed",
-          "conclusion": "success",
-          "created_at": "2026-10-20T13:44:29Z",
-          "updated_at": "2026-10-20T13:44:42Z",
-          "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39433025672",
-          "duration_seconds": 13
         }
       ]
     },
@@ -348,22 +348,31 @@
       "workflow": "github-health.yml",
       "status": "healthy",
       "latest_run": {
-        "id": 40096211815,
+        "id": 40197612331,
         "status": "completed",
         "conclusion": "success",
-        "created_at": "2026-10-24T12:59:23Z",
-        "updated_at": "2026-10-24T12:59:32Z",
-        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40096211815",
+        "created_at": "2026-10-25T13:26:25Z",
+        "updated_at": "2026-10-25T13:26:34Z",
+        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40197612331",
         "duration_seconds": 9,
         "failed_stage": null
       },
       "last_successful_run": {
-        "id": 40096211815,
-        "updated_at": "2026-10-24T12:59:32Z",
-        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40096211815",
+        "id": 40197612331,
+        "updated_at": "2026-10-25T13:26:34Z",
+        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40197612331",
         "duration_seconds": 9
       },
       "recent_runs": [
+        {
+          "id": 40197612331,
+          "status": "completed",
+          "conclusion": "success",
+          "created_at": "2026-10-25T13:26:25Z",
+          "updated_at": "2026-10-25T13:26:34Z",
+          "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40197612331",
+          "duration_seconds": 9
+        },
         {
           "id": 40096211815,
           "status": "completed",
@@ -399,15 +408,6 @@
           "updated_at": "2026-10-21T14:13:46Z",
           "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39614990375",
           "duration_seconds": 9
-        },
-        {
-          "id": 39434903107,
-          "status": "completed",
-          "conclusion": "success",
-          "created_at": "2026-10-20T13:57:19Z",
-          "updated_at": "2026-10-20T13:57:30Z",
-          "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39434903107",
-          "duration_seconds": 11
         }
       ]
     },
@@ -416,22 +416,31 @@
       "workflow": "problem-detector.yml",
       "status": "healthy",
       "latest_run": {
-        "id": 40098228173,
+        "id": 40199367245,
         "status": "completed",
         "conclusion": "success",
-        "created_at": "2026-10-24T13:27:42Z",
-        "updated_at": "2026-10-24T13:27:55Z",
-        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40098228173",
-        "duration_seconds": 13,
+        "created_at": "2026-10-25T13:49:19Z",
+        "updated_at": "2026-10-25T13:49:30Z",
+        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40199367245",
+        "duration_seconds": 11,
         "failed_stage": null
       },
       "last_successful_run": {
-        "id": 40098228173,
-        "updated_at": "2026-10-24T13:27:55Z",
-        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40098228173",
-        "duration_seconds": 13
+        "id": 40199367245,
+        "updated_at": "2026-10-25T13:49:30Z",
+        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40199367245",
+        "duration_seconds": 11
       },
       "recent_runs": [
+        {
+          "id": 40199367245,
+          "status": "completed",
+          "conclusion": "success",
+          "created_at": "2026-10-25T13:49:19Z",
+          "updated_at": "2026-10-25T13:49:30Z",
+          "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40199367245",
+          "duration_seconds": 11
+        },
         {
           "id": 40098228173,
           "status": "completed",
@@ -467,15 +476,6 @@
           "updated_at": "2026-10-21T14:35:13Z",
           "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39617947439",
           "duration_seconds": 64
-        },
-        {
-          "id": 39438966005,
-          "status": "completed",
-          "conclusion": "success",
-          "created_at": "2026-10-20T14:24:54Z",
-          "updated_at": "2026-10-20T14:25:12Z",
-          "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39438966005",
-          "duration_seconds": 18
         }
       ]
     },
@@ -484,22 +484,40 @@
       "workflow": "action-queue.yml",
       "status": "healthy",
       "latest_run": {
-        "id": 40099599499,
+        "id": 40200402936,
         "status": "completed",
         "conclusion": "success",
-        "created_at": "2026-10-24T13:46:39Z",
-        "updated_at": "2026-10-24T13:46:49Z",
-        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40099599499",
-        "duration_seconds": 10,
+        "created_at": "2026-10-25T14:02:49Z",
+        "updated_at": "2026-10-25T14:02:57Z",
+        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40200402936",
+        "duration_seconds": 8,
         "failed_stage": null
       },
       "last_successful_run": {
-        "id": 40099599499,
-        "updated_at": "2026-10-24T13:46:49Z",
-        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40099599499",
-        "duration_seconds": 10
+        "id": 40200402936,
+        "updated_at": "2026-10-25T14:02:57Z",
+        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40200402936",
+        "duration_seconds": 8
       },
       "recent_runs": [
+        {
+          "id": 40200402936,
+          "status": "completed",
+          "conclusion": "success",
+          "created_at": "2026-10-25T14:02:49Z",
+          "updated_at": "2026-10-25T14:02:57Z",
+          "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40200402936",
+          "duration_seconds": 8
+        },
+        {
+          "id": 40190662764,
+          "status": "completed",
+          "conclusion": "success",
+          "created_at": "2026-10-25T11:52:07Z",
+          "updated_at": "2026-10-25T11:52:14Z",
+          "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40190662764",
+          "duration_seconds": 7
+        },
         {
           "id": 40099599499,
           "status": "completed",
@@ -526,24 +544,6 @@
           "updated_at": "2026-10-23T14:34:51Z",
           "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39970816936",
           "duration_seconds": 10
-        },
-        {
-          "id": 39949195120,
-          "status": "completed",
-          "conclusion": "success",
-          "created_at": "2026-10-23T11:52:44Z",
-          "updated_at": "2026-10-23T11:52:52Z",
-          "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39949195120",
-          "duration_seconds": 8
-        },
-        {
-          "id": 39798949672,
-          "status": "completed",
-          "conclusion": "success",
-          "created_at": "2026-10-22T14:48:35Z",
-          "updated_at": "2026-10-22T14:56:02Z",
-          "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39798949672",
-          "duration_seconds": 447
         }
       ]
     },
@@ -552,22 +552,31 @@
       "workflow": "os-intelligence.yml",
       "status": "healthy",
       "latest_run": {
-        "id": 40100931327,
+        "id": 40202526941,
         "status": "completed",
         "conclusion": "success",
-        "created_at": "2026-10-24T14:05:12Z",
-        "updated_at": "2026-10-24T14:05:24Z",
-        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40100931327",
+        "created_at": "2026-10-25T14:30:08Z",
+        "updated_at": "2026-10-25T14:30:20Z",
+        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40202526941",
         "duration_seconds": 12,
         "failed_stage": null
       },
       "last_successful_run": {
-        "id": 40100931327,
-        "updated_at": "2026-10-24T14:05:24Z",
-        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40100931327",
+        "id": 40202526941,
+        "updated_at": "2026-10-25T14:30:20Z",
+        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40202526941",
         "duration_seconds": 12
       },
       "recent_runs": [
+        {
+          "id": 40202526941,
+          "status": "completed",
+          "conclusion": "success",
+          "created_at": "2026-10-25T14:30:08Z",
+          "updated_at": "2026-10-25T14:30:20Z",
+          "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40202526941",
+          "duration_seconds": 12
+        },
         {
           "id": 40100931327,
           "status": "completed",
@@ -603,15 +612,6 @@
           "updated_at": "2026-10-21T15:30:11Z",
           "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39626245618",
           "duration_seconds": 12
-        },
-        {
-          "id": 39447037870,
-          "status": "completed",
-          "conclusion": "success",
-          "created_at": "2026-10-20T15:17:29Z",
-          "updated_at": "2026-10-20T15:17:43Z",
-          "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39447037870",
-          "duration_seconds": 14
         }
       ]
     },
@@ -620,22 +620,31 @@
       "workflow": "failure-intelligence.yml",
       "status": "healthy",
       "latest_run": {
-        "id": 40099987377,
+        "id": 40200848027,
         "status": "completed",
         "conclusion": "success",
-        "created_at": "2026-10-24T13:52:05Z",
-        "updated_at": "2026-10-24T13:52:14Z",
-        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40099987377",
-        "duration_seconds": 9,
+        "created_at": "2026-10-25T14:08:38Z",
+        "updated_at": "2026-10-25T14:08:45Z",
+        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40200848027",
+        "duration_seconds": 7,
         "failed_stage": null
       },
       "last_successful_run": {
-        "id": 40099987377,
-        "updated_at": "2026-10-24T13:52:14Z",
-        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40099987377",
-        "duration_seconds": 9
+        "id": 40200848027,
+        "updated_at": "2026-10-25T14:08:45Z",
+        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40200848027",
+        "duration_seconds": 7
       },
       "recent_runs": [
+        {
+          "id": 40200848027,
+          "status": "completed",
+          "conclusion": "success",
+          "created_at": "2026-10-25T14:08:38Z",
+          "updated_at": "2026-10-25T14:08:45Z",
+          "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40200848027",
+          "duration_seconds": 7
+        },
         {
           "id": 40099987377,
           "status": "completed",
@@ -671,15 +680,6 @@
           "updated_at": "2026-10-21T14:55:12Z",
           "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39621072554",
           "duration_seconds": 11
-        },
-        {
-          "id": 39442352411,
-          "status": "completed",
-          "conclusion": "success",
-          "created_at": "2026-10-20T14:46:48Z",
-          "updated_at": "2026-10-20T14:46:58Z",
-          "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39442352411",
-          "duration_seconds": 10
         }
       ]
     },
@@ -688,22 +688,31 @@
       "workflow": "remediation-queue.yml",
       "status": "healthy",
       "latest_run": {
-        "id": 40100485408,
+        "id": 40201759059,
         "status": "completed",
         "conclusion": "success",
-        "created_at": "2026-10-24T13:59:17Z",
-        "updated_at": "2026-10-24T13:59:24Z",
-        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40100485408",
-        "duration_seconds": 7,
+        "created_at": "2026-10-25T14:20:22Z",
+        "updated_at": "2026-10-25T14:20:31Z",
+        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40201759059",
+        "duration_seconds": 9,
         "failed_stage": null
       },
       "last_successful_run": {
-        "id": 40100485408,
-        "updated_at": "2026-10-24T13:59:24Z",
-        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40100485408",
-        "duration_seconds": 7
+        "id": 40201759059,
+        "updated_at": "2026-10-25T14:20:31Z",
+        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40201759059",
+        "duration_seconds": 9
       },
       "recent_runs": [
+        {
+          "id": 40201759059,
+          "status": "completed",
+          "conclusion": "success",
+          "created_at": "2026-10-25T14:20:22Z",
+          "updated_at": "2026-10-25T14:20:31Z",
+          "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40201759059",
+          "duration_seconds": 9
+        },
         {
           "id": 40100485408,
           "status": "completed",
@@ -739,15 +748,6 @@
           "updated_at": "2026-10-21T15:11:25Z",
           "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39623410893",
           "duration_seconds": 8
-        },
-        {
-          "id": 39444502418,
-          "status": "completed",
-          "conclusion": "success",
-          "created_at": "2026-10-20T15:00:54Z",
-          "updated_at": "2026-10-20T15:01:03Z",
-          "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39444502418",
-          "duration_seconds": 9
         }
       ]
     },
@@ -756,22 +756,31 @@
       "workflow": "remediation-runbooks.yml",
       "status": "healthy",
       "latest_run": {
-        "id": 40100951999,
+        "id": 40202634783,
         "status": "completed",
         "conclusion": "success",
-        "created_at": "2026-10-24T14:05:30Z",
-        "updated_at": "2026-10-24T14:05:37Z",
-        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40100951999",
-        "duration_seconds": 7,
+        "created_at": "2026-10-25T14:31:25Z",
+        "updated_at": "2026-10-25T14:31:33Z",
+        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40202634783",
+        "duration_seconds": 8,
         "failed_stage": null
       },
       "last_successful_run": {
-        "id": 40100951999,
-        "updated_at": "2026-10-24T14:05:37Z",
-        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40100951999",
-        "duration_seconds": 7
+        "id": 40202634783,
+        "updated_at": "2026-10-25T14:31:33Z",
+        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40202634783",
+        "duration_seconds": 8
       },
       "recent_runs": [
+        {
+          "id": 40202634783,
+          "status": "completed",
+          "conclusion": "success",
+          "created_at": "2026-10-25T14:31:25Z",
+          "updated_at": "2026-10-25T14:31:33Z",
+          "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40202634783",
+          "duration_seconds": 8
+        },
         {
           "id": 40100951999,
           "status": "completed",
@@ -807,15 +816,6 @@
           "updated_at": "2026-10-21T15:30:50Z",
           "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39626349529",
           "duration_seconds": 11
-        },
-        {
-          "id": 39447143005,
-          "status": "completed",
-          "conclusion": "success",
-          "created_at": "2026-10-20T15:18:11Z",
-          "updated_at": "2026-10-20T15:18:20Z",
-          "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39447143005",
-          "duration_seconds": 9
         }
       ]
     },
@@ -824,22 +824,31 @@
       "workflow": "change-verification.yml",
       "status": "healthy",
       "latest_run": {
-        "id": 39979139294,
+        "id": 40101291261,
         "status": "completed",
         "conclusion": "success",
-        "created_at": "2026-10-23T15:32:25Z",
-        "updated_at": "2026-10-23T15:32:34Z",
-        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39979139294",
+        "created_at": "2026-10-24T14:10:07Z",
+        "updated_at": "2026-10-24T14:10:16Z",
+        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40101291261",
         "duration_seconds": 9,
         "failed_stage": null
       },
       "last_successful_run": {
-        "id": 39979139294,
-        "updated_at": "2026-10-23T15:32:34Z",
-        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39979139294",
+        "id": 40101291261,
+        "updated_at": "2026-10-24T14:10:16Z",
+        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40101291261",
         "duration_seconds": 9
       },
       "recent_runs": [
+        {
+          "id": 40101291261,
+          "status": "completed",
+          "conclusion": "success",
+          "created_at": "2026-10-24T14:10:07Z",
+          "updated_at": "2026-10-24T14:10:16Z",
+          "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40101291261",
+          "duration_seconds": 9
+        },
         {
           "id": 39979139294,
           "status": "completed",
@@ -875,15 +884,6 @@
           "updated_at": "2026-10-20T15:29:04Z",
           "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39448793771",
           "duration_seconds": 10
-        },
-        {
-          "id": 39292569779,
-          "status": "completed",
-          "conclusion": "success",
-          "created_at": "2026-10-19T17:15:34Z",
-          "updated_at": "2026-10-19T17:15:44Z",
-          "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39292569779",
-          "duration_seconds": 10
         }
       ]
     },
@@ -892,22 +892,31 @@
       "workflow": "verification-history.yml",
       "status": "healthy",
       "latest_run": {
-        "id": 39980703368,
+        "id": 40102648453,
         "status": "completed",
         "conclusion": "success",
-        "created_at": "2026-10-23T15:43:22Z",
-        "updated_at": "2026-10-23T15:43:31Z",
-        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39980703368",
-        "duration_seconds": 9,
+        "created_at": "2026-10-24T14:28:29Z",
+        "updated_at": "2026-10-24T14:28:39Z",
+        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40102648453",
+        "duration_seconds": 10,
         "failed_stage": null
       },
       "last_successful_run": {
-        "id": 39980703368,
-        "updated_at": "2026-10-23T15:43:31Z",
-        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39980703368",
-        "duration_seconds": 9
+        "id": 40102648453,
+        "updated_at": "2026-10-24T14:28:39Z",
+        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40102648453",
+        "duration_seconds": 10
       },
       "recent_runs": [
+        {
+          "id": 40102648453,
+          "status": "completed",
+          "conclusion": "success",
+          "created_at": "2026-10-24T14:28:29Z",
+          "updated_at": "2026-10-24T14:28:39Z",
+          "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40102648453",
+          "duration_seconds": 10
+        },
         {
           "id": 39980703368,
           "status": "completed",
@@ -943,15 +952,6 @@
           "updated_at": "2026-10-20T15:38:17Z",
           "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39450231215",
           "duration_seconds": 9
-        },
-        {
-          "id": 39294175128,
-          "status": "completed",
-          "conclusion": "success",
-          "created_at": "2026-10-19T17:26:46Z",
-          "updated_at": "2026-10-19T17:26:56Z",
-          "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39294175128",
-          "duration_seconds": 10
         }
       ]
     },
@@ -960,17 +960,26 @@
       "workflow": "resolution-ledger.yml",
       "status": "warning",
       "latest_run": {
-        "id": 39981311888,
+        "id": 40103562840,
         "status": "completed",
         "conclusion": "failure",
-        "created_at": "2026-10-23T15:47:37Z",
-        "updated_at": "2026-10-23T15:47:43Z",
-        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39981311888",
-        "duration_seconds": 6,
+        "created_at": "2026-10-24T14:40:37Z",
+        "updated_at": "2026-10-24T14:40:46Z",
+        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40103562840",
+        "duration_seconds": 9,
         "failed_stage": "ledger"
       },
       "last_successful_run": null,
       "recent_runs": [
+        {
+          "id": 40103562840,
+          "status": "completed",
+          "conclusion": "failure",
+          "created_at": "2026-10-24T14:40:37Z",
+          "updated_at": "2026-10-24T14:40:46Z",
+          "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40103562840",
+          "duration_seconds": 9
+        },
         {
           "id": 39981311888,
           "status": "completed",
@@ -1006,15 +1015,6 @@
           "updated_at": "2026-10-20T15:41:43Z",
           "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39450766406",
           "duration_seconds": 7
-        },
-        {
-          "id": 39295445171,
-          "status": "completed",
-          "conclusion": "failure",
-          "created_at": "2026-10-19T17:35:37Z",
-          "updated_at": "2026-10-19T17:35:45Z",
-          "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39295445171",
-          "duration_seconds": 8
         }
       ]
     },
@@ -1023,22 +1023,31 @@
       "workflow": "resolution-sla.yml",
       "status": "healthy",
       "latest_run": {
-        "id": 39982477129,
+        "id": 40104565991,
         "status": "completed",
         "conclusion": "success",
-        "created_at": "2026-10-23T15:55:52Z",
-        "updated_at": "2026-10-23T15:55:59Z",
-        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39982477129",
-        "duration_seconds": 7,
+        "created_at": "2026-10-24T14:54:18Z",
+        "updated_at": "2026-10-24T14:54:27Z",
+        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40104565991",
+        "duration_seconds": 9,
         "failed_stage": null
       },
       "last_successful_run": {
-        "id": 39982477129,
-        "updated_at": "2026-10-23T15:55:59Z",
-        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39982477129",
-        "duration_seconds": 7
+        "id": 40104565991,
+        "updated_at": "2026-10-24T14:54:27Z",
+        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40104565991",
+        "duration_seconds": 9
       },
       "recent_runs": [
+        {
+          "id": 40104565991,
+          "status": "completed",
+          "conclusion": "success",
+          "created_at": "2026-10-24T14:54:18Z",
+          "updated_at": "2026-10-24T14:54:27Z",
+          "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40104565991",
+          "duration_seconds": 9
+        },
         {
           "id": 39982477129,
           "status": "completed",
@@ -1074,15 +1083,6 @@
           "updated_at": "2026-10-20T15:50:39Z",
           "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39452111980",
           "duration_seconds": 8
-        },
-        {
-          "id": 39297070719,
-          "status": "completed",
-          "conclusion": "success",
-          "created_at": "2026-10-19T17:47:01Z",
-          "updated_at": "2026-10-19T17:47:09Z",
-          "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39297070719",
-          "duration_seconds": 8
         }
       ]
     },
@@ -1091,22 +1091,31 @@
       "workflow": "resolution-bottlenecks.yml",
       "status": "healthy",
       "latest_run": {
-        "id": 39989583929,
+        "id": 40107975449,
         "status": "completed",
         "conclusion": "success",
-        "created_at": "2026-10-23T16:46:38Z",
-        "updated_at": "2026-10-23T16:46:49Z",
-        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39989583929",
-        "duration_seconds": 11,
+        "created_at": "2026-10-24T15:39:31Z",
+        "updated_at": "2026-10-24T15:39:39Z",
+        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40107975449",
+        "duration_seconds": 8,
         "failed_stage": null
       },
       "last_successful_run": {
-        "id": 39989583929,
-        "updated_at": "2026-10-23T16:46:49Z",
-        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39989583929",
-        "duration_seconds": 11
+        "id": 40107975449,
+        "updated_at": "2026-10-24T15:39:39Z",
+        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40107975449",
+        "duration_seconds": 8
       },
       "recent_runs": [
+        {
+          "id": 40107975449,
+          "status": "completed",
+          "conclusion": "success",
+          "created_at": "2026-10-24T15:39:31Z",
+          "updated_at": "2026-10-24T15:39:39Z",
+          "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40107975449",
+          "duration_seconds": 8
+        },
         {
           "id": 39989583929,
           "status": "completed",
@@ -1142,15 +1151,6 @@
           "updated_at": "2026-10-20T16:36:57Z",
           "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39458981264",
           "duration_seconds": 8
-        },
-        {
-          "id": 39303509775,
-          "status": "completed",
-          "conclusion": "success",
-          "created_at": "2026-10-19T18:33:40Z",
-          "updated_at": "2026-10-19T18:33:50Z",
-          "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39303509775",
-          "duration_seconds": 10
         }
       ]
     },
@@ -1159,22 +1159,31 @@
       "workflow": "resolution-trends.yml",
       "status": "healthy",
       "latest_run": {
-        "id": 39991836880,
+        "id": 40109011703,
         "status": "completed",
         "conclusion": "success",
-        "created_at": "2026-10-23T17:02:53Z",
-        "updated_at": "2026-10-23T17:03:03Z",
-        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39991836880",
-        "duration_seconds": 10,
+        "created_at": "2026-10-24T15:53:14Z",
+        "updated_at": "2026-10-24T15:53:21Z",
+        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40109011703",
+        "duration_seconds": 7,
         "failed_stage": null
       },
       "last_successful_run": {
-        "id": 39991836880,
-        "updated_at": "2026-10-23T17:03:03Z",
-        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39991836880",
-        "duration_seconds": 10
+        "id": 40109011703,
+        "updated_at": "2026-10-24T15:53:21Z",
+        "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40109011703",
+        "duration_seconds": 7
       },
       "recent_runs": [
+        {
+          "id": 40109011703,
+          "status": "completed",
+          "conclusion": "success",
+          "created_at": "2026-10-24T15:53:14Z",
+          "updated_at": "2026-10-24T15:53:21Z",
+          "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/40109011703",
+          "duration_seconds": 7
+        },
         {
           "id": 39991836880,
           "status": "completed",
@@ -1210,15 +1219,6 @@
           "updated_at": "2026-10-20T16:58:59Z",
           "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39462144712",
           "duration_seconds": 8
-        },
-        {
-          "id": 39304711957,
-          "status": "completed",
-          "conclusion": "success",
-          "created_at": "2026-10-19T18:42:04Z",
-          "updated_at": "2026-10-19T18:42:13Z",
-          "html_url": "https://github.com/LaxmanNepal/automation/actions/runs/39304711957",
-          "duration_seconds": 9
         }
       ]
     }
