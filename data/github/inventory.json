@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-25T14:30:15.804689+00:00",
+  "generated_at": "2026-10-26T16:53:09.381225+00:00",
   "status": "healthy",
   "repositories": [
     {
@@ -8,39 +8,39 @@
       "full_name": "LaxmanNepal/automation",
       "archived": false,
       "open_issues": 2,
-      "updated_at": "2026-10-25T14:20:31Z",
+      "updated_at": "2026-10-26T16:46:18Z",
       "html_url": "https://github.com/LaxmanNepal/automation"
-    },
-    {
-      "name": "iamfromhetauda",
-      "full_name": "LaxmanNepal/iamfromhetauda",
-      "archived": false,
-      "open_issues": 0,
-      "updated_at": "2026-10-25T13:56:47Z",
-      "html_url": "https://github.com/LaxmanNepal/iamfromhetauda"
     },
     {
       "name": "Nepali-Patro",
       "full_name": "LaxmanNepal/Nepali-Patro",
       "archived": false,
       "open_issues": 1,
-      "updated_at": "2026-10-25T13:42:03Z",
+      "updated_at": "2026-10-26T16:05:50Z",
       "html_url": "https://github.com/LaxmanNepal/Nepali-Patro"
     },
     {
-      "name": "NepaliNews",
-      "full_name": "LaxmanNepal/NepaliNews",
+      "name": "aitube",
+      "full_name": "LaxmanNepal/aitube",
       "archived": false,
-      "open_issues": 1,
-      "updated_at": "2026-10-25T11:52:47Z",
-      "html_url": "https://github.com/LaxmanNepal/NepaliNews"
+      "open_issues": 0,
+      "updated_at": "2026-10-26T15:29:50Z",
+      "html_url": "https://github.com/LaxmanNepal/aitube"
+    },
+    {
+      "name": "Gold-Price-In-Nepal",
+      "full_name": "LaxmanNepal/Gold-Price-In-Nepal",
+      "archived": false,
+      "open_issues": 0,
+      "updated_at": "2026-10-26T14:18:23Z",
+      "html_url": "https://github.com/LaxmanNepal/Gold-Price-In-Nepal"
     },
     {
       "name": "laxmannepal.github.io",
       "full_name": "LaxmanNepal/laxmannepal.github.io",
       "archived": false,
       "open_issues": 5,
-      "updated_at": "2026-10-25T11:42:26Z",
+      "updated_at": "2026-10-26T13:15:41Z",
       "html_url": "https://github.com/LaxmanNepal/laxmannepal.github.io"
     },
     {
@@ -48,23 +48,15 @@
       "full_name": "LaxmanNepal/Open-Source",
       "archived": false,
       "open_issues": 0,
-      "updated_at": "2026-10-25T11:35:11Z",
+      "updated_at": "2026-10-26T13:08:23Z",
       "html_url": "https://github.com/LaxmanNepal/Open-Source"
-    },
-    {
-      "name": "Gold-Price-In-Nepal",
-      "full_name": "LaxmanNepal/Gold-Price-In-Nepal",
-      "archived": false,
-      "open_issues": 0,
-      "updated_at": "2026-10-25T11:34:58Z",
-      "html_url": "https://github.com/LaxmanNepal/Gold-Price-In-Nepal"
     },
     {
       "name": "Live-TV",
       "full_name": "LaxmanNepal/Live-TV",
       "archived": false,
       "open_issues": 0,
-      "updated_at": "2026-10-25T11:34:23Z",
+      "updated_at": "2026-10-26T13:07:39Z",
       "html_url": "https://github.com/LaxmanNepal/Live-TV"
     },
     {
@@ -72,7 +64,7 @@
       "full_name": "LaxmanNepal/nepal-jobs",
       "archived": false,
       "open_issues": 0,
-      "updated_at": "2026-10-25T11:31:27Z",
+      "updated_at": "2026-10-26T13:04:47Z",
       "html_url": "https://github.com/LaxmanNepal/nepal-jobs"
     },
     {
@@ -80,7 +72,7 @@
       "full_name": "LaxmanNepal/South-Movies",
       "archived": false,
       "open_issues": 0,
-      "updated_at": "2026-10-25T11:24:16Z",
+      "updated_at": "2026-10-26T13:00:50Z",
       "html_url": "https://github.com/LaxmanNepal/South-Movies"
     },
     {
@@ -88,31 +80,47 @@
       "full_name": "LaxmanNepal/Music",
       "archived": false,
       "open_issues": 0,
-      "updated_at": "2026-10-25T11:24:01Z",
+      "updated_at": "2026-10-26T12:58:21Z",
       "html_url": "https://github.com/LaxmanNepal/Music"
     },
     {
-      "name": "aitube",
-      "full_name": "LaxmanNepal/aitube",
+      "name": "NepaliNews",
+      "full_name": "LaxmanNepal/NepaliNews",
+      "archived": false,
+      "open_issues": 1,
+      "updated_at": "2026-10-26T12:53:30Z",
+      "html_url": "https://github.com/LaxmanNepal/NepaliNews"
+    },
+    {
+      "name": "iamfromhetauda",
+      "full_name": "LaxmanNepal/iamfromhetauda",
       "archived": false,
       "open_issues": 0,
-      "updated_at": "2026-10-25T10:11:06Z",
-      "html_url": "https://github.com/LaxmanNepal/aitube"
+      "updated_at": "2026-10-26T11:26:38Z",
+      "html_url": "https://github.com/LaxmanNepal/iamfromhetauda"
     },
     {
       "name": "github",
       "full_name": "LaxmanNepal/github",
       "archived": false,
       "open_issues": 0,
-      "updated_at": "2026-10-25T09:18:14Z",
+      "updated_at": "2026-10-26T10:23:17Z",
       "html_url": "https://github.com/LaxmanNepal/github"
+    },
+    {
+      "name": "Nisulka-Tools",
+      "full_name": "LaxmanNepal/Nisulka-Tools",
+      "archived": false,
+      "open_issues": 0,
+      "updated_at": "2026-10-26T08:02:55Z",
+      "html_url": "https://github.com/LaxmanNepal/Nisulka-Tools"
     },
     {
       "name": "youtube-channels",
       "full_name": "LaxmanNepal/youtube-channels",
       "archived": false,
       "open_issues": 0,
-      "updated_at": "2026-10-25T05:12:56Z",
+      "updated_at": "2026-10-26T05:13:35Z",
       "html_url": "https://github.com/LaxmanNepal/youtube-channels"
     },
     {
@@ -120,7 +128,7 @@
       "full_name": "LaxmanNepal/laxmannepal",
       "archived": false,
       "open_issues": 0,
-      "updated_at": "2026-10-25T04:47:17Z",
+      "updated_at": "2026-10-26T04:53:14Z",
       "html_url": "https://github.com/LaxmanNepal/laxmannepal"
     },
     {
@@ -128,7 +136,7 @@
       "full_name": "LaxmanNepal/Photos",
       "archived": false,
       "open_issues": 0,
-      "updated_at": "2026-10-25T04:42:54Z",
+      "updated_at": "2026-10-26T04:48:02Z",
       "html_url": "https://github.com/LaxmanNepal/Photos"
     },
     {
@@ -146,14 +154,6 @@
       "open_issues": 0,
       "updated_at": "2026-10-19T22:27:13Z",
       "html_url": "https://github.com/LaxmanNepal/Movies"
-    },
-    {
-      "name": "Nisulka-Tools",
-      "full_name": "LaxmanNepal/Nisulka-Tools",
-      "archived": false,
-      "open_issues": 0,
-      "updated_at": "2026-10-19T08:02:16Z",
-      "html_url": "https://github.com/LaxmanNepal/Nisulka-Tools"
     },
     {
       "name": "nepaliusefullapps",
