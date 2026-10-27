@@ -1,4 +1,4 @@
-# Laxman OS — Opportunity Shortlist (2026-10-26)
+# Laxman OS — Opportunity Shortlist (2026-10-27)
 
 | Score | Category | Opportunity | Evidence | Next action |
 |---:|---|---|---|---|
