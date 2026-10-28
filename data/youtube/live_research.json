@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T14:46:38.175347+00:00",
+  "generated_at": "2026-10-28T15:17:51.901808+00:00",
   "source": "Google News RSS; optional YouTube Data API",
   "count": 6,
   "topics": [
@@ -77,11 +77,11 @@
         "ok": true,
         "result_count": 10,
         "recent_titles": [
-          "AI Deals 2026: Every Way to Save on AI Tools That Works - Fello AI",
-          "5 Free AI Tools That Might Actually Save You Time In 2026 - SlashGear",
           "15 AI Tools That Are Actually Saving Businesses Time - Entrepreneur",
-          "The best AI tools for social media content creation in 2026 - Hootsuite Blog",
-          "We Tested the 10 Best AI Productivity Tools in 2026 - Memeburn"
+          "We Tested the 10 Best AI Productivity Tools in 2026 - Memeburn",
+          "5 Free AI Tools That Might Actually Save You Time In 2026 - SlashGear",
+          "15 Best Free AI Tools for Work and Everyday Use - Simplilearn.com",
+          "The 20 Best AI Tools for Businesses - Intuit"
         ]
       },
       "youtube_search": {
@@ -103,11 +103,11 @@
         "ok": true,
         "result_count": 10,
         "recent_titles": [
+          "What Is AI-Powered Business Automation? - U.S. Chamber of Commerce",
           "7 task automation tools to increase productivity in 2026 - TechTarget",
           "Streamline campaigns with AI marketing tools - Microsoft",
           "5 Workflow Automation Tools for All Professionals - KDnuggets",
-          "9 Best Tools for Automating AI Workflows [2026 Comparison] - Zencoder",
-          "What Is AI-Powered Business Automation? - U.S. Chamber of Commerce"
+          "Automate Your Startup or SMB With These AI Tips and Tools - Salesforce"
         ]
       },
       "youtube_search": {
@@ -129,11 +129,11 @@
         "ok": true,
         "result_count": 10,
         "recent_titles": [
-          "HentAI AI: Top Choices, Alternative Apps - NYC Health + Hospitals",
-          "Top AI Adult Platforms & Responsible Alternatives 2026 - NYC Health + Hospitals",
-          "Top AI NSFW Tools & Platform Alternatives 2026 - NYC Health + Hospitals",
           "Best free video editing software of 2026: Fully tested and free to use on PC and Mac - TechRadar",
-          "I've tested a bunch of PDF editors. These are the best - PCWorld"
+          "HentAI AI: Top Choices, Alternative Apps - NYC Health + Hospitals",
+          "Top Free Adult AI Tools for Creating - NYC Health + Hospitals",
+          "Top AI Adult Platforms & Responsible Alternatives 2026 - NYC Health + Hospitals",
+          "10 Best SendGrid Alternatives for Its Email Template Builder - Designmodo"
         ]
       },
       "youtube_search": {
