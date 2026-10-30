@@ -1,8 +1,14 @@
 {
   "version": 1,
-  "generated_at": "2026-10-29T17:01:50.843431+00:00",
+  "generated_at": "2026-10-30T16:47:21.217996+00:00",
   "status": "ready",
   "top_actions": [
+    {
+      "priority": "high",
+      "category": "problems",
+      "action": "Review problems findings and select a human-approved next step",
+      "evidence": 1
+    },
     {
       "priority": "high",
       "category": "money",
