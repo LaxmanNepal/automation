@@ -2,12 +2,12 @@
 
 Deterministic review checklists generated from remediation evidence.
 
-Generated: 2026-10-31T15:50:01.543183+00:00
+Generated: 2026-11-01T16:53:19.933472+00:00
 
-## 1. GitHub health
-- Stage: health
+## 1. Resolution ledger
+- Stage: ledger
 - Priority: normal
-- Evidence: https://github.com/LaxmanNepal/automation/actions/runs/41080570498
+- Evidence: https://github.com/LaxmanNepal/automation/actions/runs/41095438078
 - Root cause: **unverified**
 - Checklist:
   1. Open the linked workflow run.
@@ -17,10 +17,10 @@ Generated: 2026-10-31T15:50:01.543183+00:00
   5. Review the proposed change before editing code.
   6. Run the relevant validation workflow after the change.
 
-## 2. Resolution ledger
-- Stage: ledger
+## 2. Unified intelligence
+- Stage: intelligence
 - Priority: normal
-- Evidence: https://github.com/LaxmanNepal/automation/actions/runs/40921674898
+- Evidence: https://github.com/LaxmanNepal/automation/actions/runs/41216712380
 - Root cause: **unverified**
 - Checklist:
   1. Open the linked workflow run.
