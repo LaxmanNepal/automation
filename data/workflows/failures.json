@@ -1,31 +1,8 @@
 {
   "version": 1,
-  "generated_at": "2026-10-31T15:37:57.586945+00:00",
+  "generated_at": "2026-11-01T16:37:08.768455+00:00",
   "status": "warning",
   "failures": [
-    {
-      "fingerprint": "github-health.yml::health::failure",
-      "workflow": "github-health.yml",
-      "name": "GitHub health",
-      "failed_stage": "health",
-      "conclusion": "failure",
-      "occurrences": 1,
-      "run_ids": [
-        41080570498
-      ],
-      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/41080570498",
-      "evidence": [
-        {
-          "run_id": 41080570498,
-          "updated_at": "2026-10-30T15:28:59Z",
-          "url": "https://github.com/LaxmanNepal/automation/actions/runs/41080570498",
-          "stage": "health",
-          "conclusion": "failure"
-        }
-      ],
-      "suggested_action": "Inspect the linked run and failed job logs, confirm the failing stage, then make a targeted fix.",
-      "root_cause_status": "unverified"
-    },
     {
       "fingerprint": "resolution-ledger.yml::ledger::failure",
       "workflow": "resolution-ledger.yml",
@@ -34,15 +11,38 @@
       "conclusion": "failure",
       "occurrences": 1,
       "run_ids": [
-        40921674898
+        41095438078
       ],
-      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/40921674898",
+      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/41095438078",
       "evidence": [
         {
-          "run_id": 40921674898,
-          "updated_at": "2026-10-29T17:28:41Z",
-          "url": "https://github.com/LaxmanNepal/automation/actions/runs/40921674898",
+          "run_id": 41095438078,
+          "updated_at": "2026-10-30T17:03:35Z",
+          "url": "https://github.com/LaxmanNepal/automation/actions/runs/41095438078",
           "stage": "ledger",
+          "conclusion": "failure"
+        }
+      ],
+      "suggested_action": "Inspect the linked run and failed job logs, confirm the failing stage, then make a targeted fix.",
+      "root_cause_status": "unverified"
+    },
+    {
+      "fingerprint": "os-intelligence.yml::intelligence::failure",
+      "workflow": "os-intelligence.yml",
+      "name": "Unified intelligence",
+      "failed_stage": "intelligence",
+      "conclusion": "failure",
+      "occurrences": 1,
+      "run_ids": [
+        41216712380
+      ],
+      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/41216712380",
+      "evidence": [
+        {
+          "run_id": 41216712380,
+          "updated_at": "2026-10-31T15:50:07Z",
+          "url": "https://github.com/LaxmanNepal/automation/actions/runs/41216712380",
+          "stage": "intelligence",
           "conclusion": "failure"
         }
       ],
