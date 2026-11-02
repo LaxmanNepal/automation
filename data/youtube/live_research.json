@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T15:22:23.247203+00:00",
+  "generated_at": "2026-11-02T18:39:29.294856+00:00",
   "source": "Google News RSS; optional YouTube Data API",
   "count": 6,
   "topics": [
@@ -77,11 +77,11 @@
         "ok": true,
         "result_count": 10,
         "recent_titles": [
-          "5 Free AI Tools That Might Actually Save You Time In 2026 - SlashGear",
           "15 AI Tools That Are Actually Saving Businesses Time - Entrepreneur",
           "We Tested the 10 Best AI Productivity Tools in 2026 - Memeburn",
-          "5 new AI tools that actually save time - Fast Company",
-          "The 20 Best AI Tools for Businesses - Intuit"
+          "5 Free AI Tools That Might Actually Save You Time In 2026 - SlashGear",
+          "15 Best Free AI Tools for Work and Everyday Use - Simplilearn.com",
+          "5 new AI tools that actually save time - Fast Company"
         ]
       },
       "youtube_search": {
@@ -103,11 +103,11 @@
         "ok": true,
         "result_count": 10,
         "recent_titles": [
-          "What Is AI-Powered Business Automation? - U.S. Chamber of Commerce",
-          "These 3 free Microsoft apps will completely declutter your Windows PC - How-To Geek",
-          "7 task automation tools to increase productivity in 2026 - TechTarget",
-          "5 Workflow Automation Tools for All Professionals - KDnuggets",
-          "Streamline campaigns with AI marketing tools - Microsoft"
+          "AI in manufacturing: Advancing productivity and automating workflows - Microsoft",
+          "7 Social Media Automation Tools That Will Make Your Job Easier - Hootsuite Blog",
+          "We Tested the 10 Best AI Productivity Tools in 2026 - Memeburn",
+          "10 Best Free Project Management Tools for Enterprises in 2026 - ET CIO",
+          "How to Use ChatGPT to Automate Tasks - Coursera"
         ]
       },
       "youtube_search": {
@@ -129,11 +129,11 @@
         "ok": true,
         "result_count": 10,
         "recent_titles": [
-          "The best website builders of 2026: 80+ platforms tested to find the easiest ways to build a site - TechRadar",
+          "The Best Video Editing Software We've Tested for 2026 - PCMag",
+          "Best free video editing software of 2026: Fully tested and free to use on PC and Mac - TechRadar",
           "10 Best SendGrid Alternatives for Its Email Template Builder - Designmodo",
-          "15 Best Email Marketing Platforms 2026: Free & Paid - Brevo",
-          "I've tested a bunch of PDF editors. These are the best - PCWorld",
-          "Best free video editing software of 2026: Fully tested and free to use on PC and Mac - TechRadar"
+          "7 best Modash alternatives for influencer and creator management - Sprout Social",
+          "Top 10 WordPress alternatives: Features, pros, and pricing - Hostinger"
         ]
       },
       "youtube_search": {
