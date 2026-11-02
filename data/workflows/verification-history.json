@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-01T17:05:43.893013+00:00",
+  "generated_at": "2026-11-02T20:44:03.874999+00:00",
   "status": "waiting",
   "timelines": [
     {
@@ -8,16 +8,6 @@
       "remediation_id": "rem-resolution-ledger.yml::ledger::failure",
       "workflow": "Resolution ledger",
       "stage": "ledger",
-      "state": "waiting",
-      "events": [],
-      "causal_claim": "unverified",
-      "human_validation_required": true
-    },
-    {
-      "id": "timeline-rem-os-intelligence.yml::intelligence::failure",
-      "remediation_id": "rem-os-intelligence.yml::intelligence::failure",
-      "workflow": "Unified intelligence",
-      "stage": "intelligence",
       "state": "waiting",
       "events": [],
       "causal_claim": "unverified",
