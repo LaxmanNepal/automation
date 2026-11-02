@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-01T16:53:19.933472+00:00",
+  "generated_at": "2026-11-02T20:28:35.114283+00:00",
   "status": "warning",
   "runbooks": [
     {
@@ -18,30 +18,11 @@
         "Review the proposed change before editing code.",
         "Run the relevant validation workflow after the change."
       ],
-      "evidence_url": "https://github.com/LaxmanNepal/automation/actions/runs/41095438078",
-      "root_cause_status": "unverified",
-      "human_validation_required": true
-    },
-    {
-      "id": "runbook-rem-os-intelligence.yml::intelligence::failure",
-      "remediation_id": "rem-os-intelligence.yml::intelligence::failure",
-      "workflow": "Unified intelligence",
-      "stage": "intelligence",
-      "priority": "normal",
-      "status": "ready-for-review",
-      "steps": [
-        "Open the linked workflow run.",
-        "Inspect the failed job and relevant step logs.",
-        "Confirm whether the failure is reproducible or transient.",
-        "Identify the smallest evidence-backed corrective change.",
-        "Review the proposed change before editing code.",
-        "Run the relevant validation workflow after the change."
-      ],
-      "evidence_url": "https://github.com/LaxmanNepal/automation/actions/runs/41216712380",
+      "evidence_url": "https://github.com/LaxmanNepal/automation/actions/runs/41218487183",
       "root_cause_status": "unverified",
       "human_validation_required": true
     }
   ],
-  "runbook_count": 2,
+  "runbook_count": 1,
   "human_validation_required": true
 }
