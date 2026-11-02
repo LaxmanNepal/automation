@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-01T16:37:08.768455+00:00",
+  "generated_at": "2026-11-02T20:01:43.022847+00:00",
   "status": "warning",
   "failures": [
     {
@@ -11,38 +11,15 @@
       "conclusion": "failure",
       "occurrences": 1,
       "run_ids": [
-        41095438078
+        41218487183
       ],
-      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/41095438078",
+      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/41218487183",
       "evidence": [
         {
-          "run_id": 41095438078,
-          "updated_at": "2026-10-30T17:03:35Z",
-          "url": "https://github.com/LaxmanNepal/automation/actions/runs/41095438078",
+          "run_id": 41218487183,
+          "updated_at": "2026-10-31T16:11:54Z",
+          "url": "https://github.com/LaxmanNepal/automation/actions/runs/41218487183",
           "stage": "ledger",
-          "conclusion": "failure"
-        }
-      ],
-      "suggested_action": "Inspect the linked run and failed job logs, confirm the failing stage, then make a targeted fix.",
-      "root_cause_status": "unverified"
-    },
-    {
-      "fingerprint": "os-intelligence.yml::intelligence::failure",
-      "workflow": "os-intelligence.yml",
-      "name": "Unified intelligence",
-      "failed_stage": "intelligence",
-      "conclusion": "failure",
-      "occurrences": 1,
-      "run_ids": [
-        41216712380
-      ],
-      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/41216712380",
-      "evidence": [
-        {
-          "run_id": 41216712380,
-          "updated_at": "2026-10-31T15:50:07Z",
-          "url": "https://github.com/LaxmanNepal/automation/actions/runs/41216712380",
-          "stage": "intelligence",
           "conclusion": "failure"
         }
       ],
@@ -50,7 +27,7 @@
       "root_cause_status": "unverified"
     }
   ],
-  "failure_count": 2,
+  "failure_count": 1,
   "coverage": "Latest failed/timed-out/cancelled/action-required workflow runs from the workflow monitor.",
   "human_validation_required": true
 }

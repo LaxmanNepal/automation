@@ -1,6 +1,6 @@
 # Failure Intelligence
 
-Generated: 2026-11-01T16:37:08.768455+00:00
+Generated: 2026-11-02T20:01:43.022847+00:00
 
 Status: **warning**
 
@@ -10,15 +10,7 @@ Repeated failures are grouped by workflow, failed stage, and conclusion. Root ca
 - Conclusion: `failure`
 - Failed stage: `ledger`
 - Occurrences in latest telemetry: **1**
-- Evidence: https://github.com/LaxmanNepal/automation/actions/runs/41095438078
-- Root cause: **unverified**
-- Next action: Inspect the linked run and failed job logs, confirm the failing stage, then make a targeted fix.
-
-## 2. Unified intelligence
-- Conclusion: `failure`
-- Failed stage: `intelligence`
-- Occurrences in latest telemetry: **1**
-- Evidence: https://github.com/LaxmanNepal/automation/actions/runs/41216712380
+- Evidence: https://github.com/LaxmanNepal/automation/actions/runs/41218487183
 - Root cause: **unverified**
 - Next action: Inspect the linked run and failed job logs, confirm the failing stage, then make a targeted fix.
 
