@@ -1,8 +1,18 @@
 {
   "version": 1,
-  "generated_at": "2026-11-03T18:24:09.488970+00:00",
+  "generated_at": "2026-11-04T18:36:34.038351+00:00",
   "status": "waiting",
   "timelines": [
+    {
+      "id": "timeline-rem-remediation-runbooks.yml::build::failure",
+      "remediation_id": "rem-remediation-runbooks.yml::build::failure",
+      "workflow": "Remediation runbooks",
+      "stage": "build",
+      "state": "waiting",
+      "events": [],
+      "causal_claim": "unverified",
+      "human_validation_required": true
+    },
     {
       "id": "timeline-rem-resolution-ledger.yml::ledger::failure",
       "remediation_id": "rem-resolution-ledger.yml::ledger::failure",
