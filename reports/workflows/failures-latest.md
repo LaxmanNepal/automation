@@ -1,24 +1,16 @@
 # Failure Intelligence
 
-Generated: 2026-11-04T17:49:31.311405+00:00
+Generated: 2026-11-05T17:53:36.448456+00:00
 
 Status: **warning**
 
 Repeated failures are grouped by workflow, failed stage, and conclusion. Root causes are not asserted without log evidence.
 
-## 1. Remediation runbooks
-- Conclusion: `failure`
-- Failed stage: `build`
-- Occurrences in latest telemetry: **1**
-- Evidence: https://github.com/LaxmanNepal/automation/actions/runs/41689397907
-- Root cause: **unverified**
-- Next action: Inspect the linked run and failed job logs, confirm the failing stage, then make a targeted fix.
-
-## 2. Resolution ledger
+## 1. Resolution ledger
 - Conclusion: `failure`
 - Failed stage: `ledger`
 - Occurrences in latest telemetry: **1**
-- Evidence: https://github.com/LaxmanNepal/automation/actions/runs/41522744656
+- Evidence: https://github.com/LaxmanNepal/automation/actions/runs/41694275974
 - Root cause: **unverified**
 - Next action: Inspect the linked run and failed job logs, confirm the failing stage, then make a targeted fix.
 
