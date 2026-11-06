@@ -1,16 +1,24 @@
 {
-  "generated_at": "2026-11-05T17:31:29.801841+00:00",
+  "generated_at": "2026-11-06T16:52:08.660440+00:00",
   "repositories": [
     "LaxmanNepal/automation",
     "LaxmanNepal/laxmannepal"
   ],
-  "problem_count": 1,
+  "problem_count": 2,
   "problems": [
+    {
+      "repository": "LaxmanNepal/automation",
+      "kind": "workflow_failure",
+      "title": "Workflow failing: pages build and deployment",
+      "detail": "Conclusion=failure; commit=0b3aa153; updated=2026-11-06T15:46:25Z",
+      "priority": 100,
+      "fingerprint": "workflow:42244452853:failure"
+    },
     {
       "repository": "LaxmanNepal/automation",
       "kind": "stale_issue",
       "title": "Stale issue: #9 Workflow failing: pages build and deployment",
-      "detail": "Unchanged for about 30 days: https://github.com/LaxmanNepal/automation/issues/9",
+      "detail": "Unchanged for about 31 days: https://github.com/LaxmanNepal/automation/issues/9",
       "priority": 55,
       "fingerprint": "issue:9"
     }
