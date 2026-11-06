@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-05T18:12:31.754958+00:00",
+  "generated_at": "2026-11-06T17:38:49.697393+00:00",
   "status": "warning",
   "runbooks": [
     {
@@ -18,7 +18,7 @@
         "Review the proposed change before editing code.",
         "Run the relevant validation workflow after the change."
       ],
-      "evidence_url": "https://github.com/LaxmanNepal/automation/actions/runs/41694275974",
+      "evidence_url": "https://github.com/LaxmanNepal/automation/actions/runs/41889831586",
       "root_cause_status": "unverified",
       "human_validation_required": true
     }
