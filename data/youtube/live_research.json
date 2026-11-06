@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T16:37:47.558712+00:00",
+  "generated_at": "2026-11-06T16:05:56.280786+00:00",
   "source": "Google News RSS; optional YouTube Data API",
   "count": 6,
   "topics": [
@@ -77,11 +77,11 @@
         "ok": true,
         "result_count": 10,
         "recent_titles": [
-          "We Tested the 10 Best AI Productivity Tools in 2026 - Memeburn",
-          "15 AI Tools That Are Actually Saving Businesses Time - Entrepreneur",
           "5 Free AI Tools That Might Actually Save You Time In 2026 - SlashGear",
+          "15 AI Tools That Are Actually Saving Businesses Time - Entrepreneur",
+          "We Tested the 10 Best AI Productivity Tools in 2026 - Memeburn",
           "Which AI tools are actually worth paying for? I'm keeping these subscriptions in 2026 - here's why - ZDNET",
-          "7 Free AI Tools to Help Founders Save Time, Cut Costs, and Boost Productivity - Inc.com"
+          "24 AI Tools for Work to Increase Productivity - Coursera"
         ]
       },
       "youtube_search": {
@@ -104,10 +104,10 @@
         "result_count": 10,
         "recent_titles": [
           "7 Social Media Automation Tools That Will Make Your Job Easier - Hootsuite Blog",
-          "These 5 everyday tasks are perfect for automation (with free tools) - MakeUseOf",
-          "6 free tools you can use to automate your Windows PC - XDA",
           "How to Use ChatGPT to Automate Tasks - Coursera",
-          "18 Business Automation Tools to Save Time and Scale - U.S. Chamber of Commerce"
+          "12 AI Project Management Tools to Enhance Project Efficiency - Coursera",
+          "18 Business Automation Tools to Save Time and Scale - U.S. Chamber of Commerce",
+          "These 5 everyday tasks are perfect for automation (with free tools) - MakeUseOf"
         ]
       },
       "youtube_search": {
@@ -124,16 +124,16 @@
       "format": "comparison",
       "monetization": "software/tools audience",
       "freshness": "verify-current",
-      "freshness_signal": 9,
+      "freshness_signal": 10,
       "google_news": {
         "ok": true,
-        "result_count": 9,
+        "result_count": 10,
         "recent_titles": [
           "Best free video editing software of 2026: Fully tested and free to use on PC and Mac - TechRadar",
-          "7 Best ElevenLabs Alternatives for Professional Voiceovers - Goodcall",
+          "Shopify Alternatives (Free + Paid) : 3 better options to consider in 2026 - 01net.com",
           "Best free PDF editor of 2026: Top picks tested for desktop and mobile - TechRadar",
-          "5 Best Substack Alternatives: Which Platform Should You Choose? - Designmodo",
-          "Shopify Alternatives (Free + Paid) : 3 better options to consider in 2026 - 01net.com"
+          "The Best Video Editing Software We've Tested for 2026 - PCMag",
+          "Creator of free Adobe clones unveils open-source Microsoft Office Excel, PowerPoint, and Word replications — Autodesk tools and other subscription-based services may come next - Tom's Hardware"
         ]
       },
       "youtube_search": {

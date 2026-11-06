@@ -1,4 +1,4 @@
-# Laxman OS — Live YouTube Research (2026-11-05)
+# Laxman OS — Live YouTube Research (2026-11-06)
 
 | Channel | Topic | Freshness signal | News results | API mode |
 |---|---|---:|---:|---|
@@ -7,7 +7,7 @@
 | nepali | Excel का 10 काम लाग्ने shortcuts | 0 | 0 | free RSS |
 | english | Best free AI tools that actually save time | 10 | 10 | free RSS |
 | english | How to automate repetitive tasks with free tools | 10 | 10 | free RSS |
-| english | Best free alternatives to popular creator tools | 9 | 9 | free RSS |
+| english | Best free alternatives to popular creator tools | 10 | 10 | free RSS |
 
 ## Interpretation
 The signal measures current searchable/news activity, not expected views, rankings, or revenue. Higher signal means 'research this topic first,' not 'this topic will perform better.'
