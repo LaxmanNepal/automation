@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "generated_at": "2026-11-07T16:34:58.987285+00:00",
+  "generated_at": "2026-11-08T16:45:23.867751+00:00",
   "status": "ready",
   "top_actions": [
     {
       "priority": "high",
       "category": "problems",
       "action": "Review problems findings and select a human-approved next step",
-      "evidence": 1
+      "evidence": 2
     },
     {
       "priority": "high",
