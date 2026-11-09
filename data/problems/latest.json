@@ -1,16 +1,24 @@
 {
-  "generated_at": "2026-11-08T16:09:38.829360+00:00",
+  "generated_at": "2026-11-09T19:57:18.686421+00:00",
   "repositories": [
     "LaxmanNepal/automation",
     "LaxmanNepal/laxmannepal"
   ],
-  "problem_count": 2,
+  "problem_count": 3,
   "problems": [
+    {
+      "repository": "LaxmanNepal/automation",
+      "kind": "workflow_failure",
+      "title": "Workflow failing: YouTube Opportunity Engine",
+      "detail": "Conclusion=failure; commit=0e924f77; updated=2026-11-09T18:10:57Z",
+      "priority": 100,
+      "fingerprint": "workflow:42671576436:failure"
+    },
     {
       "repository": "LaxmanNepal/automation",
       "kind": "stale_issue",
       "title": "Stale issue: #9 Workflow failing: pages build and deployment",
-      "detail": "Unchanged for about 33 days: https://github.com/LaxmanNepal/automation/issues/9",
+      "detail": "Unchanged for about 34 days: https://github.com/LaxmanNepal/automation/issues/9",
       "priority": 55,
       "fingerprint": "issue:9"
     },
@@ -18,7 +26,7 @@
       "repository": "LaxmanNepal/automation",
       "kind": "stale_issue",
       "title": "Stale issue: #10 Workflow failing: pages build and deployment",
-      "detail": "Unchanged for about 30 days: https://github.com/LaxmanNepal/automation/issues/10",
+      "detail": "Unchanged for about 32 days: https://github.com/LaxmanNepal/automation/issues/10",
       "priority": 55,
       "fingerprint": "issue:10"
     }
