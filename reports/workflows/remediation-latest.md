@@ -2,7 +2,7 @@
 
 Human-review queue derived from failure evidence.
 
-Generated: 2026-11-08T16:38:21.317794+00:00
+Generated: 2026-11-09T20:40:35.827834+00:00
 Status: **warning**
 
 ## 1. Resolution ledger
