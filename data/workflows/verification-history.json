@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-09T21:24:46.185277+00:00",
+  "generated_at": "2026-11-10T18:38:50.773101+00:00",
   "status": "waiting",
   "timelines": [
     {
@@ -8,6 +8,16 @@
       "remediation_id": "rem-resolution-ledger.yml::ledger::failure",
       "workflow": "Resolution ledger",
       "stage": "ledger",
+      "state": "waiting",
+      "events": [],
+      "causal_claim": "unverified",
+      "human_validation_required": true
+    },
+    {
+      "id": "timeline-rem-youtube-opportunity.yml::unknown-stage::failure",
+      "remediation_id": "rem-youtube-opportunity.yml::unknown-stage::failure",
+      "workflow": "YouTube opportunities",
+      "stage": "unavailable",
       "state": "waiting",
       "events": [],
       "causal_claim": "unverified",
