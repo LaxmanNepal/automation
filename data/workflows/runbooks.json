@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-09T20:59:06.749615+00:00",
+  "generated_at": "2026-11-10T18:06:51.950100+00:00",
   "status": "warning",
   "runbooks": [
     {
@@ -18,11 +18,30 @@
         "Review the proposed change before editing code.",
         "Run the relevant validation workflow after the change."
       ],
-      "evidence_url": "https://github.com/LaxmanNepal/automation/actions/runs/42267926113",
+      "evidence_url": "https://github.com/LaxmanNepal/automation/actions/runs/42503436167",
+      "root_cause_status": "unverified",
+      "human_validation_required": true
+    },
+    {
+      "id": "runbook-rem-youtube-opportunity.yml::unknown-stage::failure",
+      "remediation_id": "rem-youtube-opportunity.yml::unknown-stage::failure",
+      "workflow": "YouTube opportunities",
+      "stage": "unavailable",
+      "priority": "normal",
+      "status": "ready-for-review",
+      "steps": [
+        "Open the linked workflow run.",
+        "Inspect the failed job and relevant step logs.",
+        "Confirm whether the failure is reproducible or transient.",
+        "Identify the smallest evidence-backed corrective change.",
+        "Review the proposed change before editing code.",
+        "Run the relevant validation workflow after the change."
+      ],
+      "evidence_url": "https://github.com/LaxmanNepal/automation/actions/runs/42671576436",
       "root_cause_status": "unverified",
       "human_validation_required": true
     }
   ],
-  "runbook_count": 1,
+  "runbook_count": 2,
   "human_validation_required": true
 }
