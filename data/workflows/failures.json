@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-09T20:30:30.197155+00:00",
+  "generated_at": "2026-11-10T17:31:22.108659+00:00",
   "status": "warning",
   "failures": [
     {
@@ -11,15 +11,38 @@
       "conclusion": "failure",
       "occurrences": 1,
       "run_ids": [
-        42267926113
+        42503436167
       ],
-      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/42267926113",
+      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/42503436167",
       "evidence": [
         {
-          "run_id": 42267926113,
-          "updated_at": "2026-11-06T18:08:17Z",
-          "url": "https://github.com/LaxmanNepal/automation/actions/runs/42267926113",
+          "run_id": 42503436167,
+          "updated_at": "2026-11-08T17:08:29Z",
+          "url": "https://github.com/LaxmanNepal/automation/actions/runs/42503436167",
           "stage": "ledger",
+          "conclusion": "failure"
+        }
+      ],
+      "suggested_action": "Inspect the linked run and failed job logs, confirm the failing stage, then make a targeted fix.",
+      "root_cause_status": "unverified"
+    },
+    {
+      "fingerprint": "youtube-opportunity.yml::unknown-stage::failure",
+      "workflow": "youtube-opportunity.yml",
+      "name": "YouTube opportunities",
+      "failed_stage": null,
+      "conclusion": "failure",
+      "occurrences": 1,
+      "run_ids": [
+        42671576436
+      ],
+      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/42671576436",
+      "evidence": [
+        {
+          "run_id": 42671576436,
+          "updated_at": "2026-11-09T18:10:57Z",
+          "url": "https://github.com/LaxmanNepal/automation/actions/runs/42671576436",
+          "stage": null,
           "conclusion": "failure"
         }
       ],
@@ -27,7 +50,7 @@
       "root_cause_status": "unverified"
     }
   ],
-  "failure_count": 1,
+  "failure_count": 2,
   "coverage": "Latest failed/timed-out/cancelled/action-required workflow runs from the workflow monitor.",
   "human_validation_required": true
 }
