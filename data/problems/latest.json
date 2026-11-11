@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T17:12:24.124956+00:00",
+  "generated_at": "2026-11-11T17:20:40.764989+00:00",
   "repositories": [
     "LaxmanNepal/automation",
     "LaxmanNepal/laxmannepal"
@@ -10,7 +10,7 @@
       "repository": "LaxmanNepal/automation",
       "kind": "stale_issue",
       "title": "Stale issue: #9 Workflow failing: pages build and deployment",
-      "detail": "Unchanged for about 35 days: https://github.com/LaxmanNepal/automation/issues/9",
+      "detail": "Unchanged for about 36 days: https://github.com/LaxmanNepal/automation/issues/9",
       "priority": 55,
       "fingerprint": "issue:9"
     },
@@ -18,7 +18,7 @@
       "repository": "LaxmanNepal/automation",
       "kind": "stale_issue",
       "title": "Stale issue: #10 Workflow failing: pages build and deployment",
-      "detail": "Unchanged for about 33 days: https://github.com/LaxmanNepal/automation/issues/10",
+      "detail": "Unchanged for about 34 days: https://github.com/LaxmanNepal/automation/issues/10",
       "priority": 55,
       "fingerprint": "issue:10"
     }
