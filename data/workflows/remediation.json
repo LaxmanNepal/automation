@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-10T17:44:49.438117+00:00",
+  "generated_at": "2026-11-11T17:51:28.179429+00:00",
   "status": "warning",
   "items": [
     {
@@ -11,26 +11,13 @@
       "occurrences": 1,
       "priority": "normal",
       "status": "needs-review",
-      "evidence_url": "https://github.com/LaxmanNepal/automation/actions/runs/42503436167",
-      "next_action": "Review run/job logs, confirm root cause, then create a targeted fix.",
-      "root_cause_status": "unverified",
-      "human_validation_required": true
-    },
-    {
-      "id": "rem-youtube-opportunity.yml::unknown-stage::failure",
-      "workflow": "YouTube opportunities",
-      "stage": "unavailable",
-      "conclusion": "failure",
-      "occurrences": 1,
-      "priority": "normal",
-      "status": "needs-review",
-      "evidence_url": "https://github.com/LaxmanNepal/automation/actions/runs/42671576436",
+      "evidence_url": "https://github.com/LaxmanNepal/automation/actions/runs/42703097767",
       "next_action": "Review run/job logs, confirm root cause, then create a targeted fix.",
       "root_cause_status": "unverified",
       "human_validation_required": true
     }
   ],
-  "item_count": 2,
+  "item_count": 1,
   "coverage": "Derived only from failure-intelligence evidence.",
   "human_validation_required": true
 }
