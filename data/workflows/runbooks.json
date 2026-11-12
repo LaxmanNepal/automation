@@ -1,8 +1,27 @@
 {
   "version": 1,
-  "generated_at": "2026-11-10T18:06:51.950100+00:00",
+  "generated_at": "2026-11-12T18:31:40.175455+00:00",
   "status": "warning",
   "runbooks": [
+    {
+      "id": "runbook-rem-remediation-runbooks.yml::build::failure",
+      "remediation_id": "rem-remediation-runbooks.yml::build::failure",
+      "workflow": "Remediation runbooks",
+      "stage": "build",
+      "priority": "normal",
+      "status": "ready-for-review",
+      "steps": [
+        "Open the linked workflow run.",
+        "Inspect the failed job and relevant step logs.",
+        "Confirm whether the failure is reproducible or transient.",
+        "Identify the smallest evidence-backed corrective change.",
+        "Review the proposed change before editing code.",
+        "Run the relevant validation workflow after the change."
+      ],
+      "evidence_url": "https://github.com/LaxmanNepal/automation/actions/runs/43073455921",
+      "root_cause_status": "unverified",
+      "human_validation_required": true
+    },
     {
       "id": "runbook-rem-resolution-ledger.yml::ledger::failure",
       "remediation_id": "rem-resolution-ledger.yml::ledger::failure",
@@ -18,26 +37,7 @@
         "Review the proposed change before editing code.",
         "Run the relevant validation workflow after the change."
       ],
-      "evidence_url": "https://github.com/LaxmanNepal/automation/actions/runs/42503436167",
-      "root_cause_status": "unverified",
-      "human_validation_required": true
-    },
-    {
-      "id": "runbook-rem-youtube-opportunity.yml::unknown-stage::failure",
-      "remediation_id": "rem-youtube-opportunity.yml::unknown-stage::failure",
-      "workflow": "YouTube opportunities",
-      "stage": "unavailable",
-      "priority": "normal",
-      "status": "ready-for-review",
-      "steps": [
-        "Open the linked workflow run.",
-        "Inspect the failed job and relevant step logs.",
-        "Confirm whether the failure is reproducible or transient.",
-        "Identify the smallest evidence-backed corrective change.",
-        "Review the proposed change before editing code.",
-        "Run the relevant validation workflow after the change."
-      ],
-      "evidence_url": "https://github.com/LaxmanNepal/automation/actions/runs/42671576436",
+      "evidence_url": "https://github.com/LaxmanNepal/automation/actions/runs/42877990452",
       "root_cause_status": "unverified",
       "human_validation_required": true
     }

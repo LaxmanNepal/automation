@@ -2,12 +2,12 @@
 
 Deterministic review checklists generated from remediation evidence.
 
-Generated: 2026-11-10T18:06:51.950100+00:00
+Generated: 2026-11-12T18:31:40.175455+00:00
 
-## 1. Resolution ledger
-- Stage: ledger
+## 1. Remediation runbooks
+- Stage: build
 - Priority: normal
-- Evidence: https://github.com/LaxmanNepal/automation/actions/runs/42503436167
+- Evidence: https://github.com/LaxmanNepal/automation/actions/runs/43073455921
 - Root cause: **unverified**
 - Checklist:
   1. Open the linked workflow run.
@@ -17,10 +17,10 @@ Generated: 2026-11-10T18:06:51.950100+00:00
   5. Review the proposed change before editing code.
   6. Run the relevant validation workflow after the change.
 
-## 2. YouTube opportunities
-- Stage: unavailable
+## 2. Resolution ledger
+- Stage: ledger
 - Priority: normal
-- Evidence: https://github.com/LaxmanNepal/automation/actions/runs/42671576436
+- Evidence: https://github.com/LaxmanNepal/automation/actions/runs/42877990452
 - Root cause: **unverified**
 - Checklist:
   1. Open the linked workflow run.
