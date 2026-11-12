@@ -1,6 +1,6 @@
 # Daily Command
 
-Generated: 2026-11-11T17:59:44.717798+00:00
+Generated: 2026-11-12T18:30:36.778351+00:00
 
 1. Review problems findings and select a human-approved next step — problems / high
 2. Review money findings and select a human-approved next step — money / high
