@@ -1,4 +1,4 @@
-# Laxman OS — Daily Command (2026-11-16)
+# Laxman OS — Daily Command (2026-11-17)
 
 ## Today's focus
 1. Find one revenue opportunity.
