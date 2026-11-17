@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T16:31:13.640502+00:00",
+  "generated_at": "2026-11-17T16:31:27.262293+00:00",
   "count": 4,
   "opportunities": [
     {
@@ -9,30 +9,24 @@
       "asset": "Nepali AI/productivity guide or micro-tool",
       "monetization": "AdSense, affiliate, lead generation",
       "queries": "[\"Nepali AI tools\", \"AI tools Nepal\", \"Excel Nepal\"]",
-      "freshness_signal": 30,
+      "freshness_signal": 20,
       "signals": [
         {
           "query": "Nepali AI tools",
-          "ok": true,
-          "result_count": 10,
-          "titles": [
-            "Nepal disaster: Fake and AI images flood social media as deaths mount - Truth or Fake - France 24",
-            "As AI-generated covers spread, Nepali musicians fight to reclaim their voices - Asia News Network",
-            "Can AI fake a Nepali voice convincingly? Here’s what the experts say - The Kathmandu Post",
-            "Nepali founders raise $3M seed for AI explainer-video startup Lamina Labs - Dealroom",
-            "AI Tool Identifies Genetic Stroke Risk - Ratopati"
-          ]
+          "ok": false,
+          "result_count": 0,
+          "error": "HTTP Error 429: Too Many Requests"
         },
         {
           "query": "AI tools Nepal",
           "ok": true,
           "result_count": 10,
           "titles": [
+            "What AI coding tools mean for entry-level IT jobs in Nepal - The Farsight Nepal",
             "AI Tools Boost Climate Adaptation in Nepal - fundsforNGOs",
-            "AI images falsely shared as devastation in Nepal after deadly flood - AFP Fact Check",
-            "AI in Global Health: How GEM25 Catalyzed Scalable Solutions in Ethiopia and Nepal - Harvard Kennedy School",
             "Nepal disaster: Fake and AI images flood social media as deaths mount - Truth or Fake - France 24",
-            "Reporter’s notebook: In Nepal and Sri Lanka, AI boom brings hope - Computerworld"
+            "Ronda Zelezny-Green on how Nepal’s teachers are using AI ‘almost blindly’ - The Kathmandu Post",
+            "Beyond the algorithm: Why Nepal’s AI future depends on human wisdom - Nepalnews.com"
           ]
         },
         {
@@ -41,10 +35,10 @@
           "result_count": 10,
           "titles": [
             "Chirag Goyal appointed director of Excel Development Bank - The Himalayan Times",
+            "Faith, frenzy, and the future of democracy - Nepalnews.com",
             "T20 World Cup 2026 schedule - full match list - Olympics",
-            "T20 World Cup 2026 curtain raiser - Nepali Times",
-            "Supporting Nepal’s Women Masons to Thrive in Construction Sector - World Bank Blogs",
-            "Top 5 Products to Source from Nepal to the USA - Vocal"
+            "Growth in Immigrants from Some Countries and Regions Has Been Enormous - Center for Immigration Studies",
+            "Supporting Nepal’s Women Masons to Thrive in Construction Sector - World Bank Blogs"
           ]
         }
       ],
@@ -57,18 +51,18 @@
       "asset": "Free creator utility or workflow template",
       "monetization": "AdSense, affiliate, digital products",
       "queries": "[\"YouTube creator tools\", \"YouTube automation tools\", \"free creator tools\"]",
-      "freshness_signal": 30,
+      "freshness_signal": 20,
       "signals": [
         {
           "query": "YouTube creator tools",
           "ok": true,
           "result_count": 10,
           "titles": [
+            "YouTube's video tests will give creators seven days to pick a winning cut - PPC Land",
             "YouTube unveils AI creator tools, shopping features at annual event - Reuters",
             "New tools to power your creation journey from start to finish - blog.youtube",
             "YouTube is building AI creator tools that do almost everything for them - The Verge",
-            "YouTube launches AI creator tools, expands shopping to 35 countries - Quartz",
-            "YouTube unveils AI editing assistant, new insight tools for creators - Mashable"
+            "YouTube launches AI creator tools, expands shopping to 35 countries - Quartz"
           ]
         },
         {
@@ -85,15 +79,9 @@
         },
         {
           "query": "free creator tools",
-          "ok": true,
-          "result_count": 10,
-          "titles": [
-            "Apple Creator Studio adds powerful new AI features and even more creative tools - Apple",
-            "50 content creator tools you need to know about - Sprout Social",
-            "YouTube is testing a tool that lets creators generate royalty-free music for their videos - Tubefilter",
-            "Best free video editing software of 2026: Fully tested and free to use on PC and Mac - TechRadar",
-            "Free Influencer Marketing Tools to Find Influencers - Influencer Marketing Hub"
-          ]
+          "ok": false,
+          "result_count": 0,
+          "error": "HTTP Error 429: Too Many Requests"
         }
       ],
       "validation": "Validate actual search demand, competition, audience fit, acquisition path, and monetization before building."
@@ -105,43 +93,25 @@
       "asset": "Calculator, generator, template, or workflow utility",
       "monetization": "AdSense, leads, paid templates",
       "queries": "[\"small business productivity tools\", \"freelancer tools\", \"business templates\"]",
-      "freshness_signal": 30,
+      "freshness_signal": 0,
       "signals": [
         {
           "query": "small business productivity tools",
-          "ok": true,
-          "result_count": 10,
-          "titles": [
-            "Top 32 Small Business Tools To Try Today - Salesforce",
-            "Future of AI for Small Businesses - Microsoft",
-            "Google announces new Gemini AI productivity tools for business owners - Deccan Herald",
-            "10 Essential Tools for Small Business Productivity - Small Business Trends",
-            "Here's how Google AI is powering small business growth - blog.google"
-          ]
+          "ok": false,
+          "result_count": 0,
+          "error": "HTTP Error 429: Too Many Requests"
         },
         {
           "query": "freelancer tools",
-          "ok": true,
-          "result_count": 10,
-          "titles": [
-            "Rough Cuts on a Freelancer’s Clock - Understanding Adobe Premiere’s AI tools by PVC News Staff, for Adobe - - ProVideo Coalition",
-            "7 tools and tips for getting — and staying — organized as a freelancer - Association of Health Care Journalists",
-            "11 best AI tools for freelancers to work smarter in 2026 - Hostinger",
-            "Best AI Tools to Make Money in 2026: ChatGPT, Claude, AI Agents and Automation - finchannel",
-            "New York Times Issues Stern Warning to Its Freelance Writers About AI Use - Futurism"
-          ]
+          "ok": false,
+          "result_count": 0,
+          "error": "HTTP Error 429: Too Many Requests"
         },
         {
           "query": "business templates",
-          "ok": true,
-          "result_count": 10,
-          "titles": [
-            "6 reminder email templates for small business waiting up to a month to get paid - Rock Hill Herald",
-            "Build infographic and report templates in ArcGIS Business Analyst Pro - Esri",
-            "Business Plan Template: Free Guide and Tips (2026) - Shopify",
-            "Make your own business templates in Google Docs - Computerworld",
-            "I Swapped Freelancing for Selling Digital Templates and Now Make $250K - Business Insider"
-          ]
+          "ok": false,
+          "result_count": 0,
+          "error": "HTTP Error 429: Too Many Requests"
         }
       ],
       "validation": "Validate actual search demand, competition, audience fit, acquisition path, and monetization before building."
@@ -153,7 +123,7 @@
       "asset": "Free alternatives comparison hub",
       "monetization": "Affiliate, AdSense, sponsorships",
       "queries": "[\"free alternatives to software\", \"best free software alternatives\", \"software comparison\"]",
-      "freshness_signal": 30,
+      "freshness_signal": 20,
       "signals": [
         {
           "query": "free alternatives to software",
@@ -164,31 +134,25 @@
             "A developer used AI to build 7 free Adobe alternatives, and subscription software has a new problem - How-To Geek",
             "The best Adobe Illustrator alternatives, for all budgets and skill levels - Creative Bloq",
             "I ditched 4 expensive desktop apps for free open-source alternatives, and I wish I'd done it sooner - XDA",
-            "UTC Hosts Open Source Software Workshop - WDEF"
+            "Someone Vibe Coded a Free Knockoff of Adobe Creative Suite - Gizmodo"
           ]
         },
         {
           "query": "best free software alternatives",
-          "ok": true,
-          "result_count": 10,
-          "titles": [
-            "The best Adobe Illustrator alternatives, for all budgets and skill levels - Creative Bloq",
-            "The Best Free Software: 66 Outstanding Picks Curated by Our Editors - PCMag",
-            "Best free indoor cycling apps: 6 free alternatives to Zwift - BikeRadar",
-            "These 5 legendary free, open-source apps are better than their expensive paid alternatives - How-To Geek",
-            "Best free video editing software of 2026: Fully tested and free to use on PC and Mac - TechRadar"
-          ]
+          "ok": false,
+          "result_count": 0,
+          "error": "HTTP Error 429: Too Many Requests"
         },
         {
           "query": "software comparison",
           "ok": true,
           "result_count": 10,
           "titles": [
+            "The Weapon Passed Legal Review, Then the Software Changed - Lieber Institute West Point",
             "The 7 Best Payroll Software Providers for Small Businesses in 2026 - ADP",
+            "Best Budgeting Apps Of 2026: Tested And Ranked - Forbes",
             "The Best Antivirus Software We've Tested for 2026 - PCMag",
-            "Best Payroll Software And Services For Small Business (2026) - Forbes",
-            "7 Best Video Conferencing Software Options Compared - Small Business Trends",
-            "Best VPN Service for 2026: The Top-Ranked VPNs in Our Testing - CNET"
+            "7 Best Video Conferencing Software Options Compared - Small Business Trends"
           ]
         }
       ],
