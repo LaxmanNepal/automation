@@ -1,4 +1,4 @@
-# Laxman OS — Revenue Asset Specs (2026-11-18)
+# Laxman OS — Revenue Asset Specs (2026-11-19)
 
 | Asset | Source | Audience | Monetization | Signal |
 |---|---|---|---|---:|
