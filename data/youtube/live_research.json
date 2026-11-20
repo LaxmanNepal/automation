@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T17:31:17.129240+00:00",
+  "generated_at": "2026-11-20T17:05:24.905504+00:00",
   "source": "Google News RSS; optional YouTube Data API",
   "count": 6,
   "topics": [
@@ -77,8 +77,8 @@
         "ok": true,
         "result_count": 10,
         "recent_titles": [
-          "5 Free AI Tools That Might Actually Save You Time In 2026 - SlashGear",
           "15 AI Tools That Are Actually Saving Businesses Time - Entrepreneur",
+          "5 Free AI Tools That Might Actually Save You Time In 2026 - SlashGear",
           "We Tested the 10 Best AI Productivity Tools in 2026 - Memeburn",
           "I tried to save $1,200 by vibe coding for free – and quickly regretted it - ZDNET",
           "24 AI Tools for Work to Increase Productivity - Coursera"
@@ -107,7 +107,7 @@
           "These 5 everyday tasks are perfect for automation (with free tools) - MakeUseOf",
           "6 free tools you can use to automate your Windows PC - XDA",
           "How to Use ChatGPT to Automate Tasks - Coursera",
-          "7 task automation tools to increase productivity in 2026 - TechTarget"
+          "8 Free Project Management Tools for Small Businesses (2026) - Shopify"
         ]
       },
       "youtube_search": {
@@ -132,7 +132,7 @@
           "10 Best SendGrid Alternatives for Its Email Template Builder - Designmodo",
           "The Best Video Editing Software We've Tested for 2026 - PCMag",
           "Best free video editing software of 2026: Fully tested and free to use on PC and Mac - TechRadar",
-          "5 Best Squarespace Alternatives of 2026 (Reviewed & Ranked) - 01net.com",
+          "Top 8 Website Builders of This Year: Expert Reviews and Comparisons - Themeisle",
           "7 best Modash alternatives for influencer and creator management - Sprout Social"
         ]
       },
