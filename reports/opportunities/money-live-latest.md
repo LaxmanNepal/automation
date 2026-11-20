@@ -1,4 +1,4 @@
-# Laxman OS — Money Live Research (2026-11-19)
+# Laxman OS — Money Live Research (2026-11-20)
 
 | Signal | Problem | Asset | Monetization |
 |---:|---|---|---|
