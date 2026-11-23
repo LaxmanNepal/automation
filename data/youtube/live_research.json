@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T16:31:02.941330+00:00",
+  "generated_at": "2026-11-23T20:26:24.851573+00:00",
   "source": "Google News RSS; optional YouTube Data API",
   "count": 6,
   "topics": [
@@ -106,8 +106,8 @@
           "7 Social Media Automation Tools That Will Make Your Job Easier - Hootsuite Blog",
           "12 AI Project Management Tools to Enhance Project Efficiency - Coursera",
           "How to Use ChatGPT to Automate Tasks - Coursera",
-          "These 5 everyday tasks are perfect for automation (with free tools) - MakeUseOf",
-          "What Is AI-Powered Business Automation? - U.S. Chamber of Commerce"
+          "What Is AI-Powered Business Automation? - U.S. Chamber of Commerce",
+          "These 5 everyday tasks are perfect for automation (with free tools) - MakeUseOf"
         ]
       },
       "youtube_search": {
@@ -129,11 +129,11 @@
         "ok": true,
         "result_count": 10,
         "recent_titles": [
-          "Best Budgeting Apps Of 2026: Tested And Ranked - Forbes",
+          "The Best Website Builders We've Tested for 2026 - PCMag",
           "10 Best SendGrid Alternatives for Its Email Template Builder - Designmodo",
-          "The Best Video Editing Software We've Tested for 2026 - PCMag",
           "Best free video editing software of 2026: Fully tested and free to use on PC and Mac - TechRadar",
-          "Creator of free Adobe clones unveils open-source Microsoft Office Excel, PowerPoint, and Word replications — Autodesk tools and other subscription-based services may come next - Tom's Hardware"
+          "Creator of free Adobe clones unveils open-source Microsoft Office Excel, PowerPoint, and Word replications — Autodesk tools and other subscription-based services may come next - Tom's Hardware",
+          "The Best Video Editing Software We've Tested for 2026 - PCMag"
         ]
       },
       "youtube_search": {
