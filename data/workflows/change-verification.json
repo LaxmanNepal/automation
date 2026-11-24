@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-23T22:19:02.422222+00:00",
+  "generated_at": "2026-11-24T20:56:22.032918+00:00",
   "status": "waiting",
   "items": [
     {
@@ -8,22 +8,6 @@
       "remediation_id": "rem-resolution-ledger.yml::ledger::failure",
       "workflow": "Resolution ledger",
       "stage": "ledger",
-      "priority": "normal",
-      "previous_failure_run_ids": [],
-      "previous_failure_run_id": null,
-      "verification_state": "waiting",
-      "verification_basis": "Workflow telemetry or latest run is unavailable.",
-      "verification_run_id": null,
-      "verification_conclusion": null,
-      "verification_run_url": null,
-      "causal_claim": "unverified",
-      "human_validation_required": true
-    },
-    {
-      "id": "verify-rem-os-intelligence.yml::intelligence::failure",
-      "remediation_id": "rem-os-intelligence.yml::intelligence::failure",
-      "workflow": "Unified intelligence",
-      "stage": "intelligence",
       "priority": "normal",
       "previous_failure_run_ids": [],
       "previous_failure_run_id": null,
