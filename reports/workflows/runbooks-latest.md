@@ -2,12 +2,12 @@
 
 Deterministic review checklists generated from remediation evidence.
 
-Generated: 2026-11-24T20:47:44.879378+00:00
+Generated: 2026-11-25T20:04:14.109548+00:00
 
 ## 1. Resolution ledger
 - Stage: ledger
 - Priority: normal
-- Evidence: https://github.com/LaxmanNepal/automation/actions/runs/45055917386
+- Evidence: https://github.com/LaxmanNepal/automation/actions/runs/45282691134
 - Root cause: **unverified**
 - Checklist:
   1. Open the linked workflow run.
