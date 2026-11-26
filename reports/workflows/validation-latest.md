@@ -1,115 +1,115 @@
 # Validation Evidence
 
-Generated: 2026-11-25T20:10:52.314517+00:00
+Generated: 2026-11-26T19:49:42.938387+00:00
 
 Validation is evidence-based and does not execute or modify workflows.
 
 ## Money research
 - State: **validated**
 - Latest conclusion: `success`
-- Run: https://github.com/LaxmanNepal/automation/actions/runs/45459278642
+- Run: https://github.com/LaxmanNepal/automation/actions/runs/45667158569
 - Basis: latest recorded workflow conclusion
 
 ## Revenue assets
 - State: **validated**
 - Latest conclusion: `success`
-- Run: https://github.com/LaxmanNepal/automation/actions/runs/45465703319
+- Run: https://github.com/LaxmanNepal/automation/actions/runs/45671861557
 - Basis: latest recorded workflow conclusion
 
 ## Build issue specs
 - State: **validated**
 - Latest conclusion: `success`
-- Run: https://github.com/LaxmanNepal/automation/actions/runs/45466676082
+- Run: https://github.com/LaxmanNepal/automation/actions/runs/45672674415
 - Basis: latest recorded workflow conclusion
 
 ## YouTube opportunities
 - State: **validated**
 - Latest conclusion: `success`
-- Run: https://github.com/LaxmanNepal/automation/actions/runs/45468501027
+- Run: https://github.com/LaxmanNepal/automation/actions/runs/45674314067
 - Basis: latest recorded workflow conclusion
 
 ## YouTube live research
 - State: **validated**
 - Latest conclusion: `success`
-- Run: https://github.com/LaxmanNepal/automation/actions/runs/45472137447
+- Run: https://github.com/LaxmanNepal/automation/actions/runs/45678185582
 - Basis: latest recorded workflow conclusion
 
 ## GitHub health
 - State: **validated**
 - Latest conclusion: `success`
-- Run: https://github.com/LaxmanNepal/automation/actions/runs/45473957990
+- Run: https://github.com/LaxmanNepal/automation/actions/runs/45679738465
 - Basis: latest recorded workflow conclusion
 
 ## Problem detector
 - State: **validated**
 - Latest conclusion: `success`
-- Run: https://github.com/LaxmanNepal/automation/actions/runs/45479119813
+- Run: https://github.com/LaxmanNepal/automation/actions/runs/45685727839
 - Basis: latest recorded workflow conclusion
 
 ## Action queue
 - State: **validated**
 - Latest conclusion: `success`
-- Run: https://github.com/LaxmanNepal/automation/actions/runs/45480981940
+- Run: https://github.com/LaxmanNepal/automation/actions/runs/45687743788
 - Basis: latest recorded workflow conclusion
 
 ## Unified intelligence
 - State: **validated**
 - Latest conclusion: `success`
-- Run: https://github.com/LaxmanNepal/automation/actions/runs/45484240850
+- Run: https://github.com/LaxmanNepal/automation/actions/runs/45691239223
 - Basis: latest recorded workflow conclusion
 
 ## Failure intelligence
 - State: **validated**
 - Latest conclusion: `success`
-- Run: https://github.com/LaxmanNepal/automation/actions/runs/45481700020
+- Run: https://github.com/LaxmanNepal/automation/actions/runs/45688759607
 - Basis: latest recorded workflow conclusion
 
 ## Remediation queue
 - State: **validated**
 - Latest conclusion: `success`
-- Run: https://github.com/LaxmanNepal/automation/actions/runs/45482761511
+- Run: https://github.com/LaxmanNepal/automation/actions/runs/45689586326
 - Basis: latest recorded workflow conclusion
 
 ## Remediation runbooks
 - State: **validated**
 - Latest conclusion: `success`
-- Run: https://github.com/LaxmanNepal/automation/actions/runs/45484449466
+- Run: https://github.com/LaxmanNepal/automation/actions/runs/45691328431
 - Basis: latest recorded workflow conclusion
 
 ## Change verification
 - State: **validated**
 - Latest conclusion: `success`
-- Run: https://github.com/LaxmanNepal/automation/actions/runs/45278481370
+- Run: https://github.com/LaxmanNepal/automation/actions/runs/45485937844
 - Basis: latest recorded workflow conclusion
 
 ## Verification history
 - State: **validated**
 - Latest conclusion: `success`
-- Run: https://github.com/LaxmanNepal/automation/actions/runs/45281123074
+- Run: https://github.com/LaxmanNepal/automation/actions/runs/45487926713
 - Basis: latest recorded workflow conclusion
 
 ## Resolution ledger
 - State: **needs-validation**
 - Latest conclusion: `failure`
-- Run: https://github.com/LaxmanNepal/automation/actions/runs/45282691134
+- Run: https://github.com/LaxmanNepal/automation/actions/runs/45490535167
 - Basis: latest recorded workflow conclusion
 
 ## Resolution SLA
 - State: **validated**
 - Latest conclusion: `success`
-- Run: https://github.com/LaxmanNepal/automation/actions/runs/45284191888
+- Run: https://github.com/LaxmanNepal/automation/actions/runs/45492031230
 - Basis: latest recorded workflow conclusion
 
 ## Resolution bottlenecks
 - State: **validated**
 - Latest conclusion: `success`
-- Run: https://github.com/LaxmanNepal/automation/actions/runs/45290527988
+- Run: https://github.com/LaxmanNepal/automation/actions/runs/45498110815
 - Basis: latest recorded workflow conclusion
 
 ## Resolution trends
 - State: **validated**
 - Latest conclusion: `success`
-- Run: https://github.com/LaxmanNepal/automation/actions/runs/45292039645
+- Run: https://github.com/LaxmanNepal/automation/actions/runs/45500208507
 - Basis: latest recorded workflow conclusion
 
 ## Safety
