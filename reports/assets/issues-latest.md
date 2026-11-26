@@ -1,4 +1,4 @@
-# Laxman OS — Build Issue Specs (2026-11-25)
+# Laxman OS — Build Issue Specs (2026-11-26)
 
 | Asset ID | Issue | Status |
 |---|---|---|
