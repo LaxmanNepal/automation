@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T18:44:26.990944+00:00",
+  "generated_at": "2026-11-26T18:32:53.052485+00:00",
   "source": "Google News RSS; optional YouTube Data API",
   "count": 6,
   "topics": [
@@ -77,11 +77,11 @@
         "ok": true,
         "result_count": 10,
         "recent_titles": [
-          "AI Deals 2026: Every Way to Save on AI Tools That Works - Fello AI",
           "15 AI Tools That Are Actually Saving Businesses Time - Entrepreneur",
           "5 Free AI Tools That Might Actually Save You Time In 2026 - SlashGear",
-          "The best AI tools for social media content creation in 2026 - Hootsuite Blog",
-          "We Tested the 10 Best AI Productivity Tools in 2026 - Memeburn"
+          "We Tested the 10 Best AI Productivity Tools in 2026 - Memeburn",
+          "Which AI tools are actually worth paying for? I'm keeping these subscriptions in 2026 - here's why - ZDNET",
+          "24 AI Tools for Work to Increase Productivity - Coursera"
         ]
       },
       "youtube_search": {
@@ -103,11 +103,11 @@
         "ok": true,
         "result_count": 10,
         "recent_titles": [
-          "7 Social Media Automation Tools That Will Make Your Job Easier - Hootsuite Blog",
+          "How to Automate a Process for Maximum Efficiency - Coursera",
           "These 5 everyday tasks are perfect for automation (with free tools) - MakeUseOf",
           "6 free tools you can use to automate your Windows PC - XDA",
-          "How to Use ChatGPT to Automate Tasks - Coursera",
-          "What Is AI-Powered Business Automation? - U.S. Chamber of Commerce"
+          "7 task automation tools to increase productivity in 2026 - TechTarget",
+          "10 Small Business Task Automation Tools and Software - Forbes"
         ]
       },
       "youtube_search": {
@@ -129,11 +129,11 @@
         "ok": true,
         "result_count": 10,
         "recent_titles": [
-          "I've tested a bunch of PDF editors. These are the best - PCWorld",
+          "What Is the Best Kling AI Alternative for Fast, High-Quality Creator Visuals? - Quasa.io",
           "10 Best SendGrid Alternatives for Its Email Template Builder - Designmodo",
-          "9 AI website builders to go from idea to website in minutes (2026) - TechRadar",
-          "15 Best Email Marketing Platforms 2026: Free & Paid - Brevo",
-          "The 6 best InDesign alternatives - Creative Bloq"
+          "The Best Video Editing Software We've Tested for 2026 - PCMag",
+          "Best free video editing software of 2026: Fully tested and free to use on PC and Mac - TechRadar",
+          "Best Free Music Production Software (2026): Top 9 Picks - Bedroom Producers Blog"
         ]
       },
       "youtube_search": {
