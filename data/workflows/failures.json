@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-27T19:22:27.572343+00:00",
+  "generated_at": "2026-11-28T17:59:30.789653+00:00",
   "status": "warning",
   "failures": [
     {
@@ -11,14 +11,14 @@
       "conclusion": "failure",
       "occurrences": 1,
       "run_ids": [
-        45695728390
+        45890122033
       ],
-      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/45695728390",
+      "latest_run_url": "https://github.com/LaxmanNepal/automation/actions/runs/45890122033",
       "evidence": [
         {
-          "run_id": 45695728390,
-          "updated_at": "2026-11-25T20:31:18Z",
-          "url": "https://github.com/LaxmanNepal/automation/actions/runs/45695728390",
+          "run_id": 45890122033,
+          "updated_at": "2026-11-26T20:18:55Z",
+          "url": "https://github.com/LaxmanNepal/automation/actions/runs/45890122033",
           "stage": "ledger",
           "conclusion": "failure"
         }
