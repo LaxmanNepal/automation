@@ -1,4 +1,4 @@
-# Laxman OS — Live YouTube Research (2026-11-27)
+# Laxman OS — Live YouTube Research (2026-11-28)
 
 | Channel | Topic | Freshness signal | News results | API mode |
 |---|---|---:|---:|---|

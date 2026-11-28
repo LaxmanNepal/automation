@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T18:20:23.349287+00:00",
+  "generated_at": "2026-11-28T17:03:34.695323+00:00",
   "source": "Google News RSS; optional YouTube Data API",
   "count": 6,
   "topics": [
@@ -79,9 +79,9 @@
         "recent_titles": [
           "15 AI Tools That Are Actually Saving Businesses Time - Entrepreneur",
           "5 Free AI Tools That Might Actually Save You Time In 2026 - SlashGear",
+          "I tried 70+ best AI tools in 2026 - TechRadar",
           "We Tested the 10 Best AI Productivity Tools in 2026 - Memeburn",
-          "I tried to save $1,200 by vibe coding for free – and quickly regretted it - ZDNET",
-          "24 AI Tools for Work to Increase Productivity - Coursera"
+          "I tried to save $1,200 by vibe coding for free – and quickly regretted it - ZDNET"
         ]
       },
       "youtube_search": {
@@ -103,11 +103,11 @@
         "ok": true,
         "result_count": 10,
         "recent_titles": [
-          "AI in manufacturing: Advancing productivity and automating workflows - Microsoft",
-          "7 Social Media Automation Tools That Will Make Your Job Easier - Hootsuite Blog",
+          "How to Automate a Process for Maximum Efficiency - Coursera",
           "These 5 everyday tasks are perfect for automation (with free tools) - MakeUseOf",
           "6 free tools you can use to automate your Windows PC - XDA",
-          "8 Free Project Management Tools for Small Businesses (2026) - Shopify"
+          "10 Small Business Task Automation Tools and Software - Forbes",
+          "Why You Need to Start Automating Repetitive Tasks - www.entrepreneur.com"
         ]
       },
       "youtube_search": {
@@ -130,10 +130,10 @@
         "result_count": 10,
         "recent_titles": [
           "8 Best ChatGPT Alternatives for Content Creation - Impakter",
-          "What Is the Best Kling AI Alternative for Fast, High-Quality Creator Visuals? - Quasa.io",
+          "Our top Adobe alternative has 30% off photo and video editing apps for Black Friday - TechRadar",
+          "I've tested a bunch of PDF editors. These are the best - PCWorld",
           "10 Best SendGrid Alternatives for Its Email Template Builder - Designmodo",
-          "The Best Video Editing Software We've Tested for 2026 - PCMag",
-          "Best free video editing software of 2026: Fully tested and free to use on PC and Mac - TechRadar"
+          "15 Best Email Marketing Platforms 2026: Free & Paid - Brevo"
         ]
       },
       "youtube_search": {
